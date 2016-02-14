@@ -76,6 +76,8 @@ gc()
 	writetable("submit.csv", submit)
 end
 
-
+# TODO:
+# one hot encoding for categorical variables
+# and implement statistics transformation for those with too many levels
 
 

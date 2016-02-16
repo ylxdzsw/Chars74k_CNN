@@ -7,15 +7,15 @@ factorize!(df_train::DataFrame, df_test::DataFrame) = begin
 	factorize(col) = factorize(col, df_train[col])
 	factorize{T}(col, x::DataArray{T,1}) = nothing
 	factorize(col, x::DataArray{UTF8String,1}) = begin
-		level = x |> unique |> dropna |> enumerate |> @map(x[2]=>x[1]) |> Dict{UTF8String, Int}
+		level = x |> unique |> dropna |> sort |> enumerate |> @map(x[2]=>x[1]) |> Dict{UTF8String, Int}
 		if level.count < 2
 			error("too less levels")
-		elseif level.count == 2
+		elseif level.count == 2 || find(x->length(x)>1,[keys(level)...]) |> length == 0
 			factorize(col, level, :level)
-		elseif level.count in 3:8
+		elseif level.count in 3:100
 			factorize(col, level, :one_hot_encoding)
 		else
-			factorize(col, level, :statistics_transformation)
+			factorize(col, level, :level)
 		end
 	end
 	factorize(col, level, method::Symbol) = factorize(col, level, Dispatcher{method}())
@@ -27,15 +27,10 @@ factorize!(df_train::DataFrame, df_test::DataFrame) = begin
 		f(x) = begin
 			y = zeros(Int8, nrow(x), level.count) |> DataArray
 			for (i,v) in x[col]|>enumerate
-				if isna(v)
-					y[i,:] = NA
+				if v in keys(level)
+					y[i,level[v]] = 1
 				else
-					try
-						y[i,level[v]] = 1
-					catch x
-						@show level
-						@show v
-					end
+					y[i,:] = NA
 				end
 			end
 			y
@@ -91,7 +86,7 @@ writelibsvm{T}(filename, feature::DataArray{T,2}, label::Nullable{DataArray{Int6
 			for j in 1:ncol(feature)
 				v = feature[i,j]
 				if !isna(v)
-					print(output, j, ":", v, " ")
+					@printf(output, "%d:%.12f ", j, v)
 				end
 			end
 			print(output, "\n")
@@ -145,6 +140,4 @@ gc()
 	writetable("submit.csv", submit)
 end
 
-#TODO: 中间结果输出成了科学计数法，不知道xgboost能否正确识别
-#TODO: 有几列数据是"A","B","C"，这可能是ordinal，不应该当成categorized处理
 #TODO: add ballast for statistics transformation

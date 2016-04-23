@@ -1,0 +1,1889 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="img-de41e42d" font-size="3.88px" fill="#000000" stroke="none" stroke-width="0.3" viewBox="0 0 500 120" width="500mm" height="120mm" version="1.2" xmlns:gadfly="http://www.gadflyjl.org/ns" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g class="plotroot yscalable" id="img-de41e42d-1">
+  <g id="img-de41e42d-2" font-family="&quot;PT Sans&quot;,&quot;Helvetica Neue&quot;,&quot;Helvetica&quot;,sans-serif" font-size="3.88px" fill="#564a55" stroke="#000000" stroke-opacity="0">
+    <text text-anchor="middle" x="256.48" y="108.39" dy="0.6em">feature</text>
+  </g>
+  <g class="guide xlabels" id="img-de41e42d-3" font-family="&quot;PT Sans Caption&quot;,&quot;Helvetica Neue&quot;,&quot;Helvetica&quot;,sans-serif" font-size="2.82px" fill="#6c606b">
+    <g id="img-de41e42d-4" visibility="visible" gadfly:scale="1.0">
+      <text text-anchor="end" transform="rotate(-90 19.53 59.8)" x="19.53" y="59.8">var38</text>
+      <text text-anchor="end" transform="rotate(-90 22.67 59.8)" x="22.67" y="59.8">var15</text>
+      <text text-anchor="end" transform="rotate(-90 25.8 59.8)" x="25.8" y="59.8">saldo_medio_var5_hace3</text>
+      <text text-anchor="end" transform="rotate(-90 28.94 59.8)" x="28.94" y="59.8">saldo_medio_var5_ult3</text>
+      <text text-anchor="end" transform="rotate(-90 32.08 59.8)" x="32.08" y="59.8">num_var45_ult3</text>
+      <text text-anchor="end" transform="rotate(-90 35.22 59.8)" x="35.22" y="59.8">num_var45_hace3</text>
+      <text text-anchor="end" transform="rotate(-90 38.36 59.8)" x="38.36" y="59.8">num_var45_hace2</text>
+      <text text-anchor="end" transform="rotate(-90 41.5 59.8)" x="41.5" y="59.8">saldo_medio_var5_hace2</text>
+      <text text-anchor="end" transform="rotate(-90 44.64 59.8)" x="44.64" y="59.8">num_var22_ult3</text>
+      <text text-anchor="end" transform="rotate(-90 47.77 59.8)" x="47.77" y="59.8">num_var45_ult1</text>
+      <text text-anchor="end" transform="rotate(-90 50.91 59.8)" x="50.91" y="59.8">num_med_var45_ult3</text>
+      <text text-anchor="end" transform="rotate(-90 54.05 59.8)" x="54.05" y="59.8">num_meses_var5_ult3</text>
+      <text text-anchor="end" transform="rotate(-90 57.19 59.8)" x="57.19" y="59.8">saldo_var30</text>
+      <text text-anchor="end" transform="rotate(-90 60.33 59.8)" x="60.33" y="59.8">saldo_medio_var5_ult1</text>
+      <text text-anchor="end" transform="rotate(-90 63.47 59.8)" x="63.47" y="59.8">saldo_var42</text>
+      <text text-anchor="end" transform="rotate(-90 66.6 59.8)" x="66.6" y="59.8">num_var22_hace2</text>
+      <text text-anchor="end" transform="rotate(-90 69.74 59.8)" x="69.74" y="59.8">num_var22_hace3</text>
+      <text text-anchor="end" transform="rotate(-90 72.88 59.8)" x="72.88" y="59.8">saldo_var5</text>
+      <text text-anchor="end" transform="rotate(-90 76.02 59.8)" x="76.02" y="59.8">var36</text>
+      <text text-anchor="end" transform="rotate(-90 79.16 59.8)" x="79.16" y="59.8">num_var22_ult1</text>
+      <text text-anchor="end" transform="rotate(-90 82.3 59.8)" x="82.3" y="59.8">num_meses_var39_vig_ult3</text>
+      <text text-anchor="end" transform="rotate(-90 85.43 59.8)" x="85.43" y="59.8">ind_var30</text>
+      <text text-anchor="end" transform="rotate(-90 88.57 59.8)" x="88.57" y="59.8">num_med_var22_ult3</text>
+      <text text-anchor="end" transform="rotate(-90 91.71 59.8)" x="91.71" y="59.8">ind_var5</text>
+      <text text-anchor="end" transform="rotate(-90 94.85 59.8)" x="94.85" y="59.8">imp_op_var41_ult1</text>
+      <text text-anchor="end" transform="rotate(-90 97.99 59.8)" x="97.99" y="59.8">imp_op_var41_efect_ult3</text>
+      <text text-anchor="end" transform="rotate(-90 101.13 59.8)" x="101.13" y="59.8">imp_op_var39_efect_ult3</text>
+      <text text-anchor="end" transform="rotate(-90 104.27 59.8)" x="104.27" y="59.8">imp_op_var39_ult1</text>
+      <text text-anchor="end" transform="rotate(-90 107.4 59.8)" x="107.4" y="59.8">imp_op_var39_comer_ult3</text>
+      <text text-anchor="end" transform="rotate(-90 110.54 59.8)" x="110.54" y="59.8">imp_ent_var16_ult1</text>
+      <text text-anchor="end" transform="rotate(-90 113.68 59.8)" x="113.68" y="59.8">imp_op_var41_comer_ult3</text>
+      <text text-anchor="end" transform="rotate(-90 116.82 59.8)" x="116.82" y="59.8">num_op_var39_ult3</text>
+      <text text-anchor="end" transform="rotate(-90 119.96 59.8)" x="119.96" y="59.8">num_op_var41_ult3</text>
+      <text text-anchor="end" transform="rotate(-90 123.1 59.8)" x="123.1" y="59.8">num_op_var41_hace2</text>
+      <text text-anchor="end" transform="rotate(-90 126.23 59.8)" x="126.23" y="59.8">num_op_var39_hace2</text>
+      <text text-anchor="end" transform="rotate(-90 129.37 59.8)" x="129.37" y="59.8">var3</text>
+      <text text-anchor="end" transform="rotate(-90 132.51 59.8)" x="132.51" y="59.8">num_ent_var16_ult1</text>
+      <text text-anchor="end" transform="rotate(-90 135.65 59.8)" x="135.65" y="59.8">num_op_var39_comer_ult3</text>
+      <text text-anchor="end" transform="rotate(-90 138.79 59.8)" x="138.79" y="59.8">imp_op_var39_efect_ult1</text>
+      <text text-anchor="end" transform="rotate(-90 141.93 59.8)" x="141.93" y="59.8">imp_trans_var37_ult1</text>
+      <text text-anchor="end" transform="rotate(-90 145.06 59.8)" x="145.06" y="59.8">num_op_var41_efect_ult3</text>
+      <text text-anchor="end" transform="rotate(-90 148.2 59.8)" x="148.2" y="59.8">imp_op_var39_comer_ult1</text>
+      <text text-anchor="end" transform="rotate(-90 151.34 59.8)" x="151.34" y="59.8">num_op_var41_comer_ult3</text>
+      <text text-anchor="end" transform="rotate(-90 154.48 59.8)" x="154.48" y="59.8">imp_op_var41_efect_ult1</text>
+      <text text-anchor="end" transform="rotate(-90 157.62 59.8)" x="157.62" y="59.8">imp_op_var41_comer_ult1</text>
+      <text text-anchor="end" transform="rotate(-90 160.76 59.8)" x="160.76" y="59.8">num_var43_recib_ult1</text>
+      <text text-anchor="end" transform="rotate(-90 163.9 59.8)" x="163.9" y="59.8">num_op_var41_ult1</text>
+      <text text-anchor="end" transform="rotate(-90 167.03 59.8)" x="167.03" y="59.8">num_op_var39_ult1</text>
+      <text text-anchor="end" transform="rotate(-90 170.17 59.8)" x="170.17" y="59.8">num_op_var41_comer_ult1</text>
+      <text text-anchor="end" transform="rotate(-90 173.31 59.8)" x="173.31" y="59.8">num_op_var39_comer_ult1</text>
+      <text text-anchor="end" transform="rotate(-90 176.45 59.8)" x="176.45" y="59.8">saldo_var37</text>
+      <text text-anchor="end" transform="rotate(-90 179.59 59.8)" x="179.59" y="59.8">imp_var43_emit_ult1</text>
+      <text text-anchor="end" transform="rotate(-90 182.73 59.8)" x="182.73" y="59.8">num_var43_emit_ult1</text>
+      <text text-anchor="end" transform="rotate(-90 185.86 59.8)" x="185.86" y="59.8">num_op_var39_efect_ult1</text>
+      <text text-anchor="end" transform="rotate(-90 189 59.8)" x="189" y="59.8">num_op_var41_efect_ult1</text>
+      <text text-anchor="end" transform="rotate(-90 192.14 59.8)" x="192.14" y="59.8">num_var4</text>
+      <text text-anchor="end" transform="rotate(-90 195.28 59.8)" x="195.28" y="59.8">ind_var43_recib_ult1</text>
+      <text text-anchor="end" transform="rotate(-90 198.42 59.8)" x="198.42" y="59.8">num_var42</text>
+      <text text-anchor="end" transform="rotate(-90 201.56 59.8)" x="201.56" y="59.8">num_var37_med_ult2</text>
+      <text text-anchor="end" transform="rotate(-90 204.7 59.8)" x="204.7" y="59.8">num_var35</text>
+      <text text-anchor="end" transform="rotate(-90 207.83 59.8)" x="207.83" y="59.8">ind_var43_emit_ult1</text>
+      <text text-anchor="end" transform="rotate(-90 210.97 59.8)" x="210.97" y="59.8">num_var30</text>
+      <text text-anchor="end" transform="rotate(-90 214.11 59.8)" x="214.11" y="59.8">num_var5</text>
+      <text text-anchor="end" transform="rotate(-90 217.25 59.8)" x="217.25" y="59.8">num_var37_0</text>
+      <text text-anchor="end" transform="rotate(-90 220.39 59.8)" x="220.39" y="59.8">num_var41_0</text>
+      <text text-anchor="end" transform="rotate(-90 223.53 59.8)" x="223.53" y="59.8">num_var39_0</text>
+      <text text-anchor="end" transform="rotate(-90 226.66 59.8)" x="226.66" y="59.8">ind_var8_0</text>
+      <text text-anchor="end" transform="rotate(-90 229.8 59.8)" x="229.8" y="59.8">num_trasp_var11_ult1</text>
+      <text text-anchor="end" transform="rotate(-90 232.94 59.8)" x="232.94" y="59.8">saldo_medio_var8_ult3</text>
+      <text text-anchor="end" transform="rotate(-90 236.08 59.8)" x="236.08" y="59.8">num_op_var39_hace3</text>
+      <text text-anchor="end" transform="rotate(-90 239.22 59.8)" x="239.22" y="59.8">saldo_var8</text>
+      <text text-anchor="end" transform="rotate(-90 242.36 59.8)" x="242.36" y="59.8">num_meses_var8_ult3</text>
+      <text text-anchor="end" transform="rotate(-90 245.49 59.8)" x="245.49" y="59.8">num_op_var41_hace3</text>
+      <text text-anchor="end" transform="rotate(-90 248.63 59.8)" x="248.63" y="59.8">saldo_medio_var8_ult1</text>
+      <text text-anchor="end" transform="rotate(-90 251.77 59.8)" x="251.77" y="59.8">ind_var37_0</text>
+      <text text-anchor="end" transform="rotate(-90 254.91 59.8)" x="254.91" y="59.8">ind_var37_cte</text>
+      <text text-anchor="end" transform="rotate(-90 258.05 59.8)" x="258.05" y="59.8">num_var30_0</text>
+      <text text-anchor="end" transform="rotate(-90 261.19 59.8)" x="261.19" y="59.8">saldo_var26</text>
+      <text text-anchor="end" transform="rotate(-90 264.33 59.8)" x="264.33" y="59.8">saldo_medio_var8_hace2</text>
+      <text text-anchor="end" transform="rotate(-90 267.46 59.8)" x="267.46" y="59.8">saldo_var25</text>
+      <text text-anchor="end" transform="rotate(-90 270.6 59.8)" x="270.6" y="59.8">num_var5_0</text>
+      <text text-anchor="end" transform="rotate(-90 273.74 59.8)" x="273.74" y="59.8">num_var42_0</text>
+      <text text-anchor="end" transform="rotate(-90 276.88 59.8)" x="276.88" y="59.8">ind_var5_0</text>
+      <text text-anchor="end" transform="rotate(-90 280.02 59.8)" x="280.02" y="59.8">ind_var9_ult1</text>
+      <text text-anchor="end" transform="rotate(-90 283.16 59.8)" x="283.16" y="59.8">ind_var41_0</text>
+      <text text-anchor="end" transform="rotate(-90 286.29 59.8)" x="286.29" y="59.8">ind_var10_ult1</text>
+      <text text-anchor="end" transform="rotate(-90 289.43 59.8)" x="289.43" y="59.8">ind_var12_0</text>
+      <text text-anchor="end" transform="rotate(-90 292.57 59.8)" x="292.57" y="59.8">ind_var39_0</text>
+      <text text-anchor="end" transform="rotate(-90 295.71 59.8)" x="295.71" y="59.8">ind_var9_cte_ult1</text>
+      <text text-anchor="end" transform="rotate(-90 298.85 59.8)" x="298.85" y="59.8">num_var25_0</text>
+      <text text-anchor="end" transform="rotate(-90 301.99 59.8)" x="301.99" y="59.8">ind_var10cte_ult1</text>
+      <text text-anchor="end" transform="rotate(-90 305.12 59.8)" x="305.12" y="59.8">num_var26_0</text>
+      <text text-anchor="end" transform="rotate(-90 308.26 59.8)" x="308.26" y="59.8">imp_sal_var16_ult1</text>
+      <text text-anchor="end" transform="rotate(-90 311.4 59.8)" x="311.4" y="59.8">num_sal_var16_ult1</text>
+      <text text-anchor="end" transform="rotate(-90 314.54 59.8)" x="314.54" y="59.8">ind_var26_cte</text>
+      <text text-anchor="end" transform="rotate(-90 317.68 59.8)" x="317.68" y="59.8">saldo_medio_var12_ult1</text>
+      <text text-anchor="end" transform="rotate(-90 320.82 59.8)" x="320.82" y="59.8">saldo_medio_var8_hace3</text>
+      <text text-anchor="end" transform="rotate(-90 323.96 59.8)" x="323.96" y="59.8">ind_var26_0</text>
+      <text text-anchor="end" transform="rotate(-90 327.09 59.8)" x="327.09" y="59.8">ind_var12</text>
+      <text text-anchor="end" transform="rotate(-90 330.23 59.8)" x="330.23" y="59.8">ind_var25_cte</text>
+      <text text-anchor="end" transform="rotate(-90 333.37 59.8)" x="333.37" y="59.8">saldo_medio_var12_ult3</text>
+      <text text-anchor="end" transform="rotate(-90 336.51 59.8)" x="336.51" y="59.8">saldo_medio_var13_corto_ult3</text>
+      <text text-anchor="end" transform="rotate(-90 339.65 59.8)" x="339.65" y="59.8">var21</text>
+      <text text-anchor="end" transform="rotate(-90 342.79 59.8)" x="342.79" y="59.8">imp_op_var40_efect_ult1</text>
+      <text text-anchor="end" transform="rotate(-90 345.92 59.8)" x="345.92" y="59.8">num_meses_var12_ult3</text>
+      <text text-anchor="end" transform="rotate(-90 349.06 59.8)" x="349.06" y="59.8">ind_var40_0</text>
+      <text text-anchor="end" transform="rotate(-90 352.2 59.8)" x="352.2" y="59.8">num_var12_0</text>
+      <text text-anchor="end" transform="rotate(-90 355.34 59.8)" x="355.34" y="59.8">ind_var25_0</text>
+      <text text-anchor="end" transform="rotate(-90 358.48 59.8)" x="358.48" y="59.8">num_var1_0</text>
+      <text text-anchor="end" transform="rotate(-90 361.62 59.8)" x="361.62" y="59.8">num_var14_0</text>
+      <text text-anchor="end" transform="rotate(-90 364.76 59.8)" x="364.76" y="59.8">num_var7_recib_ult1</text>
+      <text text-anchor="end" transform="rotate(-90 367.89 59.8)" x="367.89" y="59.8">ind_var13_0</text>
+      <text text-anchor="end" transform="rotate(-90 371.03 59.8)" x="371.03" y="59.8">saldo_medio_var12_hace2</text>
+      <text text-anchor="end" transform="rotate(-90 374.17 59.8)" x="374.17" y="59.8">saldo_medio_var13_corto_ult1</text>
+      <text text-anchor="end" transform="rotate(-90 377.31 59.8)" x="377.31" y="59.8">saldo_var13_corto</text>
+      <text text-anchor="end" transform="rotate(-90 380.45 59.8)" x="380.45" y="59.8">ind_var8</text>
+      <text text-anchor="end" transform="rotate(-90 383.59 59.8)" x="383.59" y="59.8">saldo_var13</text>
+      <text text-anchor="end" transform="rotate(-90 386.72 59.8)" x="386.72" y="59.8">ind_var24_0</text>
+      <text text-anchor="end" transform="rotate(-90 389.86 59.8)" x="389.86" y="59.8">saldo_var12</text>
+      <text text-anchor="end" transform="rotate(-90 393 59.8)" x="393" y="59.8">ind_var7_recib_ult1</text>
+      <text text-anchor="end" transform="rotate(-90 396.14 59.8)" x="396.14" y="59.8">imp_var7_recib_ult1</text>
+      <text text-anchor="end" transform="rotate(-90 399.28 59.8)" x="399.28" y="59.8">saldo_medio_var13_corto_hace2</text>
+      <text text-anchor="end" transform="rotate(-90 402.42 59.8)" x="402.42" y="59.8">saldo_var24</text>
+      <text text-anchor="end" transform="rotate(-90 405.55 59.8)" x="405.55" y="59.8">ind_var1_0</text>
+      <text text-anchor="end" transform="rotate(-90 408.69 59.8)" x="408.69" y="59.8">ind_var30_0</text>
+      <text text-anchor="end" transform="rotate(-90 411.83 59.8)" x="411.83" y="59.8">num_var24_0</text>
+      <text text-anchor="end" transform="rotate(-90 414.97 59.8)" x="414.97" y="59.8">saldo_medio_var12_hace3</text>
+      <text text-anchor="end" transform="rotate(-90 418.11 59.8)" x="418.11" y="59.8">ind_var24</text>
+      <text text-anchor="end" transform="rotate(-90 421.25 59.8)" x="421.25" y="59.8">imp_op_var40_efect_ult3</text>
+      <text text-anchor="end" transform="rotate(-90 424.39 59.8)" x="424.39" y="59.8">ind_var13_corto_0</text>
+      <text text-anchor="end" transform="rotate(-90 427.52 59.8)" x="427.52" y="59.8">ind_var13</text>
+      <text text-anchor="end" transform="rotate(-90 430.66 59.8)" x="430.66" y="59.8">ind_var14_0</text>
+      <text text-anchor="end" transform="rotate(-90 433.8 59.8)" x="433.8" y="59.8">num_meses_var13_corto_ult3</text>
+      <text text-anchor="end" transform="rotate(-90 436.94 59.8)" x="436.94" y="59.8">ind_var32_cte</text>
+      <text text-anchor="end" transform="rotate(-90 440.08 59.8)" x="440.08" y="59.8">num_op_var40_efect_ult3</text>
+      <text text-anchor="end" transform="rotate(-90 443.22 59.8)" x="443.22" y="59.8">num_op_var40_efect_ult1</text>
+      <text text-anchor="end" transform="rotate(-90 446.35 59.8)" x="446.35" y="59.8">num_var12</text>
+      <text text-anchor="end" transform="rotate(-90 449.49 59.8)" x="449.49" y="59.8">saldo_var40</text>
+      <text text-anchor="end" transform="rotate(-90 452.63 59.8)" x="452.63" y="59.8">saldo_var1</text>
+      <text text-anchor="end" transform="rotate(-90 455.77 59.8)" x="455.77" y="59.8">ind_var19</text>
+      <text text-anchor="end" transform="rotate(-90 458.91 59.8)" x="458.91" y="59.8">ind_var1</text>
+      <text text-anchor="end" transform="rotate(-90 462.05 59.8)" x="462.05" y="59.8">num_op_var40_ult3</text>
+      <text text-anchor="end" transform="rotate(-90 465.18 59.8)" x="465.18" y="59.8">num_op_var40_ult1</text>
+      <text text-anchor="end" transform="rotate(-90 468.32 59.8)" x="468.32" y="59.8">num_op_var40_comer_ult3</text>
+      <text text-anchor="end" transform="rotate(-90 471.46 59.8)" x="471.46" y="59.8">num_op_var40_comer_ult1</text>
+      <text text-anchor="end" transform="rotate(-90 474.6 59.8)" x="474.6" y="59.8">ind_var40</text>
+      <text text-anchor="end" transform="rotate(-90 477.74 59.8)" x="477.74" y="59.8">ind_var13_corto</text>
+      <text text-anchor="end" transform="rotate(-90 480.88 59.8)" x="480.88" y="59.8">imp_op_var40_comer_ult1</text>
+      <text text-anchor="end" transform="rotate(-90 484.02 59.8)" x="484.02" y="59.8">ind_var20_0</text>
+      <text text-anchor="end" transform="rotate(-90 487.15 59.8)" x="487.15" y="59.8">num_var1</text>
+      <text text-anchor="end" transform="rotate(-90 490.29 59.8)" x="490.29" y="59.8">imp_op_var40_comer_ult3</text>
+      <text text-anchor="end" transform="rotate(-90 493.43 59.8)" x="493.43" y="59.8">saldo_var32</text>
+    </g>
+  </g>
+<g clip-path="url(&quot;#img-de41e42d-5&quot;)">
+  <g id="img-de41e42d-6">
+    <g class="guide background" id="img-de41e42d-7" opacity="1" fill="#000000" fill-opacity="0" pointer-events="visible" stroke="#000000" stroke-opacity="0">
+      <rect x="17.96" y="5" width="477.04" height="53.8" />
+    </g>
+    <g class="guide ygridlines xfixed" id="img-de41e42d-8" stroke="#d0d0e0" stroke-dasharray="0.5, 0.5" stroke-width="0.2">
+      <path visibility="hidden" fill="none" d="M 17.96 131.5 L 495 131.5" gadfly:scale="1.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 106.6 L 495 106.6" gadfly:scale="1.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 81.7 L 495 81.7" gadfly:scale="1.0" />
+      <path visibility="visible" fill="none" d="M 17.96 56.8 L 495 56.8" gadfly:scale="1.0" />
+      <path visibility="visible" fill="none" d="M 17.96 31.9 L 495 31.9" gadfly:scale="1.0" />
+      <path visibility="visible" fill="none" d="M 17.96 7 L 495 7" gadfly:scale="1.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 -17.9 L 495 -17.9" gadfly:scale="1.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 -42.8 L 495 -42.8" gadfly:scale="1.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 -67.7 L 495 -67.7" gadfly:scale="1.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 106.6 L 495 106.6" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 104.11 L 495 104.11" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 101.62 L 495 101.62" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 99.13 L 495 99.13" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 96.64 L 495 96.64" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 94.15 L 495 94.15" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 91.66 L 495 91.66" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 89.17 L 495 89.17" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 86.68 L 495 86.68" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 84.19 L 495 84.19" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 81.7 L 495 81.7" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 79.21 L 495 79.21" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 76.72 L 495 76.72" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 74.23 L 495 74.23" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 71.74 L 495 71.74" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 69.25 L 495 69.25" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 66.76 L 495 66.76" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 64.27 L 495 64.27" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 61.78 L 495 61.78" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 59.29 L 495 59.29" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 56.8 L 495 56.8" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 54.31 L 495 54.31" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 51.82 L 495 51.82" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 49.33 L 495 49.33" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 46.84 L 495 46.84" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 44.35 L 495 44.35" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 41.86 L 495 41.86" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 39.37 L 495 39.37" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 36.88 L 495 36.88" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 34.39 L 495 34.39" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 31.9 L 495 31.9" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 29.41 L 495 29.41" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 26.92 L 495 26.92" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 24.43 L 495 24.43" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 21.94 L 495 21.94" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 19.45 L 495 19.45" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 16.96 L 495 16.96" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 14.47 L 495 14.47" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 11.98 L 495 11.98" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 9.49 L 495 9.49" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 7 L 495 7" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 4.51 L 495 4.51" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 2.02 L 495 2.02" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 -0.47 L 495 -0.47" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 -2.96 L 495 -2.96" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 -5.45 L 495 -5.45" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 -7.94 L 495 -7.94" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 -10.43 L 495 -10.43" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 -12.92 L 495 -12.92" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 -15.41 L 495 -15.41" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 -17.9 L 495 -17.9" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 -20.39 L 495 -20.39" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 -22.88 L 495 -22.88" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 -25.37 L 495 -25.37" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 -27.86 L 495 -27.86" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 -30.35 L 495 -30.35" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 -32.84 L 495 -32.84" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 -35.33 L 495 -35.33" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 -37.82 L 495 -37.82" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 -40.31 L 495 -40.31" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 -42.8 L 495 -42.8" gadfly:scale="10.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 106.6 L 495 106.6" gadfly:scale="0.5" />
+      <path visibility="hidden" fill="none" d="M 17.96 56.8 L 495 56.8" gadfly:scale="0.5" />
+      <path visibility="hidden" fill="none" d="M 17.96 7 L 495 7" gadfly:scale="0.5" />
+      <path visibility="hidden" fill="none" d="M 17.96 -42.8 L 495 -42.8" gadfly:scale="0.5" />
+      <path visibility="hidden" fill="none" d="M 17.96 106.6 L 495 106.6" gadfly:scale="5.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 101.62 L 495 101.62" gadfly:scale="5.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 96.64 L 495 96.64" gadfly:scale="5.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 91.66 L 495 91.66" gadfly:scale="5.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 86.68 L 495 86.68" gadfly:scale="5.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 81.7 L 495 81.7" gadfly:scale="5.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 76.72 L 495 76.72" gadfly:scale="5.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 71.74 L 495 71.74" gadfly:scale="5.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 66.76 L 495 66.76" gadfly:scale="5.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 61.78 L 495 61.78" gadfly:scale="5.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 56.8 L 495 56.8" gadfly:scale="5.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 51.82 L 495 51.82" gadfly:scale="5.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 46.84 L 495 46.84" gadfly:scale="5.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 41.86 L 495 41.86" gadfly:scale="5.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 36.88 L 495 36.88" gadfly:scale="5.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 31.9 L 495 31.9" gadfly:scale="5.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 26.92 L 495 26.92" gadfly:scale="5.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 21.94 L 495 21.94" gadfly:scale="5.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 16.96 L 495 16.96" gadfly:scale="5.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 11.98 L 495 11.98" gadfly:scale="5.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 7 L 495 7" gadfly:scale="5.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 2.02 L 495 2.02" gadfly:scale="5.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 -2.96 L 495 -2.96" gadfly:scale="5.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 -7.94 L 495 -7.94" gadfly:scale="5.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 -12.92 L 495 -12.92" gadfly:scale="5.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 -17.9 L 495 -17.9" gadfly:scale="5.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 -22.88 L 495 -22.88" gadfly:scale="5.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 -27.86 L 495 -27.86" gadfly:scale="5.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 -32.84 L 495 -32.84" gadfly:scale="5.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 -37.82 L 495 -37.82" gadfly:scale="5.0" />
+      <path visibility="hidden" fill="none" d="M 17.96 -42.8 L 495 -42.8" gadfly:scale="5.0" />
+    </g>
+    <g class="guide xgridlines yfixed" id="img-de41e42d-9" stroke="#d0d0e0" stroke-dasharray="0.5, 0.5" stroke-width="0.2">
+      <g id="img-de41e42d-10" visibility="visible" gadfly:scale="1.0">
+        <path fill="none" d="M 21.1 5 L 21.1 58.8" />
+        <path fill="none" d="M 24.24 5 L 24.24 58.8" />
+        <path fill="none" d="M 27.37 5 L 27.37 58.8" />
+        <path fill="none" d="M 30.51 5 L 30.51 58.8" />
+        <path fill="none" d="M 33.65 5 L 33.65 58.8" />
+        <path fill="none" d="M 36.79 5 L 36.79 58.8" />
+        <path fill="none" d="M 39.93 5 L 39.93 58.8" />
+        <path fill="none" d="M 43.07 5 L 43.07 58.8" />
+        <path fill="none" d="M 46.2 5 L 46.2 58.8" />
+        <path fill="none" d="M 49.34 5 L 49.34 58.8" />
+        <path fill="none" d="M 52.48 5 L 52.48 58.8" />
+        <path fill="none" d="M 55.62 5 L 55.62 58.8" />
+        <path fill="none" d="M 58.76 5 L 58.76 58.8" />
+        <path fill="none" d="M 61.9 5 L 61.9 58.8" />
+        <path fill="none" d="M 65.03 5 L 65.03 58.8" />
+        <path fill="none" d="M 68.17 5 L 68.17 58.8" />
+        <path fill="none" d="M 71.31 5 L 71.31 58.8" />
+        <path fill="none" d="M 74.45 5 L 74.45 58.8" />
+        <path fill="none" d="M 77.59 5 L 77.59 58.8" />
+        <path fill="none" d="M 80.73 5 L 80.73 58.8" />
+        <path fill="none" d="M 83.87 5 L 83.87 58.8" />
+        <path fill="none" d="M 87 5 L 87 58.8" />
+        <path fill="none" d="M 90.14 5 L 90.14 58.8" />
+        <path fill="none" d="M 93.28 5 L 93.28 58.8" />
+        <path fill="none" d="M 96.42 5 L 96.42 58.8" />
+        <path fill="none" d="M 99.56 5 L 99.56 58.8" />
+        <path fill="none" d="M 102.7 5 L 102.7 58.8" />
+        <path fill="none" d="M 105.83 5 L 105.83 58.8" />
+        <path fill="none" d="M 108.97 5 L 108.97 58.8" />
+        <path fill="none" d="M 112.11 5 L 112.11 58.8" />
+        <path fill="none" d="M 115.25 5 L 115.25 58.8" />
+        <path fill="none" d="M 118.39 5 L 118.39 58.8" />
+        <path fill="none" d="M 121.53 5 L 121.53 58.8" />
+        <path fill="none" d="M 124.67 5 L 124.67 58.8" />
+        <path fill="none" d="M 127.8 5 L 127.8 58.8" />
+        <path fill="none" d="M 130.94 5 L 130.94 58.8" />
+        <path fill="none" d="M 134.08 5 L 134.08 58.8" />
+        <path fill="none" d="M 137.22 5 L 137.22 58.8" />
+        <path fill="none" d="M 140.36 5 L 140.36 58.8" />
+        <path fill="none" d="M 143.5 5 L 143.5 58.8" />
+        <path fill="none" d="M 146.63 5 L 146.63 58.8" />
+        <path fill="none" d="M 149.77 5 L 149.77 58.8" />
+        <path fill="none" d="M 152.91 5 L 152.91 58.8" />
+        <path fill="none" d="M 156.05 5 L 156.05 58.8" />
+        <path fill="none" d="M 159.19 5 L 159.19 58.8" />
+        <path fill="none" d="M 162.33 5 L 162.33 58.8" />
+        <path fill="none" d="M 165.46 5 L 165.46 58.8" />
+        <path fill="none" d="M 168.6 5 L 168.6 58.8" />
+        <path fill="none" d="M 171.74 5 L 171.74 58.8" />
+        <path fill="none" d="M 174.88 5 L 174.88 58.8" />
+        <path fill="none" d="M 178.02 5 L 178.02 58.8" />
+        <path fill="none" d="M 181.16 5 L 181.16 58.8" />
+        <path fill="none" d="M 184.3 5 L 184.3 58.8" />
+        <path fill="none" d="M 187.43 5 L 187.43 58.8" />
+        <path fill="none" d="M 190.57 5 L 190.57 58.8" />
+        <path fill="none" d="M 193.71 5 L 193.71 58.8" />
+        <path fill="none" d="M 196.85 5 L 196.85 58.8" />
+        <path fill="none" d="M 199.99 5 L 199.99 58.8" />
+        <path fill="none" d="M 203.13 5 L 203.13 58.8" />
+        <path fill="none" d="M 206.26 5 L 206.26 58.8" />
+        <path fill="none" d="M 209.4 5 L 209.4 58.8" />
+        <path fill="none" d="M 212.54 5 L 212.54 58.8" />
+        <path fill="none" d="M 215.68 5 L 215.68 58.8" />
+        <path fill="none" d="M 218.82 5 L 218.82 58.8" />
+        <path fill="none" d="M 221.96 5 L 221.96 58.8" />
+        <path fill="none" d="M 225.09 5 L 225.09 58.8" />
+        <path fill="none" d="M 228.23 5 L 228.23 58.8" />
+        <path fill="none" d="M 231.37 5 L 231.37 58.8" />
+        <path fill="none" d="M 234.51 5 L 234.51 58.8" />
+        <path fill="none" d="M 237.65 5 L 237.65 58.8" />
+        <path fill="none" d="M 240.79 5 L 240.79 58.8" />
+        <path fill="none" d="M 243.93 5 L 243.93 58.8" />
+        <path fill="none" d="M 247.06 5 L 247.06 58.8" />
+        <path fill="none" d="M 250.2 5 L 250.2 58.8" />
+        <path fill="none" d="M 253.34 5 L 253.34 58.8" />
+        <path fill="none" d="M 256.48 5 L 256.48 58.8" />
+        <path fill="none" d="M 259.62 5 L 259.62 58.8" />
+        <path fill="none" d="M 262.76 5 L 262.76 58.8" />
+        <path fill="none" d="M 265.89 5 L 265.89 58.8" />
+        <path fill="none" d="M 269.03 5 L 269.03 58.8" />
+        <path fill="none" d="M 272.17 5 L 272.17 58.8" />
+        <path fill="none" d="M 275.31 5 L 275.31 58.8" />
+        <path fill="none" d="M 278.45 5 L 278.45 58.8" />
+        <path fill="none" d="M 281.59 5 L 281.59 58.8" />
+        <path fill="none" d="M 284.73 5 L 284.73 58.8" />
+        <path fill="none" d="M 287.86 5 L 287.86 58.8" />
+        <path fill="none" d="M 291 5 L 291 58.8" />
+        <path fill="none" d="M 294.14 5 L 294.14 58.8" />
+        <path fill="none" d="M 297.28 5 L 297.28 58.8" />
+        <path fill="none" d="M 300.42 5 L 300.42 58.8" />
+        <path fill="none" d="M 303.56 5 L 303.56 58.8" />
+        <path fill="none" d="M 306.69 5 L 306.69 58.8" />
+        <path fill="none" d="M 309.83 5 L 309.83 58.8" />
+        <path fill="none" d="M 312.97 5 L 312.97 58.8" />
+        <path fill="none" d="M 316.11 5 L 316.11 58.8" />
+        <path fill="none" d="M 319.25 5 L 319.25 58.8" />
+        <path fill="none" d="M 322.39 5 L 322.39 58.8" />
+        <path fill="none" d="M 325.52 5 L 325.52 58.8" />
+        <path fill="none" d="M 328.66 5 L 328.66 58.8" />
+        <path fill="none" d="M 331.8 5 L 331.8 58.8" />
+        <path fill="none" d="M 334.94 5 L 334.94 58.8" />
+        <path fill="none" d="M 338.08 5 L 338.08 58.8" />
+        <path fill="none" d="M 341.22 5 L 341.22 58.8" />
+        <path fill="none" d="M 344.36 5 L 344.36 58.8" />
+        <path fill="none" d="M 347.49 5 L 347.49 58.8" />
+        <path fill="none" d="M 350.63 5 L 350.63 58.8" />
+        <path fill="none" d="M 353.77 5 L 353.77 58.8" />
+        <path fill="none" d="M 356.91 5 L 356.91 58.8" />
+        <path fill="none" d="M 360.05 5 L 360.05 58.8" />
+        <path fill="none" d="M 363.19 5 L 363.19 58.8" />
+        <path fill="none" d="M 366.32 5 L 366.32 58.8" />
+        <path fill="none" d="M 369.46 5 L 369.46 58.8" />
+        <path fill="none" d="M 372.6 5 L 372.6 58.8" />
+        <path fill="none" d="M 375.74 5 L 375.74 58.8" />
+        <path fill="none" d="M 378.88 5 L 378.88 58.8" />
+        <path fill="none" d="M 382.02 5 L 382.02 58.8" />
+        <path fill="none" d="M 385.15 5 L 385.15 58.8" />
+        <path fill="none" d="M 388.29 5 L 388.29 58.8" />
+        <path fill="none" d="M 391.43 5 L 391.43 58.8" />
+        <path fill="none" d="M 394.57 5 L 394.57 58.8" />
+        <path fill="none" d="M 397.71 5 L 397.71 58.8" />
+        <path fill="none" d="M 400.85 5 L 400.85 58.8" />
+        <path fill="none" d="M 403.99 5 L 403.99 58.8" />
+        <path fill="none" d="M 407.12 5 L 407.12 58.8" />
+        <path fill="none" d="M 410.26 5 L 410.26 58.8" />
+        <path fill="none" d="M 413.4 5 L 413.4 58.8" />
+        <path fill="none" d="M 416.54 5 L 416.54 58.8" />
+        <path fill="none" d="M 419.68 5 L 419.68 58.8" />
+        <path fill="none" d="M 422.82 5 L 422.82 58.8" />
+        <path fill="none" d="M 425.95 5 L 425.95 58.8" />
+        <path fill="none" d="M 429.09 5 L 429.09 58.8" />
+        <path fill="none" d="M 432.23 5 L 432.23 58.8" />
+        <path fill="none" d="M 435.37 5 L 435.37 58.8" />
+        <path fill="none" d="M 438.51 5 L 438.51 58.8" />
+        <path fill="none" d="M 441.65 5 L 441.65 58.8" />
+        <path fill="none" d="M 444.79 5 L 444.79 58.8" />
+        <path fill="none" d="M 447.92 5 L 447.92 58.8" />
+        <path fill="none" d="M 451.06 5 L 451.06 58.8" />
+        <path fill="none" d="M 454.2 5 L 454.2 58.8" />
+        <path fill="none" d="M 457.34 5 L 457.34 58.8" />
+        <path fill="none" d="M 460.48 5 L 460.48 58.8" />
+        <path fill="none" d="M 463.62 5 L 463.62 58.8" />
+        <path fill="none" d="M 466.75 5 L 466.75 58.8" />
+        <path fill="none" d="M 469.89 5 L 469.89 58.8" />
+        <path fill="none" d="M 473.03 5 L 473.03 58.8" />
+        <path fill="none" d="M 476.17 5 L 476.17 58.8" />
+        <path fill="none" d="M 479.31 5 L 479.31 58.8" />
+        <path fill="none" d="M 482.45 5 L 482.45 58.8" />
+        <path fill="none" d="M 485.58 5 L 485.58 58.8" />
+        <path fill="none" d="M 488.72 5 L 488.72 58.8" />
+        <path fill="none" d="M 491.86 5 L 491.86 58.8" />
+      </g>
+    </g>
+    <g class="plotpanel" id="img-de41e42d-11">
+      <g class="geometry" id="img-de41e42d-12">
+        <g class="color_RGBA{Float32}(0.0f0,0.74736935f0,1.0f0,1.0f0)" id="img-de41e42d-13" fill="#00bfff" stroke="#ffffff" stroke-width="0.3">
+          <use x="19.53" y="11.51" xlink:href="#img-de41e42d-14" />
+          <use x="22.67" y="16.21" xlink:href="#img-de41e42d-14" />
+          <use x="25.8" y="25.22" xlink:href="#img-de41e42d-14" />
+          <use x="28.94" y="25.45" xlink:href="#img-de41e42d-14" />
+          <use x="32.08" y="26.44" xlink:href="#img-de41e42d-14" />
+          <use x="35.22" y="26.64" xlink:href="#img-de41e42d-14" />
+          <use x="38.36" y="27.41" xlink:href="#img-de41e42d-14" />
+          <use x="41.5" y="28.46" xlink:href="#img-de41e42d-14" />
+          <use x="44.64" y="28.58" xlink:href="#img-de41e42d-14" />
+          <use x="47.77" y="28.65" xlink:href="#img-de41e42d-14" />
+          <use x="50.91" y="29.04" xlink:href="#img-de41e42d-14" />
+          <use x="54.05" y="29.32" xlink:href="#img-de41e42d-14" />
+          <use x="57.19" y="29.38" xlink:href="#img-de41e42d-14" />
+          <use x="60.33" y="29.41" xlink:href="#img-de41e42d-14" />
+          <use x="63.47" y="29.44" xlink:href="#img-de41e42d-14" />
+          <use x="66.6" y="29.69" xlink:href="#img-de41e42d-14" />
+          <use x="69.74" y="29.76" xlink:href="#img-de41e42d-14" />
+          <use x="72.88" y="29.8" xlink:href="#img-de41e42d-14" />
+          <use x="76.02" y="30.55" xlink:href="#img-de41e42d-14" />
+          <use x="79.16" y="31.02" xlink:href="#img-de41e42d-14" />
+          <use x="82.3" y="31.03" xlink:href="#img-de41e42d-14" />
+          <use x="85.43" y="31.84" xlink:href="#img-de41e42d-14" />
+          <use x="88.57" y="32.14" xlink:href="#img-de41e42d-14" />
+          <use x="91.71" y="33.44" xlink:href="#img-de41e42d-14" />
+          <use x="94.85" y="34.55" xlink:href="#img-de41e42d-14" />
+          <use x="97.99" y="34.56" xlink:href="#img-de41e42d-14" />
+          <use x="101.13" y="34.71" xlink:href="#img-de41e42d-14" />
+          <use x="104.27" y="34.79" xlink:href="#img-de41e42d-14" />
+          <use x="107.4" y="34.86" xlink:href="#img-de41e42d-14" />
+          <use x="110.54" y="34.9" xlink:href="#img-de41e42d-14" />
+          <use x="113.68" y="34.98" xlink:href="#img-de41e42d-14" />
+          <use x="116.82" y="35.32" xlink:href="#img-de41e42d-14" />
+          <use x="119.96" y="35.34" xlink:href="#img-de41e42d-14" />
+          <use x="123.1" y="35.38" xlink:href="#img-de41e42d-14" />
+          <use x="126.23" y="35.4" xlink:href="#img-de41e42d-14" />
+          <use x="129.37" y="35.44" xlink:href="#img-de41e42d-14" />
+          <use x="132.51" y="35.45" xlink:href="#img-de41e42d-14" />
+          <use x="135.65" y="35.49" xlink:href="#img-de41e42d-14" />
+          <use x="138.79" y="35.5" xlink:href="#img-de41e42d-14" />
+          <use x="141.93" y="35.5" xlink:href="#img-de41e42d-14" />
+          <use x="145.06" y="35.54" xlink:href="#img-de41e42d-14" />
+          <use x="148.2" y="35.56" xlink:href="#img-de41e42d-14" />
+          <use x="151.34" y="35.61" xlink:href="#img-de41e42d-14" />
+          <use x="154.48" y="35.63" xlink:href="#img-de41e42d-14" />
+          <use x="157.62" y="35.63" xlink:href="#img-de41e42d-14" />
+          <use x="160.76" y="35.9" xlink:href="#img-de41e42d-14" />
+          <use x="163.9" y="35.91" xlink:href="#img-de41e42d-14" />
+          <use x="167.03" y="35.94" xlink:href="#img-de41e42d-14" />
+          <use x="170.17" y="35.99" xlink:href="#img-de41e42d-14" />
+          <use x="173.31" y="36.09" xlink:href="#img-de41e42d-14" />
+          <use x="176.45" y="36.56" xlink:href="#img-de41e42d-14" />
+          <use x="179.59" y="36.73" xlink:href="#img-de41e42d-14" />
+          <use x="182.73" y="36.82" xlink:href="#img-de41e42d-14" />
+          <use x="185.86" y="36.88" xlink:href="#img-de41e42d-14" />
+          <use x="189" y="36.93" xlink:href="#img-de41e42d-14" />
+          <use x="192.14" y="37.06" xlink:href="#img-de41e42d-14" />
+          <use x="195.28" y="37.15" xlink:href="#img-de41e42d-14" />
+          <use x="198.42" y="37.2" xlink:href="#img-de41e42d-14" />
+          <use x="201.56" y="37.87" xlink:href="#img-de41e42d-14" />
+          <use x="204.7" y="38.05" xlink:href="#img-de41e42d-14" />
+          <use x="207.83" y="38.06" xlink:href="#img-de41e42d-14" />
+          <use x="210.97" y="38.13" xlink:href="#img-de41e42d-14" />
+          <use x="214.11" y="38.57" xlink:href="#img-de41e42d-14" />
+          <use x="217.25" y="38.59" xlink:href="#img-de41e42d-14" />
+          <use x="220.39" y="38.99" xlink:href="#img-de41e42d-14" />
+          <use x="223.53" y="39.17" xlink:href="#img-de41e42d-14" />
+          <use x="226.66" y="40.04" xlink:href="#img-de41e42d-14" />
+          <use x="229.8" y="41.12" xlink:href="#img-de41e42d-14" />
+          <use x="232.94" y="41.2" xlink:href="#img-de41e42d-14" />
+          <use x="236.08" y="41.39" xlink:href="#img-de41e42d-14" />
+          <use x="239.22" y="41.59" xlink:href="#img-de41e42d-14" />
+          <use x="242.36" y="41.74" xlink:href="#img-de41e42d-14" />
+          <use x="245.49" y="41.79" xlink:href="#img-de41e42d-14" />
+          <use x="248.63" y="42.01" xlink:href="#img-de41e42d-14" />
+          <use x="251.77" y="42.05" xlink:href="#img-de41e42d-14" />
+          <use x="254.91" y="42.17" xlink:href="#img-de41e42d-14" />
+          <use x="258.05" y="42.55" xlink:href="#img-de41e42d-14" />
+          <use x="261.19" y="42.6" xlink:href="#img-de41e42d-14" />
+          <use x="264.33" y="42.64" xlink:href="#img-de41e42d-14" />
+          <use x="267.46" y="42.97" xlink:href="#img-de41e42d-14" />
+          <use x="270.6" y="43.01" xlink:href="#img-de41e42d-14" />
+          <use x="273.74" y="43.18" xlink:href="#img-de41e42d-14" />
+          <use x="276.88" y="43.2" xlink:href="#img-de41e42d-14" />
+          <use x="280.02" y="43.48" xlink:href="#img-de41e42d-14" />
+          <use x="283.16" y="43.59" xlink:href="#img-de41e42d-14" />
+          <use x="286.29" y="43.71" xlink:href="#img-de41e42d-14" />
+          <use x="289.43" y="43.92" xlink:href="#img-de41e42d-14" />
+          <use x="292.57" y="44.03" xlink:href="#img-de41e42d-14" />
+          <use x="295.71" y="44.2" xlink:href="#img-de41e42d-14" />
+          <use x="298.85" y="44.22" xlink:href="#img-de41e42d-14" />
+          <use x="301.99" y="44.29" xlink:href="#img-de41e42d-14" />
+          <use x="305.12" y="44.68" xlink:href="#img-de41e42d-14" />
+          <use x="308.26" y="44.83" xlink:href="#img-de41e42d-14" />
+          <use x="311.4" y="45.21" xlink:href="#img-de41e42d-14" />
+          <use x="314.54" y="45.47" xlink:href="#img-de41e42d-14" />
+          <use x="317.68" y="45.58" xlink:href="#img-de41e42d-14" />
+          <use x="320.82" y="45.86" xlink:href="#img-de41e42d-14" />
+          <use x="323.96" y="45.86" xlink:href="#img-de41e42d-14" />
+          <use x="327.09" y="46.03" xlink:href="#img-de41e42d-14" />
+          <use x="330.23" y="46.07" xlink:href="#img-de41e42d-14" />
+          <use x="333.37" y="46.07" xlink:href="#img-de41e42d-14" />
+          <use x="336.51" y="46.14" xlink:href="#img-de41e42d-14" />
+          <use x="339.65" y="46.14" xlink:href="#img-de41e42d-14" />
+          <use x="342.79" y="46.2" xlink:href="#img-de41e42d-14" />
+          <use x="345.92" y="46.22" xlink:href="#img-de41e42d-14" />
+          <use x="349.06" y="46.29" xlink:href="#img-de41e42d-14" />
+          <use x="352.2" y="46.3" xlink:href="#img-de41e42d-14" />
+          <use x="355.34" y="46.35" xlink:href="#img-de41e42d-14" />
+          <use x="358.48" y="46.45" xlink:href="#img-de41e42d-14" />
+          <use x="361.62" y="46.62" xlink:href="#img-de41e42d-14" />
+          <use x="364.76" y="46.62" xlink:href="#img-de41e42d-14" />
+          <use x="367.89" y="46.63" xlink:href="#img-de41e42d-14" />
+          <use x="371.03" y="46.68" xlink:href="#img-de41e42d-14" />
+          <use x="374.17" y="46.79" xlink:href="#img-de41e42d-14" />
+          <use x="377.31" y="46.85" xlink:href="#img-de41e42d-14" />
+          <use x="380.45" y="46.86" xlink:href="#img-de41e42d-14" />
+          <use x="383.59" y="46.93" xlink:href="#img-de41e42d-14" />
+          <use x="386.72" y="47.04" xlink:href="#img-de41e42d-14" />
+          <use x="389.86" y="47.17" xlink:href="#img-de41e42d-14" />
+          <use x="393" y="47.24" xlink:href="#img-de41e42d-14" />
+          <use x="396.14" y="47.29" xlink:href="#img-de41e42d-14" />
+          <use x="399.28" y="47.35" xlink:href="#img-de41e42d-14" />
+          <use x="402.42" y="47.38" xlink:href="#img-de41e42d-14" />
+          <use x="405.55" y="47.46" xlink:href="#img-de41e42d-14" />
+          <use x="408.69" y="47.48" xlink:href="#img-de41e42d-14" />
+          <use x="411.83" y="47.65" xlink:href="#img-de41e42d-14" />
+          <use x="414.97" y="47.68" xlink:href="#img-de41e42d-14" />
+          <use x="418.11" y="47.8" xlink:href="#img-de41e42d-14" />
+          <use x="421.25" y="47.91" xlink:href="#img-de41e42d-14" />
+          <use x="424.39" y="48" xlink:href="#img-de41e42d-14" />
+          <use x="427.52" y="48.12" xlink:href="#img-de41e42d-14" />
+          <use x="430.66" y="48.18" xlink:href="#img-de41e42d-14" />
+          <use x="433.8" y="48.2" xlink:href="#img-de41e42d-14" />
+          <use x="436.94" y="48.31" xlink:href="#img-de41e42d-14" />
+          <use x="440.08" y="48.56" xlink:href="#img-de41e42d-14" />
+          <use x="443.22" y="48.85" xlink:href="#img-de41e42d-14" />
+          <use x="446.35" y="49.04" xlink:href="#img-de41e42d-14" />
+          <use x="449.49" y="50.24" xlink:href="#img-de41e42d-14" />
+          <use x="452.63" y="50.55" xlink:href="#img-de41e42d-14" />
+          <use x="455.77" y="50.8" xlink:href="#img-de41e42d-14" />
+          <use x="458.91" y="51.18" xlink:href="#img-de41e42d-14" />
+          <use x="462.05" y="51.24" xlink:href="#img-de41e42d-14" />
+          <use x="465.18" y="51.26" xlink:href="#img-de41e42d-14" />
+          <use x="468.32" y="51.56" xlink:href="#img-de41e42d-14" />
+          <use x="471.46" y="51.77" xlink:href="#img-de41e42d-14" />
+          <use x="474.6" y="51.81" xlink:href="#img-de41e42d-14" />
+          <use x="477.74" y="51.86" xlink:href="#img-de41e42d-14" />
+          <use x="480.88" y="51.96" xlink:href="#img-de41e42d-14" />
+          <use x="484.02" y="52.02" xlink:href="#img-de41e42d-14" />
+          <use x="487.15" y="52.03" xlink:href="#img-de41e42d-14" />
+          <use x="490.29" y="52.11" xlink:href="#img-de41e42d-14" />
+          <use x="493.43" y="52.78" xlink:href="#img-de41e42d-14" />
+        </g>
+      </g>
+    </g>
+    <g class="guide zoomslider" id="img-de41e42d-15" opacity="0" stroke="#000000" stroke-opacity="0">
+      <g id="img-de41e42d-16" fill="#eaeaea" stroke="#6a6a6a" stroke-opacity="0" stroke-width="0.3">
+        <rect x="488" y="8" width="4" height="4" />
+        <g class="button_logo" id="img-de41e42d-17" fill="#6a6a6a">
+          <path d="M 488.8 9.6 L 489.6 9.6 L 489.6 8.8 L 490.4 8.8 L 490.4 9.6 L 491.2 9.6 L 491.2 10.4 L 490.4 10.4 L 490.4 11.2 L 489.6 11.2 L 489.6 10.4 L 488.8 10.4 Z" />
+        </g>
+      </g>
+      <g id="img-de41e42d-18" fill="#eaeaea">
+        <rect x="468.5" y="8" width="19" height="4" />
+      </g>
+      <g class="zoomslider_thumb" id="img-de41e42d-19" fill="#6a6a6a">
+        <rect x="477" y="8" width="2" height="4" />
+      </g>
+      <g id="img-de41e42d-20" fill="#eaeaea" stroke="#6a6a6a" stroke-opacity="0" stroke-width="0.3">
+        <rect x="464" y="8" width="4" height="4" />
+        <g class="button_logo" id="img-de41e42d-21" fill="#6a6a6a">
+          <path d="M 464.8 9.6 L 467.2 9.6 L 467.2 10.4 L 464.8 10.4 Z" />
+        </g>
+      </g>
+    </g>
+  </g>
+</g>
+  <g class="guide ylabels" id="img-de41e42d-22" font-family="&quot;PT Sans Caption&quot;,&quot;Helvetica Neue&quot;,&quot;Helvetica&quot;,sans-serif" font-size="2.82px" fill="#6c606b">
+    <text visibility="hidden" text-anchor="end" x="16.96" y="131.5" dy="0.35em" gadfly:scale="1.0">-15</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="106.6" dy="0.35em" gadfly:scale="1.0">-10</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="81.7" dy="0.35em" gadfly:scale="1.0">-5</text>
+    <text visibility="visible" text-anchor="end" x="16.96" y="56.8" dy="0.35em" gadfly:scale="1.0">0</text>
+    <text visibility="visible" text-anchor="end" x="16.96" y="31.9" dy="0.35em" gadfly:scale="1.0">5</text>
+    <text visibility="visible" text-anchor="end" x="16.96" y="7" dy="0.35em" gadfly:scale="1.0">10</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="-17.9" dy="0.35em" gadfly:scale="1.0">15</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="-42.8" dy="0.35em" gadfly:scale="1.0">20</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="-67.7" dy="0.35em" gadfly:scale="1.0">25</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="106.6" dy="0.35em" gadfly:scale="10.0">-10.0</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="104.11" dy="0.35em" gadfly:scale="10.0">-9.5</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="101.62" dy="0.35em" gadfly:scale="10.0">-9.0</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="99.13" dy="0.35em" gadfly:scale="10.0">-8.5</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="96.64" dy="0.35em" gadfly:scale="10.0">-8.0</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="94.15" dy="0.35em" gadfly:scale="10.0">-7.5</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="91.66" dy="0.35em" gadfly:scale="10.0">-7.0</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="89.17" dy="0.35em" gadfly:scale="10.0">-6.5</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="86.68" dy="0.35em" gadfly:scale="10.0">-6.0</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="84.19" dy="0.35em" gadfly:scale="10.0">-5.5</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="81.7" dy="0.35em" gadfly:scale="10.0">-5.0</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="79.21" dy="0.35em" gadfly:scale="10.0">-4.5</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="76.72" dy="0.35em" gadfly:scale="10.0">-4.0</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="74.23" dy="0.35em" gadfly:scale="10.0">-3.5</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="71.74" dy="0.35em" gadfly:scale="10.0">-3.0</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="69.25" dy="0.35em" gadfly:scale="10.0">-2.5</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="66.76" dy="0.35em" gadfly:scale="10.0">-2.0</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="64.27" dy="0.35em" gadfly:scale="10.0">-1.5</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="61.78" dy="0.35em" gadfly:scale="10.0">-1.0</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="59.29" dy="0.35em" gadfly:scale="10.0">-0.5</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="56.8" dy="0.35em" gadfly:scale="10.0">0.0</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="54.31" dy="0.35em" gadfly:scale="10.0">0.5</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="51.82" dy="0.35em" gadfly:scale="10.0">1.0</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="49.33" dy="0.35em" gadfly:scale="10.0">1.5</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="46.84" dy="0.35em" gadfly:scale="10.0">2.0</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="44.35" dy="0.35em" gadfly:scale="10.0">2.5</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="41.86" dy="0.35em" gadfly:scale="10.0">3.0</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="39.37" dy="0.35em" gadfly:scale="10.0">3.5</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="36.88" dy="0.35em" gadfly:scale="10.0">4.0</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="34.39" dy="0.35em" gadfly:scale="10.0">4.5</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="31.9" dy="0.35em" gadfly:scale="10.0">5.0</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="29.41" dy="0.35em" gadfly:scale="10.0">5.5</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="26.92" dy="0.35em" gadfly:scale="10.0">6.0</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="24.43" dy="0.35em" gadfly:scale="10.0">6.5</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="21.94" dy="0.35em" gadfly:scale="10.0">7.0</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="19.45" dy="0.35em" gadfly:scale="10.0">7.5</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="16.96" dy="0.35em" gadfly:scale="10.0">8.0</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="14.47" dy="0.35em" gadfly:scale="10.0">8.5</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="11.98" dy="0.35em" gadfly:scale="10.0">9.0</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="9.49" dy="0.35em" gadfly:scale="10.0">9.5</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="7" dy="0.35em" gadfly:scale="10.0">10.0</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="4.51" dy="0.35em" gadfly:scale="10.0">10.5</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="2.02" dy="0.35em" gadfly:scale="10.0">11.0</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="-0.47" dy="0.35em" gadfly:scale="10.0">11.5</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="-2.96" dy="0.35em" gadfly:scale="10.0">12.0</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="-5.45" dy="0.35em" gadfly:scale="10.0">12.5</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="-7.94" dy="0.35em" gadfly:scale="10.0">13.0</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="-10.43" dy="0.35em" gadfly:scale="10.0">13.5</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="-12.92" dy="0.35em" gadfly:scale="10.0">14.0</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="-15.41" dy="0.35em" gadfly:scale="10.0">14.5</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="-17.9" dy="0.35em" gadfly:scale="10.0">15.0</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="-20.39" dy="0.35em" gadfly:scale="10.0">15.5</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="-22.8799" dy="0.35em" gadfly:scale="10.0">16.0</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="-25.37" dy="0.35em" gadfly:scale="10.0">16.5</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="-27.86" dy="0.35em" gadfly:scale="10.0">17.0</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="-30.35" dy="0.35em" gadfly:scale="10.0">17.5</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="-32.84" dy="0.35em" gadfly:scale="10.0">18.0</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="-35.33" dy="0.35em" gadfly:scale="10.0">18.5</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="-37.82" dy="0.35em" gadfly:scale="10.0">19.0</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="-40.31" dy="0.35em" gadfly:scale="10.0">19.5</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="-42.8" dy="0.35em" gadfly:scale="10.0">20.0</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="106.6" dy="0.35em" gadfly:scale="0.5">-10</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="56.8" dy="0.35em" gadfly:scale="0.5">0</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="7" dy="0.35em" gadfly:scale="0.5">10</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="-42.8" dy="0.35em" gadfly:scale="0.5">20</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="106.6" dy="0.35em" gadfly:scale="5.0">-10</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="101.62" dy="0.35em" gadfly:scale="5.0">-9</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="96.64" dy="0.35em" gadfly:scale="5.0">-8</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="91.66" dy="0.35em" gadfly:scale="5.0">-7</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="86.68" dy="0.35em" gadfly:scale="5.0">-6</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="81.7" dy="0.35em" gadfly:scale="5.0">-5</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="76.72" dy="0.35em" gadfly:scale="5.0">-4</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="71.74" dy="0.35em" gadfly:scale="5.0">-3</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="66.76" dy="0.35em" gadfly:scale="5.0">-2</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="61.78" dy="0.35em" gadfly:scale="5.0">-1</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="56.8" dy="0.35em" gadfly:scale="5.0">0</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="51.82" dy="0.35em" gadfly:scale="5.0">1</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="46.84" dy="0.35em" gadfly:scale="5.0">2</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="41.86" dy="0.35em" gadfly:scale="5.0">3</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="36.88" dy="0.35em" gadfly:scale="5.0">4</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="31.9" dy="0.35em" gadfly:scale="5.0">5</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="26.92" dy="0.35em" gadfly:scale="5.0">6</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="21.94" dy="0.35em" gadfly:scale="5.0">7</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="16.96" dy="0.35em" gadfly:scale="5.0">8</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="11.98" dy="0.35em" gadfly:scale="5.0">9</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="7" dy="0.35em" gadfly:scale="5.0">10</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="2.02" dy="0.35em" gadfly:scale="5.0">11</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="-2.96" dy="0.35em" gadfly:scale="5.0">12</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="-7.94" dy="0.35em" gadfly:scale="5.0">13</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="-12.92" dy="0.35em" gadfly:scale="5.0">14</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="-17.9" dy="0.35em" gadfly:scale="5.0">15</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="-22.8799" dy="0.35em" gadfly:scale="5.0">16</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="-27.86" dy="0.35em" gadfly:scale="5.0">17</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="-32.84" dy="0.35em" gadfly:scale="5.0">18</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="-37.82" dy="0.35em" gadfly:scale="5.0">19</text>
+    <text visibility="hidden" text-anchor="end" x="16.96" y="-42.8" dy="0.35em" gadfly:scale="5.0">20</text>
+  </g>
+  <g id="img-de41e42d-23" font-family="&quot;PT Sans&quot;,&quot;Helvetica Neue&quot;,&quot;Helvetica&quot;,sans-serif" font-size="3.88px" fill="#564a55" stroke="#000000" stroke-opacity="0">
+    <text text-anchor="middle" transform="rotate(-90 8.81 31.9)" x="8.81" y="29.9" dy="0.35em">importance</text>
+  </g>
+</g>
+<defs>
+  <clipPath id="img-de41e42d-5">
+  <path d="M 17.96 5 L 495 5 L 495 58.8 L 17.96 58.8" />
+</clipPath>
+  <g id="img-de41e42d-14">
+    <circle cx="0" cy="0" r="0.9" />
+  </g>
+</defs>
+<script> 
+(function(N){var k=/[\.\/]/,L=/\s*,\s*/,C=function(a,d){return a-d},a,v,y={n:{}},M=function(){for(var a=0,d=this.length;a&lt;d;a++)if("undefined"!=typeof this[a])return this[a]},A=function(){for(var a=this.length;--a;)if("undefined"!=typeof this[a])return this[a]},w=function(k,d){k=String(k);var f=v,n=Array.prototype.slice.call(arguments,2),u=w.listeners(k),p=0,b,q=[],e={},l=[],r=a;l.firstDefined=M;l.lastDefined=A;a=k;for(var s=v=0,x=u.length;s&lt;x;s++)"zIndex"in u[s]&amp;&amp;(q.push(u[s].zIndex),0&gt;u[s].zIndex&amp;&amp;
+(e[u[s].zIndex]=u[s]));for(q.sort(C);0&gt;q[p];)if(b=e[q[p++] ],l.push(b.apply(d,n)),v)return v=f,l;for(s=0;s&lt;x;s++)if(b=u[s],"zIndex"in b)if(b.zIndex==q[p]){l.push(b.apply(d,n));if(v)break;do if(p++,(b=e[q[p] ])&amp;&amp;l.push(b.apply(d,n)),v)break;while(b)}else e[b.zIndex]=b;else if(l.push(b.apply(d,n)),v)break;v=f;a=r;return l};w._events=y;w.listeners=function(a){a=a.split(k);var d=y,f,n,u,p,b,q,e,l=[d],r=[];u=0;for(p=a.length;u&lt;p;u++){e=[];b=0;for(q=l.length;b&lt;q;b++)for(d=l[b].n,f=[d[a[u] ],d["*"] ],n=2;n--;)if(d=
+f[n])e.push(d),r=r.concat(d.f||[]);l=e}return r};w.on=function(a,d){a=String(a);if("function"!=typeof d)return function(){};for(var f=a.split(L),n=0,u=f.length;n&lt;u;n++)(function(a){a=a.split(k);for(var b=y,f,e=0,l=a.length;e&lt;l;e++)b=b.n,b=b.hasOwnProperty(a[e])&amp;&amp;b[a[e] ]||(b[a[e] ]={n:{}});b.f=b.f||[];e=0;for(l=b.f.length;e&lt;l;e++)if(b.f[e]==d){f=!0;break}!f&amp;&amp;b.f.push(d)})(f[n]);return function(a){+a==+a&amp;&amp;(d.zIndex=+a)}};w.f=function(a){var d=[].slice.call(arguments,1);return function(){w.apply(null,
+[a,null].concat(d).concat([].slice.call(arguments,0)))}};w.stop=function(){v=1};w.nt=function(k){return k?(new RegExp("(?:\\.|\\/|^)"+k+"(?:\\.|\\/|$)")).test(a):a};w.nts=function(){return a.split(k)};w.off=w.unbind=function(a,d){if(a){var f=a.split(L);if(1&lt;f.length)for(var n=0,u=f.length;n&lt;u;n++)w.off(f[n],d);else{for(var f=a.split(k),p,b,q,e,l=[y],n=0,u=f.length;n&lt;u;n++)for(e=0;e&lt;l.length;e+=q.length-2){q=[e,1];p=l[e].n;if("*"!=f[n])p[f[n] ]&amp;&amp;q.push(p[f[n] ]);else for(b in p)p.hasOwnProperty(b)&amp;&amp;
+q.push(p[b]);l.splice.apply(l,q)}n=0;for(u=l.length;n&lt;u;n++)for(p=l[n];p.n;){if(d){if(p.f){e=0;for(f=p.f.length;e&lt;f;e++)if(p.f[e]==d){p.f.splice(e,1);break}!p.f.length&amp;&amp;delete p.f}for(b in p.n)if(p.n.hasOwnProperty(b)&amp;&amp;p.n[b].f){q=p.n[b].f;e=0;for(f=q.length;e&lt;f;e++)if(q[e]==d){q.splice(e,1);break}!q.length&amp;&amp;delete p.n[b].f}}else for(b in delete p.f,p.n)p.n.hasOwnProperty(b)&amp;&amp;p.n[b].f&amp;&amp;delete p.n[b].f;p=p.n}}}else w._events=y={n:{}}};w.once=function(a,d){var f=function(){w.unbind(a,f);return d.apply(this,
+arguments)};return w.on(a,f)};w.version="0.4.2";w.toString=function(){return"You are running Eve 0.4.2"};"undefined"!=typeof module&amp;&amp;module.exports?module.exports=w:"function"===typeof define&amp;&amp;define.amd?define("eve",[],function(){return w}):N.eve=w})(this);
+(function(N,k){"function"===typeof define&amp;&amp;define.amd?define("Snap.svg",["eve"],function(L){return k(N,L)}):k(N,N.eve)})(this,function(N,k){var L=function(a){var k={},y=N.requestAnimationFrame||N.webkitRequestAnimationFrame||N.mozRequestAnimationFrame||N.oRequestAnimationFrame||N.msRequestAnimationFrame||function(a){setTimeout(a,16)},M=Array.isArray||function(a){return a instanceof Array||"[object Array]"==Object.prototype.toString.call(a)},A=0,w="M"+(+new Date).toString(36),z=function(a){if(null==
+a)return this.s;var b=this.s-a;this.b+=this.dur*b;this.B+=this.dur*b;this.s=a},d=function(a){if(null==a)return this.spd;this.spd=a},f=function(a){if(null==a)return this.dur;this.s=this.s*a/this.dur;this.dur=a},n=function(){delete k[this.id];this.update();a("mina.stop."+this.id,this)},u=function(){this.pdif||(delete k[this.id],this.update(),this.pdif=this.get()-this.b)},p=function(){this.pdif&amp;&amp;(this.b=this.get()-this.pdif,delete this.pdif,k[this.id]=this)},b=function(){var a;if(M(this.start)){a=[];
+for(var b=0,e=this.start.length;b&lt;e;b++)a[b]=+this.start[b]+(this.end[b]-this.start[b])*this.easing(this.s)}else a=+this.start+(this.end-this.start)*this.easing(this.s);this.set(a)},q=function(){var l=0,b;for(b in k)if(k.hasOwnProperty(b)){var e=k[b],f=e.get();l++;e.s=(f-e.b)/(e.dur/e.spd);1&lt;=e.s&amp;&amp;(delete k[b],e.s=1,l--,function(b){setTimeout(function(){a("mina.finish."+b.id,b)})}(e));e.update()}l&amp;&amp;y(q)},e=function(a,r,s,x,G,h,J){a={id:w+(A++).toString(36),start:a,end:r,b:s,s:0,dur:x-s,spd:1,get:G,
+set:h,easing:J||e.linear,status:z,speed:d,duration:f,stop:n,pause:u,resume:p,update:b};k[a.id]=a;r=0;for(var K in k)if(k.hasOwnProperty(K)&amp;&amp;(r++,2==r))break;1==r&amp;&amp;y(q);return a};e.time=Date.now||function(){return+new Date};e.getById=function(a){return k[a]||null};e.linear=function(a){return a};e.easeout=function(a){return Math.pow(a,1.7)};e.easein=function(a){return Math.pow(a,0.48)};e.easeinout=function(a){if(1==a)return 1;if(0==a)return 0;var b=0.48-a/1.04,e=Math.sqrt(0.1734+b*b);a=e-b;a=Math.pow(Math.abs(a),
+1/3)*(0&gt;a?-1:1);b=-e-b;b=Math.pow(Math.abs(b),1/3)*(0&gt;b?-1:1);a=a+b+0.5;return 3*(1-a)*a*a+a*a*a};e.backin=function(a){return 1==a?1:a*a*(2.70158*a-1.70158)};e.backout=function(a){if(0==a)return 0;a-=1;return a*a*(2.70158*a+1.70158)+1};e.elastic=function(a){return a==!!a?a:Math.pow(2,-10*a)*Math.sin(2*(a-0.075)*Math.PI/0.3)+1};e.bounce=function(a){a&lt;1/2.75?a*=7.5625*a:a&lt;2/2.75?(a-=1.5/2.75,a=7.5625*a*a+0.75):a&lt;2.5/2.75?(a-=2.25/2.75,a=7.5625*a*a+0.9375):(a-=2.625/2.75,a=7.5625*a*a+0.984375);return a};
+return N.mina=e}("undefined"==typeof k?function(){}:k),C=function(){function a(c,t){if(c){if(c.tagName)return x(c);if(y(c,"array")&amp;&amp;a.set)return a.set.apply(a,c);if(c instanceof e)return c;if(null==t)return c=G.doc.querySelector(c),x(c)}return new s(null==c?"100%":c,null==t?"100%":t)}function v(c,a){if(a){"#text"==c&amp;&amp;(c=G.doc.createTextNode(a.text||""));"string"==typeof c&amp;&amp;(c=v(c));if("string"==typeof a)return"xlink:"==a.substring(0,6)?c.getAttributeNS(m,a.substring(6)):"xml:"==a.substring(0,4)?c.getAttributeNS(la,
+a.substring(4)):c.getAttribute(a);for(var da in a)if(a[h](da)){var b=J(a[da]);b?"xlink:"==da.substring(0,6)?c.setAttributeNS(m,da.substring(6),b):"xml:"==da.substring(0,4)?c.setAttributeNS(la,da.substring(4),b):c.setAttribute(da,b):c.removeAttribute(da)}}else c=G.doc.createElementNS(la,c);return c}function y(c,a){a=J.prototype.toLowerCase.call(a);return"finite"==a?isFinite(c):"array"==a&amp;&amp;(c instanceof Array||Array.isArray&amp;&amp;Array.isArray(c))?!0:"null"==a&amp;&amp;null===c||a==typeof c&amp;&amp;null!==c||"object"==
+a&amp;&amp;c===Object(c)||$.call(c).slice(8,-1).toLowerCase()==a}function M(c){if("function"==typeof c||Object(c)!==c)return c;var a=new c.constructor,b;for(b in c)c[h](b)&amp;&amp;(a[b]=M(c[b]));return a}function A(c,a,b){function m(){var e=Array.prototype.slice.call(arguments,0),f=e.join("\u2400"),d=m.cache=m.cache||{},l=m.count=m.count||[];if(d[h](f)){a:for(var e=l,l=f,B=0,H=e.length;B&lt;H;B++)if(e[B]===l){e.push(e.splice(B,1)[0]);break a}return b?b(d[f]):d[f]}1E3&lt;=l.length&amp;&amp;delete d[l.shift()];l.push(f);d[f]=c.apply(a,
+e);return b?b(d[f]):d[f]}return m}function w(c,a,b,m,e,f){return null==e?(c-=b,a-=m,c||a?(180*I.atan2(-a,-c)/C+540)%360:0):w(c,a,e,f)-w(b,m,e,f)}function z(c){return c%360*C/180}function d(c){var a=[];c=c.replace(/(?:^|\s)(\w+)\(([^)]+)\)/g,function(c,b,m){m=m.split(/\s*,\s*|\s+/);"rotate"==b&amp;&amp;1==m.length&amp;&amp;m.push(0,0);"scale"==b&amp;&amp;(2&lt;m.length?m=m.slice(0,2):2==m.length&amp;&amp;m.push(0,0),1==m.length&amp;&amp;m.push(m[0],0,0));"skewX"==b?a.push(["m",1,0,I.tan(z(m[0])),1,0,0]):"skewY"==b?a.push(["m",1,I.tan(z(m[0])),
+0,1,0,0]):a.push([b.charAt(0)].concat(m));return c});return a}function f(c,t){var b=O(c),m=new a.Matrix;if(b)for(var e=0,f=b.length;e&lt;f;e++){var h=b[e],d=h.length,B=J(h[0]).toLowerCase(),H=h[0]!=B,l=H?m.invert():0,E;"t"==B&amp;&amp;2==d?m.translate(h[1],0):"t"==B&amp;&amp;3==d?H?(d=l.x(0,0),B=l.y(0,0),H=l.x(h[1],h[2]),l=l.y(h[1],h[2]),m.translate(H-d,l-B)):m.translate(h[1],h[2]):"r"==B?2==d?(E=E||t,m.rotate(h[1],E.x+E.width/2,E.y+E.height/2)):4==d&amp;&amp;(H?(H=l.x(h[2],h[3]),l=l.y(h[2],h[3]),m.rotate(h[1],H,l)):m.rotate(h[1],
+h[2],h[3])):"s"==B?2==d||3==d?(E=E||t,m.scale(h[1],h[d-1],E.x+E.width/2,E.y+E.height/2)):4==d?H?(H=l.x(h[2],h[3]),l=l.y(h[2],h[3]),m.scale(h[1],h[1],H,l)):m.scale(h[1],h[1],h[2],h[3]):5==d&amp;&amp;(H?(H=l.x(h[3],h[4]),l=l.y(h[3],h[4]),m.scale(h[1],h[2],H,l)):m.scale(h[1],h[2],h[3],h[4])):"m"==B&amp;&amp;7==d&amp;&amp;m.add(h[1],h[2],h[3],h[4],h[5],h[6])}return m}function n(c,t){if(null==t){var m=!0;t="linearGradient"==c.type||"radialGradient"==c.type?c.node.getAttribute("gradientTransform"):"pattern"==c.type?c.node.getAttribute("patternTransform"):
+c.node.getAttribute("transform");if(!t)return new a.Matrix;t=d(t)}else t=a._.rgTransform.test(t)?J(t).replace(/\.{3}|\u2026/g,c._.transform||aa):d(t),y(t,"array")&amp;&amp;(t=a.path?a.path.toString.call(t):J(t)),c._.transform=t;var b=f(t,c.getBBox(1));if(m)return b;c.matrix=b}function u(c){c=c.node.ownerSVGElement&amp;&amp;x(c.node.ownerSVGElement)||c.node.parentNode&amp;&amp;x(c.node.parentNode)||a.select("svg")||a(0,0);var t=c.select("defs"),t=null==t?!1:t.node;t||(t=r("defs",c.node).node);return t}function p(c){return c.node.ownerSVGElement&amp;&amp;
+x(c.node.ownerSVGElement)||a.select("svg")}function b(c,a,m){function b(c){if(null==c)return aa;if(c==+c)return c;v(B,{width:c});try{return B.getBBox().width}catch(a){return 0}}function h(c){if(null==c)return aa;if(c==+c)return c;v(B,{height:c});try{return B.getBBox().height}catch(a){return 0}}function e(b,B){null==a?d[b]=B(c.attr(b)||0):b==a&amp;&amp;(d=B(null==m?c.attr(b)||0:m))}var f=p(c).node,d={},B=f.querySelector(".svg---mgr");B||(B=v("rect"),v(B,{x:-9E9,y:-9E9,width:10,height:10,"class":"svg---mgr",
+fill:"none"}),f.appendChild(B));switch(c.type){case "rect":e("rx",b),e("ry",h);case "image":e("width",b),e("height",h);case "text":e("x",b);e("y",h);break;case "circle":e("cx",b);e("cy",h);e("r",b);break;case "ellipse":e("cx",b);e("cy",h);e("rx",b);e("ry",h);break;case "line":e("x1",b);e("x2",b);e("y1",h);e("y2",h);break;case "marker":e("refX",b);e("markerWidth",b);e("refY",h);e("markerHeight",h);break;case "radialGradient":e("fx",b);e("fy",h);break;case "tspan":e("dx",b);e("dy",h);break;default:e(a,
+b)}f.removeChild(B);return d}function q(c){y(c,"array")||(c=Array.prototype.slice.call(arguments,0));for(var a=0,b=0,m=this.node;this[a];)delete this[a++];for(a=0;a&lt;c.length;a++)"set"==c[a].type?c[a].forEach(function(c){m.appendChild(c.node)}):m.appendChild(c[a].node);for(var h=m.childNodes,a=0;a&lt;h.length;a++)this[b++]=x(h[a]);return this}function e(c){if(c.snap in E)return E[c.snap];var a=this.id=V(),b;try{b=c.ownerSVGElement}catch(m){}this.node=c;b&amp;&amp;(this.paper=new s(b));this.type=c.tagName;this.anims=
+{};this._={transform:[]};c.snap=a;E[a]=this;"g"==this.type&amp;&amp;(this.add=q);if(this.type in{g:1,mask:1,pattern:1})for(var e in s.prototype)s.prototype[h](e)&amp;&amp;(this[e]=s.prototype[e])}function l(c){this.node=c}function r(c,a){var b=v(c);a.appendChild(b);return x(b)}function s(c,a){var b,m,f,d=s.prototype;if(c&amp;&amp;"svg"==c.tagName){if(c.snap in E)return E[c.snap];var l=c.ownerDocument;b=new e(c);m=c.getElementsByTagName("desc")[0];f=c.getElementsByTagName("defs")[0];m||(m=v("desc"),m.appendChild(l.createTextNode("Created with Snap")),
+b.node.appendChild(m));f||(f=v("defs"),b.node.appendChild(f));b.defs=f;for(var ca in d)d[h](ca)&amp;&amp;(b[ca]=d[ca]);b.paper=b.root=b}else b=r("svg",G.doc.body),v(b.node,{height:a,version:1.1,width:c,xmlns:la});return b}function x(c){return!c||c instanceof e||c instanceof l?c:c.tagName&amp;&amp;"svg"==c.tagName.toLowerCase()?new s(c):c.tagName&amp;&amp;"object"==c.tagName.toLowerCase()&amp;&amp;"image/svg+xml"==c.type?new s(c.contentDocument.getElementsByTagName("svg")[0]):new e(c)}a.version="0.3.0";a.toString=function(){return"Snap v"+
+this.version};a._={};var G={win:N,doc:N.document};a._.glob=G;var h="hasOwnProperty",J=String,K=parseFloat,U=parseInt,I=Math,P=I.max,Q=I.min,Y=I.abs,C=I.PI,aa="",$=Object.prototype.toString,F=/^\s*((#[a-f\d]{6})|(#[a-f\d]{3})|rgba?\(\s*([\d\.]+%?\s*,\s*[\d\.]+%?\s*,\s*[\d\.]+%?(?:\s*,\s*[\d\.]+%?)?)\s*\)|hsba?\(\s*([\d\.]+(?:deg|\xb0|%)?\s*,\s*[\d\.]+%?\s*,\s*[\d\.]+(?:%?\s*,\s*[\d\.]+)?%?)\s*\)|hsla?\(\s*([\d\.]+(?:deg|\xb0|%)?\s*,\s*[\d\.]+%?\s*,\s*[\d\.]+(?:%?\s*,\s*[\d\.]+)?%?)\s*\))\s*$/i;a._.separator=
+RegExp("[,\t\n\x0B\f\r \u00a0\u1680\u180e\u2000\u2001\u2002\u2003\u2004\u2005\u2006\u2007\u2008\u2009\u200a\u202f\u205f\u3000\u2028\u2029]+");var S=RegExp("[\t\n\x0B\f\r \u00a0\u1680\u180e\u2000\u2001\u2002\u2003\u2004\u2005\u2006\u2007\u2008\u2009\u200a\u202f\u205f\u3000\u2028\u2029]*,[\t\n\x0B\f\r \u00a0\u1680\u180e\u2000\u2001\u2002\u2003\u2004\u2005\u2006\u2007\u2008\u2009\u200a\u202f\u205f\u3000\u2028\u2029]*"),X={hs:1,rg:1},W=RegExp("([a-z])[\t\n\x0B\f\r \u00a0\u1680\u180e\u2000\u2001\u2002\u2003\u2004\u2005\u2006\u2007\u2008\u2009\u200a\u202f\u205f\u3000\u2028\u2029,]*((-?\\d*\\.?\\d*(?:e[\\-+]?\\d+)?[\t\n\x0B\f\r \u00a0\u1680\u180e\u2000\u2001\u2002\u2003\u2004\u2005\u2006\u2007\u2008\u2009\u200a\u202f\u205f\u3000\u2028\u2029]*,?[\t\n\x0B\f\r \u00a0\u1680\u180e\u2000\u2001\u2002\u2003\u2004\u2005\u2006\u2007\u2008\u2009\u200a\u202f\u205f\u3000\u2028\u2029]*)+)",
+"ig"),ma=RegExp("([rstm])[\t\n\x0B\f\r \u00a0\u1680\u180e\u2000\u2001\u2002\u2003\u2004\u2005\u2006\u2007\u2008\u2009\u200a\u202f\u205f\u3000\u2028\u2029,]*((-?\\d*\\.?\\d*(?:e[\\-+]?\\d+)?[\t\n\x0B\f\r \u00a0\u1680\u180e\u2000\u2001\u2002\u2003\u2004\u2005\u2006\u2007\u2008\u2009\u200a\u202f\u205f\u3000\u2028\u2029]*,?[\t\n\x0B\f\r \u00a0\u1680\u180e\u2000\u2001\u2002\u2003\u2004\u2005\u2006\u2007\u2008\u2009\u200a\u202f\u205f\u3000\u2028\u2029]*)+)","ig"),Z=RegExp("(-?\\d*\\.?\\d*(?:e[\\-+]?\\d+)?)[\t\n\x0B\f\r \u00a0\u1680\u180e\u2000\u2001\u2002\u2003\u2004\u2005\u2006\u2007\u2008\u2009\u200a\u202f\u205f\u3000\u2028\u2029]*,?[\t\n\x0B\f\r \u00a0\u1680\u180e\u2000\u2001\u2002\u2003\u2004\u2005\u2006\u2007\u2008\u2009\u200a\u202f\u205f\u3000\u2028\u2029]*",
+"ig"),na=0,ba="S"+(+new Date).toString(36),V=function(){return ba+(na++).toString(36)},m="http://www.w3.org/1999/xlink",la="http://www.w3.org/2000/svg",E={},ca=a.url=function(c){return"url('#"+c+"')"};a._.$=v;a._.id=V;a.format=function(){var c=/\{([^\}]+)\}/g,a=/(?:(?:^|\.)(.+?)(?=\[|\.|$|\()|\[('|")(.+?)\2\])(\(\))?/g,b=function(c,b,m){var h=m;b.replace(a,function(c,a,b,m,t){a=a||m;h&amp;&amp;(a in h&amp;&amp;(h=h[a]),"function"==typeof h&amp;&amp;t&amp;&amp;(h=h()))});return h=(null==h||h==m?c:h)+""};return function(a,m){return J(a).replace(c,
+function(c,a){return b(c,a,m)})}}();a._.clone=M;a._.cacher=A;a.rad=z;a.deg=function(c){return 180*c/C%360};a.angle=w;a.is=y;a.snapTo=function(c,a,b){b=y(b,"finite")?b:10;if(y(c,"array"))for(var m=c.length;m--;){if(Y(c[m]-a)&lt;=b)return c[m]}else{c=+c;m=a%c;if(m&lt;b)return a-m;if(m&gt;c-b)return a-m+c}return a};a.getRGB=A(function(c){if(!c||(c=J(c)).indexOf("-")+1)return{r:-1,g:-1,b:-1,hex:"none",error:1,toString:ka};if("none"==c)return{r:-1,g:-1,b:-1,hex:"none",toString:ka};!X[h](c.toLowerCase().substring(0,
+2))&amp;&amp;"#"!=c.charAt()&amp;&amp;(c=T(c));if(!c)return{r:-1,g:-1,b:-1,hex:"none",error:1,toString:ka};var b,m,e,f,d;if(c=c.match(F)){c[2]&amp;&amp;(e=U(c[2].substring(5),16),m=U(c[2].substring(3,5),16),b=U(c[2].substring(1,3),16));c[3]&amp;&amp;(e=U((d=c[3].charAt(3))+d,16),m=U((d=c[3].charAt(2))+d,16),b=U((d=c[3].charAt(1))+d,16));c[4]&amp;&amp;(d=c[4].split(S),b=K(d[0]),"%"==d[0].slice(-1)&amp;&amp;(b*=2.55),m=K(d[1]),"%"==d[1].slice(-1)&amp;&amp;(m*=2.55),e=K(d[2]),"%"==d[2].slice(-1)&amp;&amp;(e*=2.55),"rgba"==c[1].toLowerCase().slice(0,4)&amp;&amp;(f=K(d[3])),
+d[3]&amp;&amp;"%"==d[3].slice(-1)&amp;&amp;(f/=100));if(c[5])return d=c[5].split(S),b=K(d[0]),"%"==d[0].slice(-1)&amp;&amp;(b/=100),m=K(d[1]),"%"==d[1].slice(-1)&amp;&amp;(m/=100),e=K(d[2]),"%"==d[2].slice(-1)&amp;&amp;(e/=100),"deg"!=d[0].slice(-3)&amp;&amp;"\u00b0"!=d[0].slice(-1)||(b/=360),"hsba"==c[1].toLowerCase().slice(0,4)&amp;&amp;(f=K(d[3])),d[3]&amp;&amp;"%"==d[3].slice(-1)&amp;&amp;(f/=100),a.hsb2rgb(b,m,e,f);if(c[6])return d=c[6].split(S),b=K(d[0]),"%"==d[0].slice(-1)&amp;&amp;(b/=100),m=K(d[1]),"%"==d[1].slice(-1)&amp;&amp;(m/=100),e=K(d[2]),"%"==d[2].slice(-1)&amp;&amp;(e/=100),
+"deg"!=d[0].slice(-3)&amp;&amp;"\u00b0"!=d[0].slice(-1)||(b/=360),"hsla"==c[1].toLowerCase().slice(0,4)&amp;&amp;(f=K(d[3])),d[3]&amp;&amp;"%"==d[3].slice(-1)&amp;&amp;(f/=100),a.hsl2rgb(b,m,e,f);b=Q(I.round(b),255);m=Q(I.round(m),255);e=Q(I.round(e),255);f=Q(P(f,0),1);c={r:b,g:m,b:e,toString:ka};c.hex="#"+(16777216|e|m&lt;&lt;8|b&lt;&lt;16).toString(16).slice(1);c.opacity=y(f,"finite")?f:1;return c}return{r:-1,g:-1,b:-1,hex:"none",error:1,toString:ka}},a);a.hsb=A(function(c,b,m){return a.hsb2rgb(c,b,m).hex});a.hsl=A(function(c,b,m){return a.hsl2rgb(c,
+b,m).hex});a.rgb=A(function(c,a,b,m){if(y(m,"finite")){var e=I.round;return"rgba("+[e(c),e(a),e(b),+m.toFixed(2)]+")"}return"#"+(16777216|b|a&lt;&lt;8|c&lt;&lt;16).toString(16).slice(1)});var T=function(c){var a=G.doc.getElementsByTagName("head")[0]||G.doc.getElementsByTagName("svg")[0];T=A(function(c){if("red"==c.toLowerCase())return"rgb(255, 0, 0)";a.style.color="rgb(255, 0, 0)";a.style.color=c;c=G.doc.defaultView.getComputedStyle(a,aa).getPropertyValue("color");return"rgb(255, 0, 0)"==c?null:c});return T(c)},
+qa=function(){return"hsb("+[this.h,this.s,this.b]+")"},ra=function(){return"hsl("+[this.h,this.s,this.l]+")"},ka=function(){return 1==this.opacity||null==this.opacity?this.hex:"rgba("+[this.r,this.g,this.b,this.opacity]+")"},D=function(c,b,m){null==b&amp;&amp;y(c,"object")&amp;&amp;"r"in c&amp;&amp;"g"in c&amp;&amp;"b"in c&amp;&amp;(m=c.b,b=c.g,c=c.r);null==b&amp;&amp;y(c,string)&amp;&amp;(m=a.getRGB(c),c=m.r,b=m.g,m=m.b);if(1&lt;c||1&lt;b||1&lt;m)c/=255,b/=255,m/=255;return[c,b,m]},oa=function(c,b,m,e){c=I.round(255*c);b=I.round(255*b);m=I.round(255*m);c={r:c,
+g:b,b:m,opacity:y(e,"finite")?e:1,hex:a.rgb(c,b,m),toString:ka};y(e,"finite")&amp;&amp;(c.opacity=e);return c};a.color=function(c){var b;y(c,"object")&amp;&amp;"h"in c&amp;&amp;"s"in c&amp;&amp;"b"in c?(b=a.hsb2rgb(c),c.r=b.r,c.g=b.g,c.b=b.b,c.opacity=1,c.hex=b.hex):y(c,"object")&amp;&amp;"h"in c&amp;&amp;"s"in c&amp;&amp;"l"in c?(b=a.hsl2rgb(c),c.r=b.r,c.g=b.g,c.b=b.b,c.opacity=1,c.hex=b.hex):(y(c,"string")&amp;&amp;(c=a.getRGB(c)),y(c,"object")&amp;&amp;"r"in c&amp;&amp;"g"in c&amp;&amp;"b"in c&amp;&amp;!("error"in c)?(b=a.rgb2hsl(c),c.h=b.h,c.s=b.s,c.l=b.l,b=a.rgb2hsb(c),c.v=b.b):(c={hex:"none"},
+c.r=c.g=c.b=c.h=c.s=c.v=c.l=-1,c.error=1));c.toString=ka;return c};a.hsb2rgb=function(c,a,b,m){y(c,"object")&amp;&amp;"h"in c&amp;&amp;"s"in c&amp;&amp;"b"in c&amp;&amp;(b=c.b,a=c.s,c=c.h,m=c.o);var e,h,d;c=360*c%360/60;d=b*a;a=d*(1-Y(c%2-1));b=e=h=b-d;c=~~c;b+=[d,a,0,0,a,d][c];e+=[a,d,d,a,0,0][c];h+=[0,0,a,d,d,a][c];return oa(b,e,h,m)};a.hsl2rgb=function(c,a,b,m){y(c,"object")&amp;&amp;"h"in c&amp;&amp;"s"in c&amp;&amp;"l"in c&amp;&amp;(b=c.l,a=c.s,c=c.h);if(1&lt;c||1&lt;a||1&lt;b)c/=360,a/=100,b/=100;var e,h,d;c=360*c%360/60;d=2*a*(0.5&gt;b?b:1-b);a=d*(1-Y(c%2-1));b=e=
+h=b-d/2;c=~~c;b+=[d,a,0,0,a,d][c];e+=[a,d,d,a,0,0][c];h+=[0,0,a,d,d,a][c];return oa(b,e,h,m)};a.rgb2hsb=function(c,a,b){b=D(c,a,b);c=b[0];a=b[1];b=b[2];var m,e;m=P(c,a,b);e=m-Q(c,a,b);c=((0==e?0:m==c?(a-b)/e:m==a?(b-c)/e+2:(c-a)/e+4)+360)%6*60/360;return{h:c,s:0==e?0:e/m,b:m,toString:qa}};a.rgb2hsl=function(c,a,b){b=D(c,a,b);c=b[0];a=b[1];b=b[2];var m,e,h;m=P(c,a,b);e=Q(c,a,b);h=m-e;c=((0==h?0:m==c?(a-b)/h:m==a?(b-c)/h+2:(c-a)/h+4)+360)%6*60/360;m=(m+e)/2;return{h:c,s:0==h?0:0.5&gt;m?h/(2*m):h/(2-2*
+m),l:m,toString:ra}};a.parsePathString=function(c){if(!c)return null;var b=a.path(c);if(b.arr)return a.path.clone(b.arr);var m={a:7,c:6,o:2,h:1,l:2,m:2,r:4,q:4,s:4,t:2,v:1,u:3,z:0},e=[];y(c,"array")&amp;&amp;y(c[0],"array")&amp;&amp;(e=a.path.clone(c));e.length||J(c).replace(W,function(c,a,b){var h=[];c=a.toLowerCase();b.replace(Z,function(c,a){a&amp;&amp;h.push(+a)});"m"==c&amp;&amp;2&lt;h.length&amp;&amp;(e.push([a].concat(h.splice(0,2))),c="l",a="m"==a?"l":"L");"o"==c&amp;&amp;1==h.length&amp;&amp;e.push([a,h[0] ]);if("r"==c)e.push([a].concat(h));else for(;h.length&gt;=
+m[c]&amp;&amp;(e.push([a].concat(h.splice(0,m[c]))),m[c]););});e.toString=a.path.toString;b.arr=a.path.clone(e);return e};var O=a.parseTransformString=function(c){if(!c)return null;var b=[];y(c,"array")&amp;&amp;y(c[0],"array")&amp;&amp;(b=a.path.clone(c));b.length||J(c).replace(ma,function(c,a,m){var e=[];a.toLowerCase();m.replace(Z,function(c,a){a&amp;&amp;e.push(+a)});b.push([a].concat(e))});b.toString=a.path.toString;return b};a._.svgTransform2string=d;a._.rgTransform=RegExp("^[a-z][\t\n\x0B\f\r \u00a0\u1680\u180e\u2000\u2001\u2002\u2003\u2004\u2005\u2006\u2007\u2008\u2009\u200a\u202f\u205f\u3000\u2028\u2029]*-?\\.?\\d",
+"i");a._.transform2matrix=f;a._unit2px=b;a._.getSomeDefs=u;a._.getSomeSVG=p;a.select=function(c){return x(G.doc.querySelector(c))};a.selectAll=function(c){c=G.doc.querySelectorAll(c);for(var b=(a.set||Array)(),m=0;m&lt;c.length;m++)b.push(x(c[m]));return b};setInterval(function(){for(var c in E)if(E[h](c)){var a=E[c],b=a.node;("svg"!=a.type&amp;&amp;!b.ownerSVGElement||"svg"==a.type&amp;&amp;(!b.parentNode||"ownerSVGElement"in b.parentNode&amp;&amp;!b.ownerSVGElement))&amp;&amp;delete E[c]}},1E4);(function(c){function m(c){function a(c,
+b){var m=v(c.node,b);(m=(m=m&amp;&amp;m.match(d))&amp;&amp;m[2])&amp;&amp;"#"==m.charAt()&amp;&amp;(m=m.substring(1))&amp;&amp;(f[m]=(f[m]||[]).concat(function(a){var m={};m[b]=ca(a);v(c.node,m)}))}function b(c){var a=v(c.node,"xlink:href");a&amp;&amp;"#"==a.charAt()&amp;&amp;(a=a.substring(1))&amp;&amp;(f[a]=(f[a]||[]).concat(function(a){c.attr("xlink:href","#"+a)}))}var e=c.selectAll("*"),h,d=/^\s*url\(("|'|)(.*)\1\)\s*$/;c=[];for(var f={},l=0,E=e.length;l&lt;E;l++){h=e[l];a(h,"fill");a(h,"stroke");a(h,"filter");a(h,"mask");a(h,"clip-path");b(h);var t=v(h.node,
+"id");t&amp;&amp;(v(h.node,{id:h.id}),c.push({old:t,id:h.id}))}l=0;for(E=c.length;l&lt;E;l++)if(e=f[c[l].old])for(h=0,t=e.length;h&lt;t;h++)e[h](c[l].id)}function e(c,a,b){return function(m){m=m.slice(c,a);1==m.length&amp;&amp;(m=m[0]);return b?b(m):m}}function d(c){return function(){var a=c?"&lt;"+this.type:"",b=this.node.attributes,m=this.node.childNodes;if(c)for(var e=0,h=b.length;e&lt;h;e++)a+=" "+b[e].name+'="'+b[e].value.replace(/"/g,'\\"')+'"';if(m.length){c&amp;&amp;(a+="&gt;");e=0;for(h=m.length;e&lt;h;e++)3==m[e].nodeType?a+=m[e].nodeValue:
+1==m[e].nodeType&amp;&amp;(a+=x(m[e]).toString());c&amp;&amp;(a+="&lt;/"+this.type+"&gt;")}else c&amp;&amp;(a+="/&gt;");return a}}c.attr=function(c,a){if(!c)return this;if(y(c,"string"))if(1&lt;arguments.length){var b={};b[c]=a;c=b}else return k("snap.util.getattr."+c,this).firstDefined();for(var m in c)c[h](m)&amp;&amp;k("snap.util.attr."+m,this,c[m]);return this};c.getBBox=function(c){if(!a.Matrix||!a.path)return this.node.getBBox();var b=this,m=new a.Matrix;if(b.removed)return a._.box();for(;"use"==b.type;)if(c||(m=m.add(b.transform().localMatrix.translate(b.attr("x")||
+0,b.attr("y")||0))),b.original)b=b.original;else var e=b.attr("xlink:href"),b=b.original=b.node.ownerDocument.getElementById(e.substring(e.indexOf("#")+1));var e=b._,h=a.path.get[b.type]||a.path.get.deflt;try{if(c)return e.bboxwt=h?a.path.getBBox(b.realPath=h(b)):a._.box(b.node.getBBox()),a._.box(e.bboxwt);b.realPath=h(b);b.matrix=b.transform().localMatrix;e.bbox=a.path.getBBox(a.path.map(b.realPath,m.add(b.matrix)));return a._.box(e.bbox)}catch(d){return a._.box()}};var f=function(){return this.string};
+c.transform=function(c){var b=this._;if(null==c){var m=this;c=new a.Matrix(this.node.getCTM());for(var e=n(this),h=[e],d=new a.Matrix,l=e.toTransformString(),b=J(e)==J(this.matrix)?J(b.transform):l;"svg"!=m.type&amp;&amp;(m=m.parent());)h.push(n(m));for(m=h.length;m--;)d.add(h[m]);return{string:b,globalMatrix:c,totalMatrix:d,localMatrix:e,diffMatrix:c.clone().add(e.invert()),global:c.toTransformString(),total:d.toTransformString(),local:l,toString:f}}c instanceof a.Matrix?this.matrix=c:n(this,c);this.node&amp;&amp;
+("linearGradient"==this.type||"radialGradient"==this.type?v(this.node,{gradientTransform:this.matrix}):"pattern"==this.type?v(this.node,{patternTransform:this.matrix}):v(this.node,{transform:this.matrix}));return this};c.parent=function(){return x(this.node.parentNode)};c.append=c.add=function(c){if(c){if("set"==c.type){var a=this;c.forEach(function(c){a.add(c)});return this}c=x(c);this.node.appendChild(c.node);c.paper=this.paper}return this};c.appendTo=function(c){c&amp;&amp;(c=x(c),c.append(this));return this};
+c.prepend=function(c){if(c){if("set"==c.type){var a=this,b;c.forEach(function(c){b?b.after(c):a.prepend(c);b=c});return this}c=x(c);var m=c.parent();this.node.insertBefore(c.node,this.node.firstChild);this.add&amp;&amp;this.add();c.paper=this.paper;this.parent()&amp;&amp;this.parent().add();m&amp;&amp;m.add()}return this};c.prependTo=function(c){c=x(c);c.prepend(this);return this};c.before=function(c){if("set"==c.type){var a=this;c.forEach(function(c){var b=c.parent();a.node.parentNode.insertBefore(c.node,a.node);b&amp;&amp;b.add()});
+this.parent().add();return this}c=x(c);var b=c.parent();this.node.parentNode.insertBefore(c.node,this.node);this.parent()&amp;&amp;this.parent().add();b&amp;&amp;b.add();c.paper=this.paper;return this};c.after=function(c){c=x(c);var a=c.parent();this.node.nextSibling?this.node.parentNode.insertBefore(c.node,this.node.nextSibling):this.node.parentNode.appendChild(c.node);this.parent()&amp;&amp;this.parent().add();a&amp;&amp;a.add();c.paper=this.paper;return this};c.insertBefore=function(c){c=x(c);var a=this.parent();c.node.parentNode.insertBefore(this.node,
+c.node);this.paper=c.paper;a&amp;&amp;a.add();c.parent()&amp;&amp;c.parent().add();return this};c.insertAfter=function(c){c=x(c);var a=this.parent();c.node.parentNode.insertBefore(this.node,c.node.nextSibling);this.paper=c.paper;a&amp;&amp;a.add();c.parent()&amp;&amp;c.parent().add();return this};c.remove=function(){var c=this.parent();this.node.parentNode&amp;&amp;this.node.parentNode.removeChild(this.node);delete this.paper;this.removed=!0;c&amp;&amp;c.add();return this};c.select=function(c){return x(this.node.querySelector(c))};c.selectAll=
+function(c){c=this.node.querySelectorAll(c);for(var b=(a.set||Array)(),m=0;m&lt;c.length;m++)b.push(x(c[m]));return b};c.asPX=function(c,a){null==a&amp;&amp;(a=this.attr(c));return+b(this,c,a)};c.use=function(){var c,a=this.node.id;a||(a=this.id,v(this.node,{id:a}));c="linearGradient"==this.type||"radialGradient"==this.type||"pattern"==this.type?r(this.type,this.node.parentNode):r("use",this.node.parentNode);v(c.node,{"xlink:href":"#"+a});c.original=this;return c};var l=/\S+/g;c.addClass=function(c){var a=(c||
+"").match(l)||[];c=this.node;var b=c.className.baseVal,m=b.match(l)||[],e,h,d;if(a.length){for(e=0;d=a[e++];)h=m.indexOf(d),~h||m.push(d);a=m.join(" ");b!=a&amp;&amp;(c.className.baseVal=a)}return this};c.removeClass=function(c){var a=(c||"").match(l)||[];c=this.node;var b=c.className.baseVal,m=b.match(l)||[],e,h;if(m.length){for(e=0;h=a[e++];)h=m.indexOf(h),~h&amp;&amp;m.splice(h,1);a=m.join(" ");b!=a&amp;&amp;(c.className.baseVal=a)}return this};c.hasClass=function(c){return!!~(this.node.className.baseVal.match(l)||[]).indexOf(c)};
+c.toggleClass=function(c,a){if(null!=a)return a?this.addClass(c):this.removeClass(c);var b=(c||"").match(l)||[],m=this.node,e=m.className.baseVal,h=e.match(l)||[],d,f,E;for(d=0;E=b[d++];)f=h.indexOf(E),~f?h.splice(f,1):h.push(E);b=h.join(" ");e!=b&amp;&amp;(m.className.baseVal=b);return this};c.clone=function(){var c=x(this.node.cloneNode(!0));v(c.node,"id")&amp;&amp;v(c.node,{id:c.id});m(c);c.insertAfter(this);return c};c.toDefs=function(){u(this).appendChild(this.node);return this};c.pattern=c.toPattern=function(c,
+a,b,m){var e=r("pattern",u(this));null==c&amp;&amp;(c=this.getBBox());y(c,"object")&amp;&amp;"x"in c&amp;&amp;(a=c.y,b=c.width,m=c.height,c=c.x);v(e.node,{x:c,y:a,width:b,height:m,patternUnits:"userSpaceOnUse",id:e.id,viewBox:[c,a,b,m].join(" ")});e.node.appendChild(this.node);return e};c.marker=function(c,a,b,m,e,h){var d=r("marker",u(this));null==c&amp;&amp;(c=this.getBBox());y(c,"object")&amp;&amp;"x"in c&amp;&amp;(a=c.y,b=c.width,m=c.height,e=c.refX||c.cx,h=c.refY||c.cy,c=c.x);v(d.node,{viewBox:[c,a,b,m].join(" "),markerWidth:b,markerHeight:m,
+orient:"auto",refX:e||0,refY:h||0,id:d.id});d.node.appendChild(this.node);return d};var E=function(c,a,b,m){"function"!=typeof b||b.length||(m=b,b=L.linear);this.attr=c;this.dur=a;b&amp;&amp;(this.easing=b);m&amp;&amp;(this.callback=m)};a._.Animation=E;a.animation=function(c,a,b,m){return new E(c,a,b,m)};c.inAnim=function(){var c=[],a;for(a in this.anims)this.anims[h](a)&amp;&amp;function(a){c.push({anim:new E(a._attrs,a.dur,a.easing,a._callback),mina:a,curStatus:a.status(),status:function(c){return a.status(c)},stop:function(){a.stop()}})}(this.anims[a]);
+return c};a.animate=function(c,a,b,m,e,h){"function"!=typeof e||e.length||(h=e,e=L.linear);var d=L.time();c=L(c,a,d,d+m,L.time,b,e);h&amp;&amp;k.once("mina.finish."+c.id,h);return c};c.stop=function(){for(var c=this.inAnim(),a=0,b=c.length;a&lt;b;a++)c[a].stop();return this};c.animate=function(c,a,b,m){"function"!=typeof b||b.length||(m=b,b=L.linear);c instanceof E&amp;&amp;(m=c.callback,b=c.easing,a=b.dur,c=c.attr);var d=[],f=[],l={},t,ca,n,T=this,q;for(q in c)if(c[h](q)){T.equal?(n=T.equal(q,J(c[q])),t=n.from,ca=
+n.to,n=n.f):(t=+T.attr(q),ca=+c[q]);var la=y(t,"array")?t.length:1;l[q]=e(d.length,d.length+la,n);d=d.concat(t);f=f.concat(ca)}t=L.time();var p=L(d,f,t,t+a,L.time,function(c){var a={},b;for(b in l)l[h](b)&amp;&amp;(a[b]=l[b](c));T.attr(a)},b);T.anims[p.id]=p;p._attrs=c;p._callback=m;k("snap.animcreated."+T.id,p);k.once("mina.finish."+p.id,function(){delete T.anims[p.id];m&amp;&amp;m.call(T)});k.once("mina.stop."+p.id,function(){delete T.anims[p.id]});return T};var T={};c.data=function(c,b){var m=T[this.id]=T[this.id]||
+{};if(0==arguments.length)return k("snap.data.get."+this.id,this,m,null),m;if(1==arguments.length){if(a.is(c,"object")){for(var e in c)c[h](e)&amp;&amp;this.data(e,c[e]);return this}k("snap.data.get."+this.id,this,m[c],c);return m[c]}m[c]=b;k("snap.data.set."+this.id,this,b,c);return this};c.removeData=function(c){null==c?T[this.id]={}:T[this.id]&amp;&amp;delete T[this.id][c];return this};c.outerSVG=c.toString=d(1);c.innerSVG=d()})(e.prototype);a.parse=function(c){var a=G.doc.createDocumentFragment(),b=!0,m=G.doc.createElement("div");
+c=J(c);c.match(/^\s*&lt;\s*svg(?:\s|&gt;)/)||(c="&lt;svg&gt;"+c+"&lt;/svg&gt;",b=!1);m.innerHTML=c;if(c=m.getElementsByTagName("svg")[0])if(b)a=c;else for(;c.firstChild;)a.appendChild(c.firstChild);m.innerHTML=aa;return new l(a)};l.prototype.select=e.prototype.select;l.prototype.selectAll=e.prototype.selectAll;a.fragment=function(){for(var c=Array.prototype.slice.call(arguments,0),b=G.doc.createDocumentFragment(),m=0,e=c.length;m&lt;e;m++){var h=c[m];h.node&amp;&amp;h.node.nodeType&amp;&amp;b.appendChild(h.node);h.nodeType&amp;&amp;b.appendChild(h);
+"string"==typeof h&amp;&amp;b.appendChild(a.parse(h).node)}return new l(b)};a._.make=r;a._.wrap=x;s.prototype.el=function(c,a){var b=r(c,this.node);a&amp;&amp;b.attr(a);return b};k.on("snap.util.getattr",function(){var c=k.nt(),c=c.substring(c.lastIndexOf(".")+1),a=c.replace(/[A-Z]/g,function(c){return"-"+c.toLowerCase()});return pa[h](a)?this.node.ownerDocument.defaultView.getComputedStyle(this.node,null).getPropertyValue(a):v(this.node,c)});var pa={"alignment-baseline":0,"baseline-shift":0,clip:0,"clip-path":0,
+"clip-rule":0,color:0,"color-interpolation":0,"color-interpolation-filters":0,"color-profile":0,"color-rendering":0,cursor:0,direction:0,display:0,"dominant-baseline":0,"enable-background":0,fill:0,"fill-opacity":0,"fill-rule":0,filter:0,"flood-color":0,"flood-opacity":0,font:0,"font-family":0,"font-size":0,"font-size-adjust":0,"font-stretch":0,"font-style":0,"font-variant":0,"font-weight":0,"glyph-orientation-horizontal":0,"glyph-orientation-vertical":0,"image-rendering":0,kerning:0,"letter-spacing":0,
+"lighting-color":0,marker:0,"marker-end":0,"marker-mid":0,"marker-start":0,mask:0,opacity:0,overflow:0,"pointer-events":0,"shape-rendering":0,"stop-color":0,"stop-opacity":0,stroke:0,"stroke-dasharray":0,"stroke-dashoffset":0,"stroke-linecap":0,"stroke-linejoin":0,"stroke-miterlimit":0,"stroke-opacity":0,"stroke-width":0,"text-anchor":0,"text-decoration":0,"text-rendering":0,"unicode-bidi":0,visibility:0,"word-spacing":0,"writing-mode":0};k.on("snap.util.attr",function(c){var a=k.nt(),b={},a=a.substring(a.lastIndexOf(".")+
+1);b[a]=c;var m=a.replace(/-(\w)/gi,function(c,a){return a.toUpperCase()}),a=a.replace(/[A-Z]/g,function(c){return"-"+c.toLowerCase()});pa[h](a)?this.node.style[m]=null==c?aa:c:v(this.node,b)});a.ajax=function(c,a,b,m){var e=new XMLHttpRequest,h=V();if(e){if(y(a,"function"))m=b,b=a,a=null;else if(y(a,"object")){var d=[],f;for(f in a)a.hasOwnProperty(f)&amp;&amp;d.push(encodeURIComponent(f)+"="+encodeURIComponent(a[f]));a=d.join("&amp;")}e.open(a?"POST":"GET",c,!0);a&amp;&amp;(e.setRequestHeader("X-Requested-With","XMLHttpRequest"),
+e.setRequestHeader("Content-type","application/x-www-form-urlencoded"));b&amp;&amp;(k.once("snap.ajax."+h+".0",b),k.once("snap.ajax."+h+".200",b),k.once("snap.ajax."+h+".304",b));e.onreadystatechange=function(){4==e.readyState&amp;&amp;k("snap.ajax."+h+"."+e.status,m,e)};if(4==e.readyState)return e;e.send(a);return e}};a.load=function(c,b,m){a.ajax(c,function(c){c=a.parse(c.responseText);m?b.call(m,c):b(c)})};a.getElementByPoint=function(c,a){var b,m,e=G.doc.elementFromPoint(c,a);if(G.win.opera&amp;&amp;"svg"==e.tagName){b=
+e;m=b.getBoundingClientRect();b=b.ownerDocument;var h=b.body,d=b.documentElement;b=m.top+(g.win.pageYOffset||d.scrollTop||h.scrollTop)-(d.clientTop||h.clientTop||0);m=m.left+(g.win.pageXOffset||d.scrollLeft||h.scrollLeft)-(d.clientLeft||h.clientLeft||0);h=e.createSVGRect();h.x=c-m;h.y=a-b;h.width=h.height=1;b=e.getIntersectionList(h,null);b.length&amp;&amp;(e=b[b.length-1])}return e?x(e):null};a.plugin=function(c){c(a,e,s,G,l)};return G.win.Snap=a}();C.plugin(function(a,k,y,M,A){function w(a,d,f,b,q,e){null==
+d&amp;&amp;"[object SVGMatrix]"==z.call(a)?(this.a=a.a,this.b=a.b,this.c=a.c,this.d=a.d,this.e=a.e,this.f=a.f):null!=a?(this.a=+a,this.b=+d,this.c=+f,this.d=+b,this.e=+q,this.f=+e):(this.a=1,this.c=this.b=0,this.d=1,this.f=this.e=0)}var z=Object.prototype.toString,d=String,f=Math;(function(n){function k(a){return a[0]*a[0]+a[1]*a[1]}function p(a){var d=f.sqrt(k(a));a[0]&amp;&amp;(a[0]/=d);a[1]&amp;&amp;(a[1]/=d)}n.add=function(a,d,e,f,n,p){var k=[[],[],[] ],u=[[this.a,this.c,this.e],[this.b,this.d,this.f],[0,0,1] ];d=[[a,
+e,n],[d,f,p],[0,0,1] ];a&amp;&amp;a instanceof w&amp;&amp;(d=[[a.a,a.c,a.e],[a.b,a.d,a.f],[0,0,1] ]);for(a=0;3&gt;a;a++)for(e=0;3&gt;e;e++){for(f=n=0;3&gt;f;f++)n+=u[a][f]*d[f][e];k[a][e]=n}this.a=k[0][0];this.b=k[1][0];this.c=k[0][1];this.d=k[1][1];this.e=k[0][2];this.f=k[1][2];return this};n.invert=function(){var a=this.a*this.d-this.b*this.c;return new w(this.d/a,-this.b/a,-this.c/a,this.a/a,(this.c*this.f-this.d*this.e)/a,(this.b*this.e-this.a*this.f)/a)};n.clone=function(){return new w(this.a,this.b,this.c,this.d,this.e,
+this.f)};n.translate=function(a,d){return this.add(1,0,0,1,a,d)};n.scale=function(a,d,e,f){null==d&amp;&amp;(d=a);(e||f)&amp;&amp;this.add(1,0,0,1,e,f);this.add(a,0,0,d,0,0);(e||f)&amp;&amp;this.add(1,0,0,1,-e,-f);return this};n.rotate=function(b,d,e){b=a.rad(b);d=d||0;e=e||0;var l=+f.cos(b).toFixed(9);b=+f.sin(b).toFixed(9);this.add(l,b,-b,l,d,e);return this.add(1,0,0,1,-d,-e)};n.x=function(a,d){return a*this.a+d*this.c+this.e};n.y=function(a,d){return a*this.b+d*this.d+this.f};n.get=function(a){return+this[d.fromCharCode(97+
+a)].toFixed(4)};n.toString=function(){return"matrix("+[this.get(0),this.get(1),this.get(2),this.get(3),this.get(4),this.get(5)].join()+")"};n.offset=function(){return[this.e.toFixed(4),this.f.toFixed(4)]};n.determinant=function(){return this.a*this.d-this.b*this.c};n.split=function(){var b={};b.dx=this.e;b.dy=this.f;var d=[[this.a,this.c],[this.b,this.d] ];b.scalex=f.sqrt(k(d[0]));p(d[0]);b.shear=d[0][0]*d[1][0]+d[0][1]*d[1][1];d[1]=[d[1][0]-d[0][0]*b.shear,d[1][1]-d[0][1]*b.shear];b.scaley=f.sqrt(k(d[1]));
+p(d[1]);b.shear/=b.scaley;0&gt;this.determinant()&amp;&amp;(b.scalex=-b.scalex);var e=-d[0][1],d=d[1][1];0&gt;d?(b.rotate=a.deg(f.acos(d)),0&gt;e&amp;&amp;(b.rotate=360-b.rotate)):b.rotate=a.deg(f.asin(e));b.isSimple=!+b.shear.toFixed(9)&amp;&amp;(b.scalex.toFixed(9)==b.scaley.toFixed(9)||!b.rotate);b.isSuperSimple=!+b.shear.toFixed(9)&amp;&amp;b.scalex.toFixed(9)==b.scaley.toFixed(9)&amp;&amp;!b.rotate;b.noRotation=!+b.shear.toFixed(9)&amp;&amp;!b.rotate;return b};n.toTransformString=function(a){a=a||this.split();if(+a.shear.toFixed(9))return"m"+[this.get(0),
+this.get(1),this.get(2),this.get(3),this.get(4),this.get(5)];a.scalex=+a.scalex.toFixed(4);a.scaley=+a.scaley.toFixed(4);a.rotate=+a.rotate.toFixed(4);return(a.dx||a.dy?"t"+[+a.dx.toFixed(4),+a.dy.toFixed(4)]:"")+(1!=a.scalex||1!=a.scaley?"s"+[a.scalex,a.scaley,0,0]:"")+(a.rotate?"r"+[+a.rotate.toFixed(4),0,0]:"")}})(w.prototype);a.Matrix=w;a.matrix=function(a,d,f,b,k,e){return new w(a,d,f,b,k,e)}});C.plugin(function(a,v,y,M,A){function w(h){return function(d){k.stop();d instanceof A&amp;&amp;1==d.node.childNodes.length&amp;&amp;
+("radialGradient"==d.node.firstChild.tagName||"linearGradient"==d.node.firstChild.tagName||"pattern"==d.node.firstChild.tagName)&amp;&amp;(d=d.node.firstChild,b(this).appendChild(d),d=u(d));if(d instanceof v)if("radialGradient"==d.type||"linearGradient"==d.type||"pattern"==d.type){d.node.id||e(d.node,{id:d.id});var f=l(d.node.id)}else f=d.attr(h);else f=a.color(d),f.error?(f=a(b(this).ownerSVGElement).gradient(d))?(f.node.id||e(f.node,{id:f.id}),f=l(f.node.id)):f=d:f=r(f);d={};d[h]=f;e(this.node,d);this.node.style[h]=
+x}}function z(a){k.stop();a==+a&amp;&amp;(a+="px");this.node.style.fontSize=a}function d(a){var b=[];a=a.childNodes;for(var e=0,f=a.length;e&lt;f;e++){var l=a[e];3==l.nodeType&amp;&amp;b.push(l.nodeValue);"tspan"==l.tagName&amp;&amp;(1==l.childNodes.length&amp;&amp;3==l.firstChild.nodeType?b.push(l.firstChild.nodeValue):b.push(d(l)))}return b}function f(){k.stop();return this.node.style.fontSize}var n=a._.make,u=a._.wrap,p=a.is,b=a._.getSomeDefs,q=/^url\(#?([^)]+)\)$/,e=a._.$,l=a.url,r=String,s=a._.separator,x="";k.on("snap.util.attr.mask",
+function(a){if(a instanceof v||a instanceof A){k.stop();a instanceof A&amp;&amp;1==a.node.childNodes.length&amp;&amp;(a=a.node.firstChild,b(this).appendChild(a),a=u(a));if("mask"==a.type)var d=a;else d=n("mask",b(this)),d.node.appendChild(a.node);!d.node.id&amp;&amp;e(d.node,{id:d.id});e(this.node,{mask:l(d.id)})}});(function(a){k.on("snap.util.attr.clip",a);k.on("snap.util.attr.clip-path",a);k.on("snap.util.attr.clipPath",a)})(function(a){if(a instanceof v||a instanceof A){k.stop();if("clipPath"==a.type)var d=a;else d=
+n("clipPath",b(this)),d.node.appendChild(a.node),!d.node.id&amp;&amp;e(d.node,{id:d.id});e(this.node,{"clip-path":l(d.id)})}});k.on("snap.util.attr.fill",w("fill"));k.on("snap.util.attr.stroke",w("stroke"));var G=/^([lr])(?:\(([^)]*)\))?(.*)$/i;k.on("snap.util.grad.parse",function(a){a=r(a);var b=a.match(G);if(!b)return null;a=b[1];var e=b[2],b=b[3],e=e.split(/\s*,\s*/).map(function(a){return+a==a?+a:a});1==e.length&amp;&amp;0==e[0]&amp;&amp;(e=[]);b=b.split("-");b=b.map(function(a){a=a.split(":");var b={color:a[0]};a[1]&amp;&amp;
+(b.offset=parseFloat(a[1]));return b});return{type:a,params:e,stops:b}});k.on("snap.util.attr.d",function(b){k.stop();p(b,"array")&amp;&amp;p(b[0],"array")&amp;&amp;(b=a.path.toString.call(b));b=r(b);b.match(/[ruo]/i)&amp;&amp;(b=a.path.toAbsolute(b));e(this.node,{d:b})})(-1);k.on("snap.util.attr.#text",function(a){k.stop();a=r(a);for(a=M.doc.createTextNode(a);this.node.firstChild;)this.node.removeChild(this.node.firstChild);this.node.appendChild(a)})(-1);k.on("snap.util.attr.path",function(a){k.stop();this.attr({d:a})})(-1);
+k.on("snap.util.attr.class",function(a){k.stop();this.node.className.baseVal=a})(-1);k.on("snap.util.attr.viewBox",function(a){a=p(a,"object")&amp;&amp;"x"in a?[a.x,a.y,a.width,a.height].join(" "):p(a,"array")?a.join(" "):a;e(this.node,{viewBox:a});k.stop()})(-1);k.on("snap.util.attr.transform",function(a){this.transform(a);k.stop()})(-1);k.on("snap.util.attr.r",function(a){"rect"==this.type&amp;&amp;(k.stop(),e(this.node,{rx:a,ry:a}))})(-1);k.on("snap.util.attr.textpath",function(a){k.stop();if("text"==this.type){var d,
+f;if(!a&amp;&amp;this.textPath){for(a=this.textPath;a.node.firstChild;)this.node.appendChild(a.node.firstChild);a.remove();delete this.textPath}else if(p(a,"string")?(d=b(this),a=u(d.parentNode).path(a),d.appendChild(a.node),d=a.id,a.attr({id:d})):(a=u(a),a instanceof v&amp;&amp;(d=a.attr("id"),d||(d=a.id,a.attr({id:d})))),d)if(a=this.textPath,f=this.node,a)a.attr({"xlink:href":"#"+d});else{for(a=e("textPath",{"xlink:href":"#"+d});f.firstChild;)a.appendChild(f.firstChild);f.appendChild(a);this.textPath=u(a)}}})(-1);
+k.on("snap.util.attr.text",function(a){if("text"==this.type){for(var b=this.node,d=function(a){var b=e("tspan");if(p(a,"array"))for(var f=0;f&lt;a.length;f++)b.appendChild(d(a[f]));else b.appendChild(M.doc.createTextNode(a));b.normalize&amp;&amp;b.normalize();return b};b.firstChild;)b.removeChild(b.firstChild);for(a=d(a);a.firstChild;)b.appendChild(a.firstChild)}k.stop()})(-1);k.on("snap.util.attr.fontSize",z)(-1);k.on("snap.util.attr.font-size",z)(-1);k.on("snap.util.getattr.transform",function(){k.stop();
+return this.transform()})(-1);k.on("snap.util.getattr.textpath",function(){k.stop();return this.textPath})(-1);(function(){function b(d){return function(){k.stop();var b=M.doc.defaultView.getComputedStyle(this.node,null).getPropertyValue("marker-"+d);return"none"==b?b:a(M.doc.getElementById(b.match(q)[1]))}}function d(a){return function(b){k.stop();var d="marker"+a.charAt(0).toUpperCase()+a.substring(1);if(""==b||!b)this.node.style[d]="none";else if("marker"==b.type){var f=b.node.id;f||e(b.node,{id:b.id});
+this.node.style[d]=l(f)}}}k.on("snap.util.getattr.marker-end",b("end"))(-1);k.on("snap.util.getattr.markerEnd",b("end"))(-1);k.on("snap.util.getattr.marker-start",b("start"))(-1);k.on("snap.util.getattr.markerStart",b("start"))(-1);k.on("snap.util.getattr.marker-mid",b("mid"))(-1);k.on("snap.util.getattr.markerMid",b("mid"))(-1);k.on("snap.util.attr.marker-end",d("end"))(-1);k.on("snap.util.attr.markerEnd",d("end"))(-1);k.on("snap.util.attr.marker-start",d("start"))(-1);k.on("snap.util.attr.markerStart",
+d("start"))(-1);k.on("snap.util.attr.marker-mid",d("mid"))(-1);k.on("snap.util.attr.markerMid",d("mid"))(-1)})();k.on("snap.util.getattr.r",function(){if("rect"==this.type&amp;&amp;e(this.node,"rx")==e(this.node,"ry"))return k.stop(),e(this.node,"rx")})(-1);k.on("snap.util.getattr.text",function(){if("text"==this.type||"tspan"==this.type){k.stop();var a=d(this.node);return 1==a.length?a[0]:a}})(-1);k.on("snap.util.getattr.#text",function(){return this.node.textContent})(-1);k.on("snap.util.getattr.viewBox",
+function(){k.stop();var b=e(this.node,"viewBox");if(b)return b=b.split(s),a._.box(+b[0],+b[1],+b[2],+b[3])})(-1);k.on("snap.util.getattr.points",function(){var a=e(this.node,"points");k.stop();if(a)return a.split(s)})(-1);k.on("snap.util.getattr.path",function(){var a=e(this.node,"d");k.stop();return a})(-1);k.on("snap.util.getattr.class",function(){return this.node.className.baseVal})(-1);k.on("snap.util.getattr.fontSize",f)(-1);k.on("snap.util.getattr.font-size",f)(-1)});C.plugin(function(a,v,y,
+M,A){function w(a){return a}function z(a){return function(b){return+b.toFixed(3)+a}}var d={"+":function(a,b){return a+b},"-":function(a,b){return a-b},"/":function(a,b){return a/b},"*":function(a,b){return a*b}},f=String,n=/[a-z]+$/i,u=/^\s*([+\-\/*])\s*=\s*([\d.eE+\-]+)\s*([^\d\s]+)?\s*$/;k.on("snap.util.attr",function(a){if(a=f(a).match(u)){var b=k.nt(),b=b.substring(b.lastIndexOf(".")+1),q=this.attr(b),e={};k.stop();var l=a[3]||"",r=q.match(n),s=d[a[1] ];r&amp;&amp;r==l?a=s(parseFloat(q),+a[2]):(q=this.asPX(b),
+a=s(this.asPX(b),this.asPX(b,a[2]+l)));isNaN(q)||isNaN(a)||(e[b]=a,this.attr(e))}})(-10);k.on("snap.util.equal",function(a,b){var q=f(this.attr(a)||""),e=f(b).match(u);if(e){k.stop();var l=e[3]||"",r=q.match(n),s=d[e[1] ];if(r&amp;&amp;r==l)return{from:parseFloat(q),to:s(parseFloat(q),+e[2]),f:z(r)};q=this.asPX(a);return{from:q,to:s(q,this.asPX(a,e[2]+l)),f:w}}})(-10)});C.plugin(function(a,v,y,M,A){var w=y.prototype,z=a.is;w.rect=function(a,d,k,p,b,q){var e;null==q&amp;&amp;(q=b);z(a,"object")&amp;&amp;"[object Object]"==
+a?e=a:null!=a&amp;&amp;(e={x:a,y:d,width:k,height:p},null!=b&amp;&amp;(e.rx=b,e.ry=q));return this.el("rect",e)};w.circle=function(a,d,k){var p;z(a,"object")&amp;&amp;"[object Object]"==a?p=a:null!=a&amp;&amp;(p={cx:a,cy:d,r:k});return this.el("circle",p)};var d=function(){function a(){this.parentNode.removeChild(this)}return function(d,k){var p=M.doc.createElement("img"),b=M.doc.body;p.style.cssText="position:absolute;left:-9999em;top:-9999em";p.onload=function(){k.call(p);p.onload=p.onerror=null;b.removeChild(p)};p.onerror=a;
+b.appendChild(p);p.src=d}}();w.image=function(f,n,k,p,b){var q=this.el("image");if(z(f,"object")&amp;&amp;"src"in f)q.attr(f);else if(null!=f){var e={"xlink:href":f,preserveAspectRatio:"none"};null!=n&amp;&amp;null!=k&amp;&amp;(e.x=n,e.y=k);null!=p&amp;&amp;null!=b?(e.width=p,e.height=b):d(f,function(){a._.$(q.node,{width:this.offsetWidth,height:this.offsetHeight})});a._.$(q.node,e)}return q};w.ellipse=function(a,d,k,p){var b;z(a,"object")&amp;&amp;"[object Object]"==a?b=a:null!=a&amp;&amp;(b={cx:a,cy:d,rx:k,ry:p});return this.el("ellipse",b)};
+w.path=function(a){var d;z(a,"object")&amp;&amp;!z(a,"array")?d=a:a&amp;&amp;(d={d:a});return this.el("path",d)};w.group=w.g=function(a){var d=this.el("g");1==arguments.length&amp;&amp;a&amp;&amp;!a.type?d.attr(a):arguments.length&amp;&amp;d.add(Array.prototype.slice.call(arguments,0));return d};w.svg=function(a,d,k,p,b,q,e,l){var r={};z(a,"object")&amp;&amp;null==d?r=a:(null!=a&amp;&amp;(r.x=a),null!=d&amp;&amp;(r.y=d),null!=k&amp;&amp;(r.width=k),null!=p&amp;&amp;(r.height=p),null!=b&amp;&amp;null!=q&amp;&amp;null!=e&amp;&amp;null!=l&amp;&amp;(r.viewBox=[b,q,e,l]));return this.el("svg",r)};w.mask=function(a){var d=
+this.el("mask");1==arguments.length&amp;&amp;a&amp;&amp;!a.type?d.attr(a):arguments.length&amp;&amp;d.add(Array.prototype.slice.call(arguments,0));return d};w.ptrn=function(a,d,k,p,b,q,e,l){if(z(a,"object"))var r=a;else arguments.length?(r={},null!=a&amp;&amp;(r.x=a),null!=d&amp;&amp;(r.y=d),null!=k&amp;&amp;(r.width=k),null!=p&amp;&amp;(r.height=p),null!=b&amp;&amp;null!=q&amp;&amp;null!=e&amp;&amp;null!=l&amp;&amp;(r.viewBox=[b,q,e,l])):r={patternUnits:"userSpaceOnUse"};return this.el("pattern",r)};w.use=function(a){return null!=a?(make("use",this.node),a instanceof v&amp;&amp;(a.attr("id")||
+a.attr({id:ID()}),a=a.attr("id")),this.el("use",{"xlink:href":a})):v.prototype.use.call(this)};w.text=function(a,d,k){var p={};z(a,"object")?p=a:null!=a&amp;&amp;(p={x:a,y:d,text:k||""});return this.el("text",p)};w.line=function(a,d,k,p){var b={};z(a,"object")?b=a:null!=a&amp;&amp;(b={x1:a,x2:k,y1:d,y2:p});return this.el("line",b)};w.polyline=function(a){1&lt;arguments.length&amp;&amp;(a=Array.prototype.slice.call(arguments,0));var d={};z(a,"object")&amp;&amp;!z(a,"array")?d=a:null!=a&amp;&amp;(d={points:a});return this.el("polyline",d)};
+w.polygon=function(a){1&lt;arguments.length&amp;&amp;(a=Array.prototype.slice.call(arguments,0));var d={};z(a,"object")&amp;&amp;!z(a,"array")?d=a:null!=a&amp;&amp;(d={points:a});return this.el("polygon",d)};(function(){function d(){return this.selectAll("stop")}function n(b,d){var f=e("stop"),k={offset:+d+"%"};b=a.color(b);k["stop-color"]=b.hex;1&gt;b.opacity&amp;&amp;(k["stop-opacity"]=b.opacity);e(f,k);this.node.appendChild(f);return this}function u(){if("linearGradient"==this.type){var b=e(this.node,"x1")||0,d=e(this.node,"x2")||
+1,f=e(this.node,"y1")||0,k=e(this.node,"y2")||0;return a._.box(b,f,math.abs(d-b),math.abs(k-f))}b=this.node.r||0;return a._.box((this.node.cx||0.5)-b,(this.node.cy||0.5)-b,2*b,2*b)}function p(a,d){function f(a,b){for(var d=(b-u)/(a-w),e=w;e&lt;a;e++)h[e].offset=+(+u+d*(e-w)).toFixed(2);w=a;u=b}var n=k("snap.util.grad.parse",null,d).firstDefined(),p;if(!n)return null;n.params.unshift(a);p="l"==n.type.toLowerCase()?b.apply(0,n.params):q.apply(0,n.params);n.type!=n.type.toLowerCase()&amp;&amp;e(p.node,{gradientUnits:"userSpaceOnUse"});
+var h=n.stops,n=h.length,u=0,w=0;n--;for(var v=0;v&lt;n;v++)"offset"in h[v]&amp;&amp;f(v,h[v].offset);h[n].offset=h[n].offset||100;f(n,h[n].offset);for(v=0;v&lt;=n;v++){var y=h[v];p.addStop(y.color,y.offset)}return p}function b(b,k,p,q,w){b=a._.make("linearGradient",b);b.stops=d;b.addStop=n;b.getBBox=u;null!=k&amp;&amp;e(b.node,{x1:k,y1:p,x2:q,y2:w});return b}function q(b,k,p,q,w,h){b=a._.make("radialGradient",b);b.stops=d;b.addStop=n;b.getBBox=u;null!=k&amp;&amp;e(b.node,{cx:k,cy:p,r:q});null!=w&amp;&amp;null!=h&amp;&amp;e(b.node,{fx:w,fy:h});
+return b}var e=a._.$;w.gradient=function(a){return p(this.defs,a)};w.gradientLinear=function(a,d,e,f){return b(this.defs,a,d,e,f)};w.gradientRadial=function(a,b,d,e,f){return q(this.defs,a,b,d,e,f)};w.toString=function(){var b=this.node.ownerDocument,d=b.createDocumentFragment(),b=b.createElement("div"),e=this.node.cloneNode(!0);d.appendChild(b);b.appendChild(e);a._.$(e,{xmlns:"http://www.w3.org/2000/svg"});b=b.innerHTML;d.removeChild(d.firstChild);return b};w.clear=function(){for(var a=this.node.firstChild,
+b;a;)b=a.nextSibling,"defs"!=a.tagName?a.parentNode.removeChild(a):w.clear.call({node:a}),a=b}})()});C.plugin(function(a,k,y,M){function A(a){var b=A.ps=A.ps||{};b[a]?b[a].sleep=100:b[a]={sleep:100};setTimeout(function(){for(var d in b)b[L](d)&amp;&amp;d!=a&amp;&amp;(b[d].sleep--,!b[d].sleep&amp;&amp;delete b[d])});return b[a]}function w(a,b,d,e){null==a&amp;&amp;(a=b=d=e=0);null==b&amp;&amp;(b=a.y,d=a.width,e=a.height,a=a.x);return{x:a,y:b,width:d,w:d,height:e,h:e,x2:a+d,y2:b+e,cx:a+d/2,cy:b+e/2,r1:F.min(d,e)/2,r2:F.max(d,e)/2,r0:F.sqrt(d*
+d+e*e)/2,path:s(a,b,d,e),vb:[a,b,d,e].join(" ")}}function z(){return this.join(",").replace(N,"$1")}function d(a){a=C(a);a.toString=z;return a}function f(a,b,d,h,f,k,l,n,p){if(null==p)return e(a,b,d,h,f,k,l,n);if(0&gt;p||e(a,b,d,h,f,k,l,n)&lt;p)p=void 0;else{var q=0.5,O=1-q,s;for(s=e(a,b,d,h,f,k,l,n,O);0.01&lt;Z(s-p);)q/=2,O+=(s&lt;p?1:-1)*q,s=e(a,b,d,h,f,k,l,n,O);p=O}return u(a,b,d,h,f,k,l,n,p)}function n(b,d){function e(a){return+(+a).toFixed(3)}return a._.cacher(function(a,h,l){a instanceof k&amp;&amp;(a=a.attr("d"));
+a=I(a);for(var n,p,D,q,O="",s={},c=0,t=0,r=a.length;t&lt;r;t++){D=a[t];if("M"==D[0])n=+D[1],p=+D[2];else{q=f(n,p,D[1],D[2],D[3],D[4],D[5],D[6]);if(c+q&gt;h){if(d&amp;&amp;!s.start){n=f(n,p,D[1],D[2],D[3],D[4],D[5],D[6],h-c);O+=["C"+e(n.start.x),e(n.start.y),e(n.m.x),e(n.m.y),e(n.x),e(n.y)];if(l)return O;s.start=O;O=["M"+e(n.x),e(n.y)+"C"+e(n.n.x),e(n.n.y),e(n.end.x),e(n.end.y),e(D[5]),e(D[6])].join();c+=q;n=+D[5];p=+D[6];continue}if(!b&amp;&amp;!d)return n=f(n,p,D[1],D[2],D[3],D[4],D[5],D[6],h-c)}c+=q;n=+D[5];p=+D[6]}O+=
+D.shift()+D}s.end=O;return n=b?c:d?s:u(n,p,D[0],D[1],D[2],D[3],D[4],D[5],1)},null,a._.clone)}function u(a,b,d,e,h,f,k,l,n){var p=1-n,q=ma(p,3),s=ma(p,2),c=n*n,t=c*n,r=q*a+3*s*n*d+3*p*n*n*h+t*k,q=q*b+3*s*n*e+3*p*n*n*f+t*l,s=a+2*n*(d-a)+c*(h-2*d+a),t=b+2*n*(e-b)+c*(f-2*e+b),x=d+2*n*(h-d)+c*(k-2*h+d),c=e+2*n*(f-e)+c*(l-2*f+e);a=p*a+n*d;b=p*b+n*e;h=p*h+n*k;f=p*f+n*l;l=90-180*F.atan2(s-x,t-c)/S;return{x:r,y:q,m:{x:s,y:t},n:{x:x,y:c},start:{x:a,y:b},end:{x:h,y:f},alpha:l}}function p(b,d,e,h,f,n,k,l){a.is(b,
+"array")||(b=[b,d,e,h,f,n,k,l]);b=U.apply(null,b);return w(b.min.x,b.min.y,b.max.x-b.min.x,b.max.y-b.min.y)}function b(a,b,d){return b&gt;=a.x&amp;&amp;b&lt;=a.x+a.width&amp;&amp;d&gt;=a.y&amp;&amp;d&lt;=a.y+a.height}function q(a,d){a=w(a);d=w(d);return b(d,a.x,a.y)||b(d,a.x2,a.y)||b(d,a.x,a.y2)||b(d,a.x2,a.y2)||b(a,d.x,d.y)||b(a,d.x2,d.y)||b(a,d.x,d.y2)||b(a,d.x2,d.y2)||(a.x&lt;d.x2&amp;&amp;a.x&gt;d.x||d.x&lt;a.x2&amp;&amp;d.x&gt;a.x)&amp;&amp;(a.y&lt;d.y2&amp;&amp;a.y&gt;d.y||d.y&lt;a.y2&amp;&amp;d.y&gt;a.y)}function e(a,b,d,e,h,f,n,k,l){null==l&amp;&amp;(l=1);l=(1&lt;l?1:0&gt;l?0:l)/2;for(var p=[-0.1252,
+0.1252,-0.3678,0.3678,-0.5873,0.5873,-0.7699,0.7699,-0.9041,0.9041,-0.9816,0.9816],q=[0.2491,0.2491,0.2335,0.2335,0.2032,0.2032,0.1601,0.1601,0.1069,0.1069,0.0472,0.0472],s=0,c=0;12&gt;c;c++)var t=l*p[c]+l,r=t*(t*(-3*a+9*d-9*h+3*n)+6*a-12*d+6*h)-3*a+3*d,t=t*(t*(-3*b+9*e-9*f+3*k)+6*b-12*e+6*f)-3*b+3*e,s=s+q[c]*F.sqrt(r*r+t*t);return l*s}function l(a,b,d){a=I(a);b=I(b);for(var h,f,l,n,k,s,r,O,x,c,t=d?0:[],w=0,v=a.length;w&lt;v;w++)if(x=a[w],"M"==x[0])h=k=x[1],f=s=x[2];else{"C"==x[0]?(x=[h,f].concat(x.slice(1)),
+h=x[6],f=x[7]):(x=[h,f,h,f,k,s,k,s],h=k,f=s);for(var G=0,y=b.length;G&lt;y;G++)if(c=b[G],"M"==c[0])l=r=c[1],n=O=c[2];else{"C"==c[0]?(c=[l,n].concat(c.slice(1)),l=c[6],n=c[7]):(c=[l,n,l,n,r,O,r,O],l=r,n=O);var z;var K=x,B=c;z=d;var H=p(K),J=p(B);if(q(H,J)){for(var H=e.apply(0,K),J=e.apply(0,B),H=~~(H/8),J=~~(J/8),U=[],A=[],F={},M=z?0:[],P=0;P&lt;H+1;P++){var C=u.apply(0,K.concat(P/H));U.push({x:C.x,y:C.y,t:P/H})}for(P=0;P&lt;J+1;P++)C=u.apply(0,B.concat(P/J)),A.push({x:C.x,y:C.y,t:P/J});for(P=0;P&lt;H;P++)for(K=
+0;K&lt;J;K++){var Q=U[P],L=U[P+1],B=A[K],C=A[K+1],N=0.001&gt;Z(L.x-Q.x)?"y":"x",S=0.001&gt;Z(C.x-B.x)?"y":"x",R;R=Q.x;var Y=Q.y,V=L.x,ea=L.y,fa=B.x,ga=B.y,ha=C.x,ia=C.y;if(W(R,V)&lt;X(fa,ha)||X(R,V)&gt;W(fa,ha)||W(Y,ea)&lt;X(ga,ia)||X(Y,ea)&gt;W(ga,ia))R=void 0;else{var $=(R*ea-Y*V)*(fa-ha)-(R-V)*(fa*ia-ga*ha),aa=(R*ea-Y*V)*(ga-ia)-(Y-ea)*(fa*ia-ga*ha),ja=(R-V)*(ga-ia)-(Y-ea)*(fa-ha);if(ja){var $=$/ja,aa=aa/ja,ja=+$.toFixed(2),ba=+aa.toFixed(2);R=ja&lt;+X(R,V).toFixed(2)||ja&gt;+W(R,V).toFixed(2)||ja&lt;+X(fa,ha).toFixed(2)||
+ja&gt;+W(fa,ha).toFixed(2)||ba&lt;+X(Y,ea).toFixed(2)||ba&gt;+W(Y,ea).toFixed(2)||ba&lt;+X(ga,ia).toFixed(2)||ba&gt;+W(ga,ia).toFixed(2)?void 0:{x:$,y:aa}}else R=void 0}R&amp;&amp;F[R.x.toFixed(4)]!=R.y.toFixed(4)&amp;&amp;(F[R.x.toFixed(4)]=R.y.toFixed(4),Q=Q.t+Z((R[N]-Q[N])/(L[N]-Q[N]))*(L.t-Q.t),B=B.t+Z((R[S]-B[S])/(C[S]-B[S]))*(C.t-B.t),0&lt;=Q&amp;&amp;1&gt;=Q&amp;&amp;0&lt;=B&amp;&amp;1&gt;=B&amp;&amp;(z?M++:M.push({x:R.x,y:R.y,t1:Q,t2:B})))}z=M}else z=z?0:[];if(d)t+=z;else{H=0;for(J=z.length;H&lt;J;H++)z[H].segment1=w,z[H].segment2=G,z[H].bez1=x,z[H].bez2=c;t=t.concat(z)}}}return t}
+function r(a){var b=A(a);if(b.bbox)return C(b.bbox);if(!a)return w();a=I(a);for(var d=0,e=0,h=[],f=[],l,n=0,k=a.length;n&lt;k;n++)l=a[n],"M"==l[0]?(d=l[1],e=l[2],h.push(d),f.push(e)):(d=U(d,e,l[1],l[2],l[3],l[4],l[5],l[6]),h=h.concat(d.min.x,d.max.x),f=f.concat(d.min.y,d.max.y),d=l[5],e=l[6]);a=X.apply(0,h);l=X.apply(0,f);h=W.apply(0,h);f=W.apply(0,f);f=w(a,l,h-a,f-l);b.bbox=C(f);return f}function s(a,b,d,e,h){if(h)return[["M",+a+ +h,b],["l",d-2*h,0],["a",h,h,0,0,1,h,h],["l",0,e-2*h],["a",h,h,0,0,1,
+-h,h],["l",2*h-d,0],["a",h,h,0,0,1,-h,-h],["l",0,2*h-e],["a",h,h,0,0,1,h,-h],["z"] ];a=[["M",a,b],["l",d,0],["l",0,e],["l",-d,0],["z"] ];a.toString=z;return a}function x(a,b,d,e,h){null==h&amp;&amp;null==e&amp;&amp;(e=d);a=+a;b=+b;d=+d;e=+e;if(null!=h){var f=Math.PI/180,l=a+d*Math.cos(-e*f);a+=d*Math.cos(-h*f);var n=b+d*Math.sin(-e*f);b+=d*Math.sin(-h*f);d=[["M",l,n],["A",d,d,0,+(180&lt;h-e),0,a,b] ]}else d=[["M",a,b],["m",0,-e],["a",d,e,0,1,1,0,2*e],["a",d,e,0,1,1,0,-2*e],["z"] ];d.toString=z;return d}function G(b){var e=
+A(b);if(e.abs)return d(e.abs);Q(b,"array")&amp;&amp;Q(b&amp;&amp;b[0],"array")||(b=a.parsePathString(b));if(!b||!b.length)return[["M",0,0] ];var h=[],f=0,l=0,n=0,k=0,p=0;"M"==b[0][0]&amp;&amp;(f=+b[0][1],l=+b[0][2],n=f,k=l,p++,h[0]=["M",f,l]);for(var q=3==b.length&amp;&amp;"M"==b[0][0]&amp;&amp;"R"==b[1][0].toUpperCase()&amp;&amp;"Z"==b[2][0].toUpperCase(),s,r,w=p,c=b.length;w&lt;c;w++){h.push(s=[]);r=b[w];p=r[0];if(p!=p.toUpperCase())switch(s[0]=p.toUpperCase(),s[0]){case "A":s[1]=r[1];s[2]=r[2];s[3]=r[3];s[4]=r[4];s[5]=r[5];s[6]=+r[6]+f;s[7]=+r[7]+
+l;break;case "V":s[1]=+r[1]+l;break;case "H":s[1]=+r[1]+f;break;case "R":for(var t=[f,l].concat(r.slice(1)),u=2,v=t.length;u&lt;v;u++)t[u]=+t[u]+f,t[++u]=+t[u]+l;h.pop();h=h.concat(P(t,q));break;case "O":h.pop();t=x(f,l,r[1],r[2]);t.push(t[0]);h=h.concat(t);break;case "U":h.pop();h=h.concat(x(f,l,r[1],r[2],r[3]));s=["U"].concat(h[h.length-1].slice(-2));break;case "M":n=+r[1]+f,k=+r[2]+l;default:for(u=1,v=r.length;u&lt;v;u++)s[u]=+r[u]+(u%2?f:l)}else if("R"==p)t=[f,l].concat(r.slice(1)),h.pop(),h=h.concat(P(t,
+q)),s=["R"].concat(r.slice(-2));else if("O"==p)h.pop(),t=x(f,l,r[1],r[2]),t.push(t[0]),h=h.concat(t);else if("U"==p)h.pop(),h=h.concat(x(f,l,r[1],r[2],r[3])),s=["U"].concat(h[h.length-1].slice(-2));else for(t=0,u=r.length;t&lt;u;t++)s[t]=r[t];p=p.toUpperCase();if("O"!=p)switch(s[0]){case "Z":f=+n;l=+k;break;case "H":f=s[1];break;case "V":l=s[1];break;case "M":n=s[s.length-2],k=s[s.length-1];default:f=s[s.length-2],l=s[s.length-1]}}h.toString=z;e.abs=d(h);return h}function h(a,b,d,e){return[a,b,d,e,d,
+e]}function J(a,b,d,e,h,f){var l=1/3,n=2/3;return[l*a+n*d,l*b+n*e,l*h+n*d,l*f+n*e,h,f]}function K(b,d,e,h,f,l,n,k,p,s){var r=120*S/180,q=S/180*(+f||0),c=[],t,x=a._.cacher(function(a,b,c){var d=a*F.cos(c)-b*F.sin(c);a=a*F.sin(c)+b*F.cos(c);return{x:d,y:a}});if(s)v=s[0],t=s[1],l=s[2],u=s[3];else{t=x(b,d,-q);b=t.x;d=t.y;t=x(k,p,-q);k=t.x;p=t.y;F.cos(S/180*f);F.sin(S/180*f);t=(b-k)/2;v=(d-p)/2;u=t*t/(e*e)+v*v/(h*h);1&lt;u&amp;&amp;(u=F.sqrt(u),e*=u,h*=u);var u=e*e,w=h*h,u=(l==n?-1:1)*F.sqrt(Z((u*w-u*v*v-w*t*t)/
+(u*v*v+w*t*t)));l=u*e*v/h+(b+k)/2;var u=u*-h*t/e+(d+p)/2,v=F.asin(((d-u)/h).toFixed(9));t=F.asin(((p-u)/h).toFixed(9));v=b&lt;l?S-v:v;t=k&lt;l?S-t:t;0&gt;v&amp;&amp;(v=2*S+v);0&gt;t&amp;&amp;(t=2*S+t);n&amp;&amp;v&gt;t&amp;&amp;(v-=2*S);!n&amp;&amp;t&gt;v&amp;&amp;(t-=2*S)}if(Z(t-v)&gt;r){var c=t,w=k,G=p;t=v+r*(n&amp;&amp;t&gt;v?1:-1);k=l+e*F.cos(t);p=u+h*F.sin(t);c=K(k,p,e,h,f,0,n,w,G,[t,c,l,u])}l=t-v;f=F.cos(v);r=F.sin(v);n=F.cos(t);t=F.sin(t);l=F.tan(l/4);e=4/3*e*l;l*=4/3*h;h=[b,d];b=[b+e*r,d-l*f];d=[k+e*t,p-l*n];k=[k,p];b[0]=2*h[0]-b[0];b[1]=2*h[1]-b[1];if(s)return[b,d,k].concat(c);
+c=[b,d,k].concat(c).join().split(",");s=[];k=0;for(p=c.length;k&lt;p;k++)s[k]=k%2?x(c[k-1],c[k],q).y:x(c[k],c[k+1],q).x;return s}function U(a,b,d,e,h,f,l,k){for(var n=[],p=[[],[] ],s,r,c,t,q=0;2&gt;q;++q)0==q?(r=6*a-12*d+6*h,s=-3*a+9*d-9*h+3*l,c=3*d-3*a):(r=6*b-12*e+6*f,s=-3*b+9*e-9*f+3*k,c=3*e-3*b),1E-12&gt;Z(s)?1E-12&gt;Z(r)||(s=-c/r,0&lt;s&amp;&amp;1&gt;s&amp;&amp;n.push(s)):(t=r*r-4*c*s,c=F.sqrt(t),0&gt;t||(t=(-r+c)/(2*s),0&lt;t&amp;&amp;1&gt;t&amp;&amp;n.push(t),s=(-r-c)/(2*s),0&lt;s&amp;&amp;1&gt;s&amp;&amp;n.push(s)));for(r=q=n.length;q--;)s=n[q],c=1-s,p[0][q]=c*c*c*a+3*
+c*c*s*d+3*c*s*s*h+s*s*s*l,p[1][q]=c*c*c*b+3*c*c*s*e+3*c*s*s*f+s*s*s*k;p[0][r]=a;p[1][r]=b;p[0][r+1]=l;p[1][r+1]=k;p[0].length=p[1].length=r+2;return{min:{x:X.apply(0,p[0]),y:X.apply(0,p[1])},max:{x:W.apply(0,p[0]),y:W.apply(0,p[1])}}}function I(a,b){var e=!b&amp;&amp;A(a);if(!b&amp;&amp;e.curve)return d(e.curve);var f=G(a),l=b&amp;&amp;G(b),n={x:0,y:0,bx:0,by:0,X:0,Y:0,qx:null,qy:null},k={x:0,y:0,bx:0,by:0,X:0,Y:0,qx:null,qy:null},p=function(a,b,c){if(!a)return["C",b.x,b.y,b.x,b.y,b.x,b.y];a[0]in{T:1,Q:1}||(b.qx=b.qy=null);
+switch(a[0]){case "M":b.X=a[1];b.Y=a[2];break;case "A":a=["C"].concat(K.apply(0,[b.x,b.y].concat(a.slice(1))));break;case "S":"C"==c||"S"==c?(c=2*b.x-b.bx,b=2*b.y-b.by):(c=b.x,b=b.y);a=["C",c,b].concat(a.slice(1));break;case "T":"Q"==c||"T"==c?(b.qx=2*b.x-b.qx,b.qy=2*b.y-b.qy):(b.qx=b.x,b.qy=b.y);a=["C"].concat(J(b.x,b.y,b.qx,b.qy,a[1],a[2]));break;case "Q":b.qx=a[1];b.qy=a[2];a=["C"].concat(J(b.x,b.y,a[1],a[2],a[3],a[4]));break;case "L":a=["C"].concat(h(b.x,b.y,a[1],a[2]));break;case "H":a=["C"].concat(h(b.x,
+b.y,a[1],b.y));break;case "V":a=["C"].concat(h(b.x,b.y,b.x,a[1]));break;case "Z":a=["C"].concat(h(b.x,b.y,b.X,b.Y))}return a},s=function(a,b){if(7&lt;a[b].length){a[b].shift();for(var c=a[b];c.length;)q[b]="A",l&amp;&amp;(u[b]="A"),a.splice(b++,0,["C"].concat(c.splice(0,6)));a.splice(b,1);v=W(f.length,l&amp;&amp;l.length||0)}},r=function(a,b,c,d,e){a&amp;&amp;b&amp;&amp;"M"==a[e][0]&amp;&amp;"M"!=b[e][0]&amp;&amp;(b.splice(e,0,["M",d.x,d.y]),c.bx=0,c.by=0,c.x=a[e][1],c.y=a[e][2],v=W(f.length,l&amp;&amp;l.length||0))},q=[],u=[],c="",t="",x=0,v=W(f.length,
+l&amp;&amp;l.length||0);for(;x&lt;v;x++){f[x]&amp;&amp;(c=f[x][0]);"C"!=c&amp;&amp;(q[x]=c,x&amp;&amp;(t=q[x-1]));f[x]=p(f[x],n,t);"A"!=q[x]&amp;&amp;"C"==c&amp;&amp;(q[x]="C");s(f,x);l&amp;&amp;(l[x]&amp;&amp;(c=l[x][0]),"C"!=c&amp;&amp;(u[x]=c,x&amp;&amp;(t=u[x-1])),l[x]=p(l[x],k,t),"A"!=u[x]&amp;&amp;"C"==c&amp;&amp;(u[x]="C"),s(l,x));r(f,l,n,k,x);r(l,f,k,n,x);var w=f[x],z=l&amp;&amp;l[x],y=w.length,U=l&amp;&amp;z.length;n.x=w[y-2];n.y=w[y-1];n.bx=$(w[y-4])||n.x;n.by=$(w[y-3])||n.y;k.bx=l&amp;&amp;($(z[U-4])||k.x);k.by=l&amp;&amp;($(z[U-3])||k.y);k.x=l&amp;&amp;z[U-2];k.y=l&amp;&amp;z[U-1]}l||(e.curve=d(f));return l?[f,l]:f}function P(a,
+b){for(var d=[],e=0,h=a.length;h-2*!b&gt;e;e+=2){var f=[{x:+a[e-2],y:+a[e-1]},{x:+a[e],y:+a[e+1]},{x:+a[e+2],y:+a[e+3]},{x:+a[e+4],y:+a[e+5]}];b?e?h-4==e?f[3]={x:+a[0],y:+a[1]}:h-2==e&amp;&amp;(f[2]={x:+a[0],y:+a[1]},f[3]={x:+a[2],y:+a[3]}):f[0]={x:+a[h-2],y:+a[h-1]}:h-4==e?f[3]=f[2]:e||(f[0]={x:+a[e],y:+a[e+1]});d.push(["C",(-f[0].x+6*f[1].x+f[2].x)/6,(-f[0].y+6*f[1].y+f[2].y)/6,(f[1].x+6*f[2].x-f[3].x)/6,(f[1].y+6*f[2].y-f[3].y)/6,f[2].x,f[2].y])}return d}y=k.prototype;var Q=a.is,C=a._.clone,L="hasOwnProperty",
+N=/,?([a-z]),?/gi,$=parseFloat,F=Math,S=F.PI,X=F.min,W=F.max,ma=F.pow,Z=F.abs;M=n(1);var na=n(),ba=n(0,1),V=a._unit2px;a.path=A;a.path.getTotalLength=M;a.path.getPointAtLength=na;a.path.getSubpath=function(a,b,d){if(1E-6&gt;this.getTotalLength(a)-d)return ba(a,b).end;a=ba(a,d,1);return b?ba(a,b).end:a};y.getTotalLength=function(){if(this.node.getTotalLength)return this.node.getTotalLength()};y.getPointAtLength=function(a){return na(this.attr("d"),a)};y.getSubpath=function(b,d){return a.path.getSubpath(this.attr("d"),
+b,d)};a._.box=w;a.path.findDotsAtSegment=u;a.path.bezierBBox=p;a.path.isPointInsideBBox=b;a.path.isBBoxIntersect=q;a.path.intersection=function(a,b){return l(a,b)};a.path.intersectionNumber=function(a,b){return l(a,b,1)};a.path.isPointInside=function(a,d,e){var h=r(a);return b(h,d,e)&amp;&amp;1==l(a,[["M",d,e],["H",h.x2+10] ],1)%2};a.path.getBBox=r;a.path.get={path:function(a){return a.attr("path")},circle:function(a){a=V(a);return x(a.cx,a.cy,a.r)},ellipse:function(a){a=V(a);return x(a.cx||0,a.cy||0,a.rx,
+a.ry)},rect:function(a){a=V(a);return s(a.x||0,a.y||0,a.width,a.height,a.rx,a.ry)},image:function(a){a=V(a);return s(a.x||0,a.y||0,a.width,a.height)},line:function(a){return"M"+[a.attr("x1")||0,a.attr("y1")||0,a.attr("x2"),a.attr("y2")]},polyline:function(a){return"M"+a.attr("points")},polygon:function(a){return"M"+a.attr("points")+"z"},deflt:function(a){a=a.node.getBBox();return s(a.x,a.y,a.width,a.height)}};a.path.toRelative=function(b){var e=A(b),h=String.prototype.toLowerCase;if(e.rel)return d(e.rel);
+a.is(b,"array")&amp;&amp;a.is(b&amp;&amp;b[0],"array")||(b=a.parsePathString(b));var f=[],l=0,n=0,k=0,p=0,s=0;"M"==b[0][0]&amp;&amp;(l=b[0][1],n=b[0][2],k=l,p=n,s++,f.push(["M",l,n]));for(var r=b.length;s&lt;r;s++){var q=f[s]=[],x=b[s];if(x[0]!=h.call(x[0]))switch(q[0]=h.call(x[0]),q[0]){case "a":q[1]=x[1];q[2]=x[2];q[3]=x[3];q[4]=x[4];q[5]=x[5];q[6]=+(x[6]-l).toFixed(3);q[7]=+(x[7]-n).toFixed(3);break;case "v":q[1]=+(x[1]-n).toFixed(3);break;case "m":k=x[1],p=x[2];default:for(var c=1,t=x.length;c&lt;t;c++)q[c]=+(x[c]-(c%2?l:
+n)).toFixed(3)}else for(f[s]=[],"m"==x[0]&amp;&amp;(k=x[1]+l,p=x[2]+n),q=0,c=x.length;q&lt;c;q++)f[s][q]=x[q];x=f[s].length;switch(f[s][0]){case "z":l=k;n=p;break;case "h":l+=+f[s][x-1];break;case "v":n+=+f[s][x-1];break;default:l+=+f[s][x-2],n+=+f[s][x-1]}}f.toString=z;e.rel=d(f);return f};a.path.toAbsolute=G;a.path.toCubic=I;a.path.map=function(a,b){if(!b)return a;var d,e,h,f,l,n,k;a=I(a);h=0;for(l=a.length;h&lt;l;h++)for(k=a[h],f=1,n=k.length;f&lt;n;f+=2)d=b.x(k[f],k[f+1]),e=b.y(k[f],k[f+1]),k[f]=d,k[f+1]=e;return a};
+a.path.toString=z;a.path.clone=d});C.plugin(function(a,v,y,C){var A=Math.max,w=Math.min,z=function(a){this.items=[];this.bindings={};this.length=0;this.type="set";if(a)for(var f=0,n=a.length;f&lt;n;f++)a[f]&amp;&amp;(this[this.items.length]=this.items[this.items.length]=a[f],this.length++)};v=z.prototype;v.push=function(){for(var a,f,n=0,k=arguments.length;n&lt;k;n++)if(a=arguments[n])f=this.items.length,this[f]=this.items[f]=a,this.length++;return this};v.pop=function(){this.length&amp;&amp;delete this[this.length--];
+return this.items.pop()};v.forEach=function(a,f){for(var n=0,k=this.items.length;n&lt;k&amp;&amp;!1!==a.call(f,this.items[n],n);n++);return this};v.animate=function(d,f,n,u){"function"!=typeof n||n.length||(u=n,n=L.linear);d instanceof a._.Animation&amp;&amp;(u=d.callback,n=d.easing,f=n.dur,d=d.attr);var p=arguments;if(a.is(d,"array")&amp;&amp;a.is(p[p.length-1],"array"))var b=!0;var q,e=function(){q?this.b=q:q=this.b},l=0,r=u&amp;&amp;function(){l++==this.length&amp;&amp;u.call(this)};return this.forEach(function(a,l){k.once("snap.animcreated."+
+a.id,e);b?p[l]&amp;&amp;a.animate.apply(a,p[l]):a.animate(d,f,n,r)})};v.remove=function(){for(;this.length;)this.pop().remove();return this};v.bind=function(a,f,k){var u={};if("function"==typeof f)this.bindings[a]=f;else{var p=k||a;this.bindings[a]=function(a){u[p]=a;f.attr(u)}}return this};v.attr=function(a){var f={},k;for(k in a)if(this.bindings[k])this.bindings[k](a[k]);else f[k]=a[k];a=0;for(k=this.items.length;a&lt;k;a++)this.items[a].attr(f);return this};v.clear=function(){for(;this.length;)this.pop()};
+v.splice=function(a,f,k){a=0&gt;a?A(this.length+a,0):a;f=A(0,w(this.length-a,f));var u=[],p=[],b=[],q;for(q=2;q&lt;arguments.length;q++)b.push(arguments[q]);for(q=0;q&lt;f;q++)p.push(this[a+q]);for(;q&lt;this.length-a;q++)u.push(this[a+q]);var e=b.length;for(q=0;q&lt;e+u.length;q++)this.items[a+q]=this[a+q]=q&lt;e?b[q]:u[q-e];for(q=this.items.length=this.length-=f-e;this[q];)delete this[q++];return new z(p)};v.exclude=function(a){for(var f=0,k=this.length;f&lt;k;f++)if(this[f]==a)return this.splice(f,1),!0;return!1};
+v.insertAfter=function(a){for(var f=this.items.length;f--;)this.items[f].insertAfter(a);return this};v.getBBox=function(){for(var a=[],f=[],k=[],u=[],p=this.items.length;p--;)if(!this.items[p].removed){var b=this.items[p].getBBox();a.push(b.x);f.push(b.y);k.push(b.x+b.width);u.push(b.y+b.height)}a=w.apply(0,a);f=w.apply(0,f);k=A.apply(0,k);u=A.apply(0,u);return{x:a,y:f,x2:k,y2:u,width:k-a,height:u-f,cx:a+(k-a)/2,cy:f+(u-f)/2}};v.clone=function(a){a=new z;for(var f=0,k=this.items.length;f&lt;k;f++)a.push(this.items[f].clone());
+return a};v.toString=function(){return"Snap\u2018s set"};v.type="set";a.set=function(){var a=new z;arguments.length&amp;&amp;a.push.apply(a,Array.prototype.slice.call(arguments,0));return a}});C.plugin(function(a,v,y,C){function A(a){var b=a[0];switch(b.toLowerCase()){case "t":return[b,0,0];case "m":return[b,1,0,0,1,0,0];case "r":return 4==a.length?[b,0,a[2],a[3] ]:[b,0];case "s":return 5==a.length?[b,1,1,a[3],a[4] ]:3==a.length?[b,1,1]:[b,1]}}function w(b,d,f){d=q(d).replace(/\.{3}|\u2026/g,b);b=a.parseTransformString(b)||
+[];d=a.parseTransformString(d)||[];for(var k=Math.max(b.length,d.length),p=[],v=[],h=0,w,z,y,I;h&lt;k;h++){y=b[h]||A(d[h]);I=d[h]||A(y);if(y[0]!=I[0]||"r"==y[0].toLowerCase()&amp;&amp;(y[2]!=I[2]||y[3]!=I[3])||"s"==y[0].toLowerCase()&amp;&amp;(y[3]!=I[3]||y[4]!=I[4])){b=a._.transform2matrix(b,f());d=a._.transform2matrix(d,f());p=[["m",b.a,b.b,b.c,b.d,b.e,b.f] ];v=[["m",d.a,d.b,d.c,d.d,d.e,d.f] ];break}p[h]=[];v[h]=[];w=0;for(z=Math.max(y.length,I.length);w&lt;z;w++)w in y&amp;&amp;(p[h][w]=y[w]),w in I&amp;&amp;(v[h][w]=I[w])}return{from:u(p),
+to:u(v),f:n(p)}}function z(a){return a}function d(a){return function(b){return+b.toFixed(3)+a}}function f(b){return a.rgb(b[0],b[1],b[2])}function n(a){var b=0,d,f,k,n,h,p,q=[];d=0;for(f=a.length;d&lt;f;d++){h="[";p=['"'+a[d][0]+'"'];k=1;for(n=a[d].length;k&lt;n;k++)p[k]="val["+b++ +"]";h+=p+"]";q[d]=h}return Function("val","return Snap.path.toString.call(["+q+"])")}function u(a){for(var b=[],d=0,f=a.length;d&lt;f;d++)for(var k=1,n=a[d].length;k&lt;n;k++)b.push(a[d][k]);return b}var p={},b=/[a-z]+$/i,q=String;
+p.stroke=p.fill="colour";v.prototype.equal=function(a,b){return k("snap.util.equal",this,a,b).firstDefined()};k.on("snap.util.equal",function(e,k){var r,s;r=q(this.attr(e)||"");var x=this;if(r==+r&amp;&amp;k==+k)return{from:+r,to:+k,f:z};if("colour"==p[e])return r=a.color(r),s=a.color(k),{from:[r.r,r.g,r.b,r.opacity],to:[s.r,s.g,s.b,s.opacity],f:f};if("transform"==e||"gradientTransform"==e||"patternTransform"==e)return k instanceof a.Matrix&amp;&amp;(k=k.toTransformString()),a._.rgTransform.test(k)||(k=a._.svgTransform2string(k)),
+w(r,k,function(){return x.getBBox(1)});if("d"==e||"path"==e)return r=a.path.toCubic(r,k),{from:u(r[0]),to:u(r[1]),f:n(r[0])};if("points"==e)return r=q(r).split(a._.separator),s=q(k).split(a._.separator),{from:r,to:s,f:function(a){return a}};aUnit=r.match(b);s=q(k).match(b);return aUnit&amp;&amp;aUnit==s?{from:parseFloat(r),to:parseFloat(k),f:d(aUnit)}:{from:this.asPX(e),to:this.asPX(e,k),f:z}})});C.plugin(function(a,v,y,C){var A=v.prototype,w="createTouch"in C.doc;v="click dblclick mousedown mousemove mouseout mouseover mouseup touchstart touchmove touchend touchcancel".split(" ");
+var z={mousedown:"touchstart",mousemove:"touchmove",mouseup:"touchend"},d=function(a,b){var d="y"==a?"scrollTop":"scrollLeft",e=b&amp;&amp;b.node?b.node.ownerDocument:C.doc;return e[d in e.documentElement?"documentElement":"body"][d]},f=function(){this.returnValue=!1},n=function(){return this.originalEvent.preventDefault()},u=function(){this.cancelBubble=!0},p=function(){return this.originalEvent.stopPropagation()},b=function(){if(C.doc.addEventListener)return function(a,b,e,f){var k=w&amp;&amp;z[b]?z[b]:b,l=function(k){var l=
+d("y",f),q=d("x",f);if(w&amp;&amp;z.hasOwnProperty(b))for(var r=0,u=k.targetTouches&amp;&amp;k.targetTouches.length;r&lt;u;r++)if(k.targetTouches[r].target==a||a.contains(k.targetTouches[r].target)){u=k;k=k.targetTouches[r];k.originalEvent=u;k.preventDefault=n;k.stopPropagation=p;break}return e.call(f,k,k.clientX+q,k.clientY+l)};b!==k&amp;&amp;a.addEventListener(b,l,!1);a.addEventListener(k,l,!1);return function(){b!==k&amp;&amp;a.removeEventListener(b,l,!1);a.removeEventListener(k,l,!1);return!0}};if(C.doc.attachEvent)return function(a,
+b,e,h){var k=function(a){a=a||h.node.ownerDocument.window.event;var b=d("y",h),k=d("x",h),k=a.clientX+k,b=a.clientY+b;a.preventDefault=a.preventDefault||f;a.stopPropagation=a.stopPropagation||u;return e.call(h,a,k,b)};a.attachEvent("on"+b,k);return function(){a.detachEvent("on"+b,k);return!0}}}(),q=[],e=function(a){for(var b=a.clientX,e=a.clientY,f=d("y"),l=d("x"),n,p=q.length;p--;){n=q[p];if(w)for(var r=a.touches&amp;&amp;a.touches.length,u;r--;){if(u=a.touches[r],u.identifier==n.el._drag.id||n.el.node.contains(u.target)){b=
+u.clientX;e=u.clientY;(a.originalEvent?a.originalEvent:a).preventDefault();break}}else a.preventDefault();b+=l;e+=f;k("snap.drag.move."+n.el.id,n.move_scope||n.el,b-n.el._drag.x,e-n.el._drag.y,b,e,a)}},l=function(b){a.unmousemove(e).unmouseup(l);for(var d=q.length,f;d--;)f=q[d],f.el._drag={},k("snap.drag.end."+f.el.id,f.end_scope||f.start_scope||f.move_scope||f.el,b);q=[]};for(y=v.length;y--;)(function(d){a[d]=A[d]=function(e,f){a.is(e,"function")&amp;&amp;(this.events=this.events||[],this.events.push({name:d,
+f:e,unbind:b(this.node||document,d,e,f||this)}));return this};a["un"+d]=A["un"+d]=function(a){for(var b=this.events||[],e=b.length;e--;)if(b[e].name==d&amp;&amp;(b[e].f==a||!a)){b[e].unbind();b.splice(e,1);!b.length&amp;&amp;delete this.events;break}return this}})(v[y]);A.hover=function(a,b,d,e){return this.mouseover(a,d).mouseout(b,e||d)};A.unhover=function(a,b){return this.unmouseover(a).unmouseout(b)};var r=[];A.drag=function(b,d,f,h,n,p){function u(r,v,w){(r.originalEvent||r).preventDefault();this._drag.x=v;
+this._drag.y=w;this._drag.id=r.identifier;!q.length&amp;&amp;a.mousemove(e).mouseup(l);q.push({el:this,move_scope:h,start_scope:n,end_scope:p});d&amp;&amp;k.on("snap.drag.start."+this.id,d);b&amp;&amp;k.on("snap.drag.move."+this.id,b);f&amp;&amp;k.on("snap.drag.end."+this.id,f);k("snap.drag.start."+this.id,n||h||this,v,w,r)}if(!arguments.length){var v;return this.drag(function(a,b){this.attr({transform:v+(v?"T":"t")+[a,b]})},function(){v=this.transform().local})}this._drag={};r.push({el:this,start:u});this.mousedown(u);return this};
+A.undrag=function(){for(var b=r.length;b--;)r[b].el==this&amp;&amp;(this.unmousedown(r[b].start),r.splice(b,1),k.unbind("snap.drag.*."+this.id));!r.length&amp;&amp;a.unmousemove(e).unmouseup(l);return this}});C.plugin(function(a,v,y,C){y=y.prototype;var A=/^\s*url\((.+)\)/,w=String,z=a._.$;a.filter={};y.filter=function(d){var f=this;"svg"!=f.type&amp;&amp;(f=f.paper);d=a.parse(w(d));var k=a._.id(),u=z("filter");z(u,{id:k,filterUnits:"userSpaceOnUse"});u.appendChild(d.node);f.defs.appendChild(u);return new v(u)};k.on("snap.util.getattr.filter",
+function(){k.stop();var d=z(this.node,"filter");if(d)return(d=w(d).match(A))&amp;&amp;a.select(d[1])});k.on("snap.util.attr.filter",function(d){if(d instanceof v&amp;&amp;"filter"==d.type){k.stop();var f=d.node.id;f||(z(d.node,{id:d.id}),f=d.id);z(this.node,{filter:a.url(f)})}d&amp;&amp;"none"!=d||(k.stop(),this.node.removeAttribute("filter"))});a.filter.blur=function(d,f){null==d&amp;&amp;(d=2);return a.format('&lt;feGaussianBlur stdDeviation="{def}"/&gt;',{def:null==f?d:[d,f]})};a.filter.blur.toString=function(){return this()};a.filter.shadow=
+function(d,f,k,u,p){"string"==typeof k&amp;&amp;(p=u=k,k=4);"string"!=typeof u&amp;&amp;(p=u,u="#000");null==k&amp;&amp;(k=4);null==p&amp;&amp;(p=1);null==d&amp;&amp;(d=0,f=2);null==f&amp;&amp;(f=d);u=a.color(u||"#000");return a.format('&lt;feGaussianBlur in="SourceAlpha" stdDeviation="{blur}"/&gt;&lt;feOffset dx="{dx}" dy="{dy}" result="offsetblur"/&gt;&lt;feFlood flood-color="{color}"/&gt;&lt;feComposite in2="offsetblur" operator="in"/&gt;&lt;feComponentTransfer&gt;&lt;feFuncA type="linear" slope="{opacity}"/&gt;&lt;/feComponentTransfer&gt;&lt;feMerge&gt;&lt;feMergeNode/&gt;&lt;feMergeNode in="SourceGraphic"/&gt;&lt;/feMerge&gt;',
+{color:u,dx:d,dy:f,blur:k,opacity:p})};a.filter.shadow.toString=function(){return this()};a.filter.grayscale=function(d){null==d&amp;&amp;(d=1);return a.format('&lt;feColorMatrix type="matrix" values="{a} {b} {c} 0 0 {d} {e} {f} 0 0 {g} {b} {h} 0 0 0 0 0 1 0"/&gt;',{a:0.2126+0.7874*(1-d),b:0.7152-0.7152*(1-d),c:0.0722-0.0722*(1-d),d:0.2126-0.2126*(1-d),e:0.7152+0.2848*(1-d),f:0.0722-0.0722*(1-d),g:0.2126-0.2126*(1-d),h:0.0722+0.9278*(1-d)})};a.filter.grayscale.toString=function(){return this()};a.filter.sepia=
+function(d){null==d&amp;&amp;(d=1);return a.format('&lt;feColorMatrix type="matrix" values="{a} {b} {c} 0 0 {d} {e} {f} 0 0 {g} {h} {i} 0 0 0 0 0 1 0"/&gt;',{a:0.393+0.607*(1-d),b:0.769-0.769*(1-d),c:0.189-0.189*(1-d),d:0.349-0.349*(1-d),e:0.686+0.314*(1-d),f:0.168-0.168*(1-d),g:0.272-0.272*(1-d),h:0.534-0.534*(1-d),i:0.131+0.869*(1-d)})};a.filter.sepia.toString=function(){return this()};a.filter.saturate=function(d){null==d&amp;&amp;(d=1);return a.format('&lt;feColorMatrix type="saturate" values="{amount}"/&gt;',{amount:1-
+d})};a.filter.saturate.toString=function(){return this()};a.filter.hueRotate=function(d){return a.format('&lt;feColorMatrix type="hueRotate" values="{angle}"/&gt;',{angle:d||0})};a.filter.hueRotate.toString=function(){return this()};a.filter.invert=function(d){null==d&amp;&amp;(d=1);return a.format('&lt;feComponentTransfer&gt;&lt;feFuncR type="table" tableValues="{amount} {amount2}"/&gt;&lt;feFuncG type="table" tableValues="{amount} {amount2}"/&gt;&lt;feFuncB type="table" tableValues="{amount} {amount2}"/&gt;&lt;/feComponentTransfer&gt;',{amount:d,
+amount2:1-d})};a.filter.invert.toString=function(){return this()};a.filter.brightness=function(d){null==d&amp;&amp;(d=1);return a.format('&lt;feComponentTransfer&gt;&lt;feFuncR type="linear" slope="{amount}"/&gt;&lt;feFuncG type="linear" slope="{amount}"/&gt;&lt;feFuncB type="linear" slope="{amount}"/&gt;&lt;/feComponentTransfer&gt;',{amount:d})};a.filter.brightness.toString=function(){return this()};a.filter.contrast=function(d){null==d&amp;&amp;(d=1);return a.format('&lt;feComponentTransfer&gt;&lt;feFuncR type="linear" slope="{amount}" intercept="{amount2}"/&gt;&lt;feFuncG type="linear" slope="{amount}" intercept="{amount2}"/&gt;&lt;feFuncB type="linear" slope="{amount}" intercept="{amount2}"/&gt;&lt;/feComponentTransfer&gt;',
+{amount:d,amount2:0.5-d/2})};a.filter.contrast.toString=function(){return this()}});return C});
+
+ </script>
+<script> 
+
+(function (glob, factory) {
+    // AMD support
+    if (typeof define === "function" &amp;&amp; define.amd) {
+        // Define as an anonymous module
+        define("Gadfly", ["Snap.svg"], function (Snap) {
+            return factory(Snap);
+        });
+    } else {
+        // Browser globals (glob is window)
+        // Snap adds itself to window
+        glob.Gadfly = factory(glob.Snap);
+    }
+}(this, function (Snap) {
+
+var Gadfly = {};
+
+// Get an x/y coordinate value in pixels
+var xPX = function(fig, x) {
+    var client_box = fig.node.getBoundingClientRect();
+    return x * fig.node.viewBox.baseVal.width / client_box.width;
+};
+
+var yPX = function(fig, y) {
+    var client_box = fig.node.getBoundingClientRect();
+    return y * fig.node.viewBox.baseVal.height / client_box.height;
+};
+
+
+Snap.plugin(function (Snap, Element, Paper, global) {
+    // Traverse upwards from a snap element to find and return the first
+    // note with the "plotroot" class.
+    Element.prototype.plotroot = function () {
+        var element = this;
+        while (!element.hasClass("plotroot") &amp;&amp; element.parent() != null) {
+            element = element.parent();
+        }
+        return element;
+    };
+
+    Element.prototype.svgroot = function () {
+        var element = this;
+        while (element.node.nodeName != "svg" &amp;&amp; element.parent() != null) {
+            element = element.parent();
+        }
+        return element;
+    };
+
+    Element.prototype.plotbounds = function () {
+        var root = this.plotroot()
+        var bbox = root.select(".guide.background").node.getBBox();
+        return {
+            x0: bbox.x,
+            x1: bbox.x + bbox.width,
+            y0: bbox.y,
+            y1: bbox.y + bbox.height
+        };
+    };
+
+    Element.prototype.plotcenter = function () {
+        var root = this.plotroot()
+        var bbox = root.select(".guide.background").node.getBBox();
+        return {
+            x: bbox.x + bbox.width / 2,
+            y: bbox.y + bbox.height / 2
+        };
+    };
+
+    // Emulate IE style mouseenter/mouseleave events, since Microsoft always
+    // does everything right.
+    // See: http://www.dynamic-tools.net/toolbox/isMouseLeaveOrEnter/
+    var events = ["mouseenter", "mouseleave"];
+
+    for (i in events) {
+        (function (event_name) {
+            var event_name = events[i];
+            Element.prototype[event_name] = function (fn, scope) {
+                if (Snap.is(fn, "function")) {
+                    var fn2 = function (event) {
+                        if (event.type != "mouseover" &amp;&amp; event.type != "mouseout") {
+                            return;
+                        }
+
+                        var reltg = event.relatedTarget ? event.relatedTarget :
+                            event.type == "mouseout" ? event.toElement : event.fromElement;
+                        while (reltg &amp;&amp; reltg != this.node) reltg = reltg.parentNode;
+
+                        if (reltg != this.node) {
+                            return fn.apply(this, event);
+                        }
+                    };
+
+                    if (event_name == "mouseenter") {
+                        this.mouseover(fn2, scope);
+                    } else {
+                        this.mouseout(fn2, scope);
+                    }
+                }
+                return this;
+            };
+        })(events[i]);
+    }
+
+
+    Element.prototype.mousewheel = function (fn, scope) {
+        if (Snap.is(fn, "function")) {
+            var el = this;
+            var fn2 = function (event) {
+                fn.apply(el, [event]);
+            };
+        }
+
+        this.node.addEventListener(
+            /Firefox/i.test(navigator.userAgent) ? "DOMMouseScroll" : "mousewheel",
+            fn2);
+
+        return this;
+    };
+
+
+    // Snap's attr function can be too slow for things like panning/zooming.
+    // This is a function to directly update element attributes without going
+    // through eve.
+    Element.prototype.attribute = function(key, val) {
+        if (val === undefined) {
+            return this.node.getAttribute(key);
+        } else {
+            this.node.setAttribute(key, val);
+            return this;
+        }
+    };
+
+    Element.prototype.init_gadfly = function() {
+        this.mouseenter(Gadfly.plot_mouseover)
+            .mouseleave(Gadfly.plot_mouseout)
+            .dblclick(Gadfly.plot_dblclick)
+            .mousewheel(Gadfly.guide_background_scroll)
+            .drag(Gadfly.guide_background_drag_onmove,
+                  Gadfly.guide_background_drag_onstart,
+                  Gadfly.guide_background_drag_onend);
+        this.mouseenter(function (event) {
+            init_pan_zoom(this.plotroot());
+        });
+        return this;
+    };
+});
+
+
+// When the plot is moused over, emphasize the grid lines.
+Gadfly.plot_mouseover = function(event) {
+    var root = this.plotroot();
+
+    var keyboard_zoom = function(event) {
+        if (event.which == 187) { // plus
+            increase_zoom_by_position(root, 0.1, true);
+        } else if (event.which == 189) { // minus
+            increase_zoom_by_position(root, -0.1, true);
+        }
+    };
+    root.data("keyboard_zoom", keyboard_zoom);
+    window.addEventListener("keyup", keyboard_zoom);
+
+    var xgridlines = root.select(".xgridlines"),
+        ygridlines = root.select(".ygridlines");
+
+    xgridlines.data("unfocused_strokedash",
+                    xgridlines.attribute("stroke-dasharray").replace(/(\d)(,|$)/g, "$1mm$2"));
+    ygridlines.data("unfocused_strokedash",
+                    ygridlines.attribute("stroke-dasharray").replace(/(\d)(,|$)/g, "$1mm$2"));
+
+    // emphasize grid lines
+    var destcolor = root.data("focused_xgrid_color");
+    xgridlines.attribute("stroke-dasharray", "none")
+              .selectAll("path")
+              .animate({stroke: destcolor}, 250);
+
+    destcolor = root.data("focused_ygrid_color");
+    ygridlines.attribute("stroke-dasharray", "none")
+              .selectAll("path")
+              .animate({stroke: destcolor}, 250);
+
+    // reveal zoom slider
+    root.select(".zoomslider")
+        .animate({opacity: 1.0}, 250);
+};
+
+// Reset pan and zoom on double click
+Gadfly.plot_dblclick = function(event) {
+  set_plot_pan_zoom(this.plotroot(), 0.0, 0.0, 1.0);
+};
+
+// Unemphasize grid lines on mouse out.
+Gadfly.plot_mouseout = function(event) {
+    var root = this.plotroot();
+
+    window.removeEventListener("keyup", root.data("keyboard_zoom"));
+    root.data("keyboard_zoom", undefined);
+
+    var xgridlines = root.select(".xgridlines"),
+        ygridlines = root.select(".ygridlines");
+
+    var destcolor = root.data("unfocused_xgrid_color");
+
+    xgridlines.attribute("stroke-dasharray", xgridlines.data("unfocused_strokedash"))
+              .selectAll("path")
+              .animate({stroke: destcolor}, 250);
+
+    destcolor = root.data("unfocused_ygrid_color");
+    ygridlines.attribute("stroke-dasharray", ygridlines.data("unfocused_strokedash"))
+              .selectAll("path")
+              .animate({stroke: destcolor}, 250);
+
+    // hide zoom slider
+    root.select(".zoomslider")
+        .animate({opacity: 0.0}, 250);
+};
+
+
+var set_geometry_transform = function(root, tx, ty, scale) {
+    var xscalable = root.hasClass("xscalable"),
+        yscalable = root.hasClass("yscalable");
+
+    var old_scale = root.data("scale");
+
+    var xscale = xscalable ? scale : 1.0,
+        yscale = yscalable ? scale : 1.0;
+
+    tx = xscalable ? tx : 0.0;
+    ty = yscalable ? ty : 0.0;
+
+    var t = new Snap.Matrix().translate(tx, ty).scale(xscale, yscale);
+
+    root.selectAll(".geometry, image")
+        .forEach(function (element, i) {
+            element.transform(t);
+        });
+
+    bounds = root.plotbounds();
+
+    if (yscalable) {
+        var xfixed_t = new Snap.Matrix().translate(0, ty).scale(1.0, yscale);
+        root.selectAll(".xfixed")
+            .forEach(function (element, i) {
+                element.transform(xfixed_t);
+            });
+
+        root.select(".ylabels")
+            .transform(xfixed_t)
+            .selectAll("text")
+            .forEach(function (element, i) {
+                if (element.attribute("gadfly:inscale") == "true") {
+                    var cx = element.asPX("x"),
+                        cy = element.asPX("y");
+                    var st = element.data("static_transform");
+                    unscale_t = new Snap.Matrix();
+                    unscale_t.scale(1, 1/scale, cx, cy).add(st);
+                    element.transform(unscale_t);
+
+                    var y = cy * scale + ty;
+                    element.attr("visibility",
+                        bounds.y0 &lt;= y &amp;&amp; y &lt;= bounds.y1 ? "visible" : "hidden");
+                }
+            });
+    }
+
+    if (xscalable) {
+        var yfixed_t = new Snap.Matrix().translate(tx, 0).scale(xscale, 1.0);
+        var xtrans = new Snap.Matrix().translate(tx, 0);
+        root.selectAll(".yfixed")
+            .forEach(function (element, i) {
+                element.transform(yfixed_t);
+            });
+
+        root.select(".xlabels")
+            .transform(yfixed_t)
+            .selectAll("text")
+            .forEach(function (element, i) {
+                if (element.attribute("gadfly:inscale") == "true") {
+                    var cx = element.asPX("x"),
+                        cy = element.asPX("y");
+                    var st = element.data("static_transform");
+                    unscale_t = new Snap.Matrix();
+                    unscale_t.scale(1/scale, 1, cx, cy).add(st);
+
+                    element.transform(unscale_t);
+
+                    var x = cx * scale + tx;
+                    element.attr("visibility",
+                        bounds.x0 &lt;= x &amp;&amp; x &lt;= bounds.x1 ? "visible" : "hidden");
+                    }
+            });
+    }
+
+    // we must unscale anything that is scale invariance: widths, raiduses, etc.
+    var size_attribs = ["font-size"];
+    var unscaled_selection = ".geometry, .geometry *";
+    if (xscalable) {
+        size_attribs.push("rx");
+        unscaled_selection += ", .xgridlines";
+    }
+    if (yscalable) {
+        size_attribs.push("ry");
+        unscaled_selection += ", .ygridlines";
+    }
+
+    root.selectAll(unscaled_selection)
+        .forEach(function (element, i) {
+            // circle need special help
+            if (element.node.nodeName == "circle") {
+                var cx = element.attribute("cx"),
+                    cy = element.attribute("cy");
+                unscale_t = new Snap.Matrix().scale(1/xscale, 1/yscale,
+                                                        cx, cy);
+                element.transform(unscale_t);
+                return;
+            }
+
+            for (i in size_attribs) {
+                var key = size_attribs[i];
+                var val = parseFloat(element.attribute(key));
+                if (val !== undefined &amp;&amp; val != 0 &amp;&amp; !isNaN(val)) {
+                    element.attribute(key, val * old_scale / scale);
+                }
+            }
+        });
+};
+
+
+// Find the most appropriate tick scale and update label visibility.
+var update_tickscale = function(root, scale, axis) {
+    if (!root.hasClass(axis + "scalable")) return;
+
+    var tickscales = root.data(axis + "tickscales");
+    var best_tickscale = 1.0;
+    var best_tickscale_dist = Infinity;
+    for (tickscale in tickscales) {
+        var dist = Math.abs(Math.log(tickscale) - Math.log(scale));
+        if (dist &lt; best_tickscale_dist) {
+            best_tickscale_dist = dist;
+            best_tickscale = tickscale;
+        }
+    }
+
+    if (best_tickscale != root.data(axis + "tickscale")) {
+        root.data(axis + "tickscale", best_tickscale);
+        var mark_inscale_gridlines = function (element, i) {
+            var inscale = element.attr("gadfly:scale") == best_tickscale;
+            element.attribute("gadfly:inscale", inscale);
+            element.attr("visibility", inscale ? "visible" : "hidden");
+        };
+
+        var mark_inscale_labels = function (element, i) {
+            var inscale = element.attr("gadfly:scale") == best_tickscale;
+            element.attribute("gadfly:inscale", inscale);
+            element.attr("visibility", inscale ? "visible" : "hidden");
+        };
+
+        root.select("." + axis + "gridlines").selectAll("path").forEach(mark_inscale_gridlines);
+        root.select("." + axis + "labels").selectAll("text").forEach(mark_inscale_labels);
+    }
+};
+
+
+var set_plot_pan_zoom = function(root, tx, ty, scale) {
+    var old_scale = root.data("scale");
+    var bounds = root.plotbounds();
+
+    var width = bounds.x1 - bounds.x0,
+        height = bounds.y1 - bounds.y0;
+
+    // compute the viewport derived from tx, ty, and scale
+    var x_min = -width * scale - (scale * width - width),
+        x_max = width * scale,
+        y_min = -height * scale - (scale * height - height),
+        y_max = height * scale;
+
+    var x0 = bounds.x0 - scale * bounds.x0,
+        y0 = bounds.y0 - scale * bounds.y0;
+
+    var tx = Math.max(Math.min(tx - x0, x_max), x_min),
+        ty = Math.max(Math.min(ty - y0, y_max), y_min);
+
+    tx += x0;
+    ty += y0;
+
+    // when the scale change, we may need to alter which set of
+    // ticks is being displayed
+    if (scale != old_scale) {
+        update_tickscale(root, scale, "x");
+        update_tickscale(root, scale, "y");
+    }
+
+    set_geometry_transform(root, tx, ty, scale);
+
+    root.data("scale", scale);
+    root.data("tx", tx);
+    root.data("ty", ty);
+};
+
+
+var scale_centered_translation = function(root, scale) {
+    var bounds = root.plotbounds();
+
+    var width = bounds.x1 - bounds.x0,
+        height = bounds.y1 - bounds.y0;
+
+    var tx0 = root.data("tx"),
+        ty0 = root.data("ty");
+
+    var scale0 = root.data("scale");
+
+    // how off from center the current view is
+    var xoff = tx0 - (bounds.x0 * (1 - scale0) + (width * (1 - scale0)) / 2),
+        yoff = ty0 - (bounds.y0 * (1 - scale0) + (height * (1 - scale0)) / 2);
+
+    // rescale offsets
+    xoff = xoff * scale / scale0;
+    yoff = yoff * scale / scale0;
+
+    // adjust for the panel position being scaled
+    var x_edge_adjust = bounds.x0 * (1 - scale),
+        y_edge_adjust = bounds.y0 * (1 - scale);
+
+    return {
+        x: xoff + x_edge_adjust + (width - width * scale) / 2,
+        y: yoff + y_edge_adjust + (height - height * scale) / 2
+    };
+};
+
+
+// Initialize data for panning zooming if it isn't already.
+var init_pan_zoom = function(root) {
+    if (root.data("zoompan-ready")) {
+        return;
+    }
+
+    // The non-scaling-stroke trick. Rather than try to correct for the
+    // stroke-width when zooming, we force it to a fixed value.
+    var px_per_mm = root.node.getCTM().a;
+
+    // Drag events report deltas in pixels, which we'd like to convert to
+    // millimeters.
+    root.data("px_per_mm", px_per_mm);
+
+    root.selectAll("path")
+        .forEach(function (element, i) {
+        sw = element.asPX("stroke-width") * px_per_mm;
+        if (sw &gt; 0) {
+            element.attribute("stroke-width", sw);
+            element.attribute("vector-effect", "non-scaling-stroke");
+        }
+    });
+
+    // Store ticks labels original tranformation
+    root.selectAll(".xlabels &gt; text, .ylabels &gt; text")
+        .forEach(function (element, i) {
+            var lm = element.transform().localMatrix;
+            element.data("static_transform",
+                new Snap.Matrix(lm.a, lm.b, lm.c, lm.d, lm.e, lm.f));
+        });
+
+    var xgridlines = root.select(".xgridlines");
+    var ygridlines = root.select(".ygridlines");
+    var xlabels = root.select(".xlabels");
+    var ylabels = root.select(".ylabels");
+
+    if (root.data("tx") === undefined) root.data("tx", 0);
+    if (root.data("ty") === undefined) root.data("ty", 0);
+    if (root.data("scale") === undefined) root.data("scale", 1.0);
+    if (root.data("xtickscales") === undefined) {
+
+        // index all the tick scales that are listed
+        var xtickscales = {};
+        var ytickscales = {};
+        var add_x_tick_scales = function (element, i) {
+            xtickscales[element.attribute("gadfly:scale")] = true;
+        };
+        var add_y_tick_scales = function (element, i) {
+            ytickscales[element.attribute("gadfly:scale")] = true;
+        };
+
+        if (xgridlines) xgridlines.selectAll("path").forEach(add_x_tick_scales);
+        if (ygridlines) ygridlines.selectAll("path").forEach(add_y_tick_scales);
+        if (xlabels) xlabels.selectAll("text").forEach(add_x_tick_scales);
+        if (ylabels) ylabels.selectAll("text").forEach(add_y_tick_scales);
+
+        root.data("xtickscales", xtickscales);
+        root.data("ytickscales", ytickscales);
+        root.data("xtickscale", 1.0);
+    }
+
+    var min_scale = 1.0, max_scale = 1.0;
+    for (scale in xtickscales) {
+        min_scale = Math.min(min_scale, scale);
+        max_scale = Math.max(max_scale, scale);
+    }
+    for (scale in ytickscales) {
+        min_scale = Math.min(min_scale, scale);
+        max_scale = Math.max(max_scale, scale);
+    }
+    root.data("min_scale", min_scale);
+    root.data("max_scale", max_scale);
+
+    // store the original positions of labels
+    if (xlabels) {
+        xlabels.selectAll("text")
+               .forEach(function (element, i) {
+                   element.data("x", element.asPX("x"));
+               });
+    }
+
+    if (ylabels) {
+        ylabels.selectAll("text")
+               .forEach(function (element, i) {
+                   element.data("y", element.asPX("y"));
+               });
+    }
+
+    // mark grid lines and ticks as in or out of scale.
+    var mark_inscale = function (element, i) {
+        element.attribute("gadfly:inscale", element.attribute("gadfly:scale") == 1.0);
+    };
+
+    if (xgridlines) xgridlines.selectAll("path").forEach(mark_inscale);
+    if (ygridlines) ygridlines.selectAll("path").forEach(mark_inscale);
+    if (xlabels) xlabels.selectAll("text").forEach(mark_inscale);
+    if (ylabels) ylabels.selectAll("text").forEach(mark_inscale);
+
+    // figure out the upper ond lower bounds on panning using the maximum
+    // and minum grid lines
+    var bounds = root.plotbounds();
+    var pan_bounds = {
+        x0: 0.0,
+        y0: 0.0,
+        x1: 0.0,
+        y1: 0.0
+    };
+
+    if (xgridlines) {
+        xgridlines
+            .selectAll("path")
+            .forEach(function (element, i) {
+                if (element.attribute("gadfly:inscale") == "true") {
+                    var bbox = element.node.getBBox();
+                    if (bounds.x1 - bbox.x &lt; pan_bounds.x0) {
+                        pan_bounds.x0 = bounds.x1 - bbox.x;
+                    }
+                    if (bounds.x0 - bbox.x &gt; pan_bounds.x1) {
+                        pan_bounds.x1 = bounds.x0 - bbox.x;
+                    }
+                    element.attr("visibility", "visible");
+                }
+            });
+    }
+
+    if (ygridlines) {
+        ygridlines
+            .selectAll("path")
+            .forEach(function (element, i) {
+                if (element.attribute("gadfly:inscale") == "true") {
+                    var bbox = element.node.getBBox();
+                    if (bounds.y1 - bbox.y &lt; pan_bounds.y0) {
+                        pan_bounds.y0 = bounds.y1 - bbox.y;
+                    }
+                    if (bounds.y0 - bbox.y &gt; pan_bounds.y1) {
+                        pan_bounds.y1 = bounds.y0 - bbox.y;
+                    }
+                    element.attr("visibility", "visible");
+                }
+            });
+    }
+
+    // nudge these values a little
+    pan_bounds.x0 -= 5;
+    pan_bounds.x1 += 5;
+    pan_bounds.y0 -= 5;
+    pan_bounds.y1 += 5;
+    root.data("pan_bounds", pan_bounds);
+
+    root.data("zoompan-ready", true)
+};
+
+
+// drag actions, i.e. zooming and panning
+var pan_action = {
+    start: function(root, x, y, event) {
+        root.data("dx", 0);
+        root.data("dy", 0);
+        root.data("tx0", root.data("tx"));
+        root.data("ty0", root.data("ty"));
+    },
+    update: function(root, dx, dy, x, y, event) {
+        var px_per_mm = root.data("px_per_mm");
+        dx /= px_per_mm;
+        dy /= px_per_mm;
+
+        var tx0 = root.data("tx"),
+            ty0 = root.data("ty");
+
+        var dx0 = root.data("dx"),
+            dy0 = root.data("dy");
+
+        root.data("dx", dx);
+        root.data("dy", dy);
+
+        dx = dx - dx0;
+        dy = dy - dy0;
+
+        var tx = tx0 + dx,
+            ty = ty0 + dy;
+
+        set_plot_pan_zoom(root, tx, ty, root.data("scale"));
+    },
+    end: function(root, event) {
+
+    },
+    cancel: function(root) {
+        set_plot_pan_zoom(root, root.data("tx0"), root.data("ty0"), root.data("scale"));
+    }
+};
+
+var zoom_box;
+var zoom_action = {
+    start: function(root, x, y, event) {
+        var bounds = root.plotbounds();
+        var width = bounds.x1 - bounds.x0,
+            height = bounds.y1 - bounds.y0;
+        var ratio = width / height;
+        var xscalable = root.hasClass("xscalable"),
+            yscalable = root.hasClass("yscalable");
+        var px_per_mm = root.data("px_per_mm");
+        x = xscalable ? x / px_per_mm : bounds.x0;
+        y = yscalable ? y / px_per_mm : bounds.y0;
+        var w = xscalable ? 0 : width;
+        var h = yscalable ? 0 : height;
+        zoom_box = root.rect(x, y, w, h).attr({
+            "fill": "#000",
+            "opacity": 0.25
+        });
+        zoom_box.data("ratio", ratio);
+    },
+    update: function(root, dx, dy, x, y, event) {
+        var xscalable = root.hasClass("xscalable"),
+            yscalable = root.hasClass("yscalable");
+        var px_per_mm = root.data("px_per_mm");
+        var bounds = root.plotbounds();
+        if (yscalable) {
+            y /= px_per_mm;
+            y = Math.max(bounds.y0, y);
+            y = Math.min(bounds.y1, y);
+        } else {
+            y = bounds.y1;
+        }
+        if (xscalable) {
+            x /= px_per_mm;
+            x = Math.max(bounds.x0, x);
+            x = Math.min(bounds.x1, x);
+        } else {
+            x = bounds.x1;
+        }
+
+        dx = x - zoom_box.attr("x");
+        dy = y - zoom_box.attr("y");
+        if (xscalable &amp;&amp; yscalable) {
+            var ratio = zoom_box.data("ratio");
+            var width = Math.min(Math.abs(dx), ratio * Math.abs(dy));
+            var height = Math.min(Math.abs(dy), Math.abs(dx) / ratio);
+            dx = width * dx / Math.abs(dx);
+            dy = height * dy / Math.abs(dy);
+        }
+        var xoffset = 0,
+            yoffset = 0;
+        if (dx &lt; 0) {
+            xoffset = dx;
+            dx = -1 * dx;
+        }
+        if (dy &lt; 0) {
+            yoffset = dy;
+            dy = -1 * dy;
+        }
+        if (isNaN(dy)) {
+            dy = 0.0;
+        }
+        if (isNaN(dx)) {
+            dx = 0.0;
+        }
+        zoom_box.transform("T" + xoffset + "," + yoffset);
+        zoom_box.attr("width", dx);
+        zoom_box.attr("height", dy);
+    },
+    end: function(root, event) {
+        var xscalable = root.hasClass("xscalable"),
+            yscalable = root.hasClass("yscalable");
+        var zoom_bounds = zoom_box.getBBox();
+        if (zoom_bounds.width * zoom_bounds.height &lt;= 0) {
+            return;
+        }
+        var plot_bounds = root.plotbounds();
+        var zoom_factor = 1.0;
+        if (yscalable) {
+            zoom_factor = (plot_bounds.y1 - plot_bounds.y0) / zoom_bounds.height;
+        } else {
+            zoom_factor = (plot_bounds.x1 - plot_bounds.x0) / zoom_bounds.width;
+        }
+        var tx = (root.data("tx") - zoom_bounds.x) * zoom_factor + plot_bounds.x0,
+            ty = (root.data("ty") - zoom_bounds.y) * zoom_factor + plot_bounds.y0;
+        set_plot_pan_zoom(root, tx, ty, root.data("scale") * zoom_factor);
+        zoom_box.remove();
+    },
+    cancel: function(root) {
+        zoom_box.remove();
+    }
+};
+
+
+Gadfly.guide_background_drag_onstart = function(x, y, event) {
+    var root = this.plotroot();
+    var scalable = root.hasClass("xscalable") || root.hasClass("yscalable");
+    var zoomable = !event.altKey &amp;&amp; !event.ctrlKey &amp;&amp; event.shiftKey &amp;&amp; scalable;
+    var panable = !event.altKey &amp;&amp; !event.ctrlKey &amp;&amp; !event.shiftKey &amp;&amp; scalable;
+    var drag_action = zoomable ? zoom_action :
+                      panable  ? pan_action :
+                                 undefined;
+    root.data("drag_action", drag_action);
+    if (drag_action) {
+        var cancel_drag_action = function(event) {
+            if (event.which == 27) { // esc key
+                drag_action.cancel(root);
+                root.data("drag_action", undefined);
+            }
+        };
+        window.addEventListener("keyup", cancel_drag_action);
+        root.data("cancel_drag_action", cancel_drag_action);
+        drag_action.start(root, x, y, event);
+    }
+};
+
+
+Gadfly.guide_background_drag_onmove = function(dx, dy, x, y, event) {
+    var root = this.plotroot();
+    var drag_action = root.data("drag_action");
+    if (drag_action) {
+        drag_action.update(root, dx, dy, x, y, event);
+    }
+};
+
+
+Gadfly.guide_background_drag_onend = function(event) {
+    var root = this.plotroot();
+    window.removeEventListener("keyup", root.data("cancel_drag_action"));
+    root.data("cancel_drag_action", undefined);
+    var drag_action = root.data("drag_action");
+    if (drag_action) {
+        drag_action.end(root, event);
+    }
+    root.data("drag_action", undefined);
+};
+
+
+Gadfly.guide_background_scroll = function(event) {
+    if (event.shiftKey) {
+        increase_zoom_by_position(this.plotroot(), 0.001 * event.wheelDelta);
+        event.preventDefault();
+    }
+};
+
+
+Gadfly.zoomslider_button_mouseover = function(event) {
+    this.select(".button_logo")
+         .animate({fill: this.data("mouseover_color")}, 100);
+};
+
+
+Gadfly.zoomslider_button_mouseout = function(event) {
+     this.select(".button_logo")
+         .animate({fill: this.data("mouseout_color")}, 100);
+};
+
+
+Gadfly.zoomslider_zoomout_click = function(event) {
+    increase_zoom_by_position(this.plotroot(), -0.1, true);
+};
+
+
+Gadfly.zoomslider_zoomin_click = function(event) {
+    increase_zoom_by_position(this.plotroot(), 0.1, true);
+};
+
+
+Gadfly.zoomslider_track_click = function(event) {
+    // TODO
+};
+
+
+// Map slider position x to scale y using the function y = a*exp(b*x)+c.
+// The constants a, b, and c are solved using the constraint that the function
+// should go through the points (0; min_scale), (0.5; 1), and (1; max_scale).
+var scale_from_slider_position = function(position, min_scale, max_scale) {
+    var a = (1 - 2 * min_scale + min_scale * min_scale) / (min_scale + max_scale - 2),
+        b = 2 * Math.log((max_scale - 1) / (1 - min_scale)),
+        c = (min_scale * max_scale - 1) / (min_scale + max_scale - 2);
+    return a * Math.exp(b * position) + c;
+}
+
+// inverse of scale_from_slider_position
+var slider_position_from_scale = function(scale, min_scale, max_scale) {
+    var a = (1 - 2 * min_scale + min_scale * min_scale) / (min_scale + max_scale - 2),
+        b = 2 * Math.log((max_scale - 1) / (1 - min_scale)),
+        c = (min_scale * max_scale - 1) / (min_scale + max_scale - 2);
+    return 1 / b * Math.log((scale - c) / a);
+}
+
+var increase_zoom_by_position = function(root, delta_position, animate) {
+    var scale = root.data("scale"),
+        min_scale = root.data("min_scale"),
+        max_scale = root.data("max_scale");
+    var position = slider_position_from_scale(scale, min_scale, max_scale);
+    position += delta_position;
+    scale = scale_from_slider_position(position, min_scale, max_scale);
+    set_zoom(root, scale, animate);
+}
+
+var set_zoom = function(root, scale, animate) {
+    var min_scale = root.data("min_scale"),
+        max_scale = root.data("max_scale"),
+        old_scale = root.data("scale");
+    var new_scale = Math.max(min_scale, Math.min(scale, max_scale));
+    if (animate) {
+        Snap.animate(
+            old_scale,
+            new_scale,
+            function (new_scale) {
+                update_plot_scale(root, new_scale);
+            },
+            200);
+    } else {
+        update_plot_scale(root, new_scale);
+    }
+}
+
+
+var update_plot_scale = function(root, new_scale) {
+    var trans = scale_centered_translation(root, new_scale);
+    set_plot_pan_zoom(root, trans.x, trans.y, new_scale);
+
+    root.selectAll(".zoomslider_thumb")
+        .forEach(function (element, i) {
+            var min_pos = element.data("min_pos"),
+                max_pos = element.data("max_pos"),
+                min_scale = root.data("min_scale"),
+                max_scale = root.data("max_scale");
+            var xmid = (min_pos + max_pos) / 2;
+            var xpos = slider_position_from_scale(new_scale, min_scale, max_scale);
+            element.transform(new Snap.Matrix().translate(
+                Math.max(min_pos, Math.min(
+                         max_pos, min_pos + (max_pos - min_pos) * xpos)) - xmid, 0));
+    });
+};
+
+
+Gadfly.zoomslider_thumb_dragmove = function(dx, dy, x, y, event) {
+    var root = this.plotroot();
+    var min_pos = this.data("min_pos"),
+        max_pos = this.data("max_pos"),
+        min_scale = root.data("min_scale"),
+        max_scale = root.data("max_scale"),
+        old_scale = root.data("old_scale");
+
+    var px_per_mm = root.data("px_per_mm");
+    dx /= px_per_mm;
+    dy /= px_per_mm;
+
+    var xmid = (min_pos + max_pos) / 2;
+    var xpos = slider_position_from_scale(old_scale, min_scale, max_scale) +
+                   dx / (max_pos - min_pos);
+
+    // compute the new scale
+    var new_scale = scale_from_slider_position(xpos, min_scale, max_scale);
+    new_scale = Math.min(max_scale, Math.max(min_scale, new_scale));
+
+    update_plot_scale(root, new_scale);
+    event.stopPropagation();
+};
+
+
+Gadfly.zoomslider_thumb_dragstart = function(x, y, event) {
+    this.animate({fill: this.data("mouseover_color")}, 100);
+    var root = this.plotroot();
+
+    // keep track of what the scale was when we started dragging
+    root.data("old_scale", root.data("scale"));
+    event.stopPropagation();
+};
+
+
+Gadfly.zoomslider_thumb_dragend = function(event) {
+    this.animate({fill: this.data("mouseout_color")}, 100);
+    event.stopPropagation();
+};
+
+
+var toggle_color_class = function(root, color_class, ison) {
+    var guides = root.selectAll(".guide." + color_class + ",.guide ." + color_class);
+    var geoms = root.selectAll(".geometry." + color_class + ",.geometry ." + color_class);
+    if (ison) {
+        guides.animate({opacity: 0.5}, 250);
+        geoms.animate({opacity: 0.0}, 250);
+    } else {
+        guides.animate({opacity: 1.0}, 250);
+        geoms.animate({opacity: 1.0}, 250);
+    }
+};
+
+
+Gadfly.colorkey_swatch_click = function(event) {
+    var root = this.plotroot();
+    var color_class = this.data("color_class");
+
+    if (event.shiftKey) {
+        root.selectAll(".colorkey text")
+            .forEach(function (element) {
+                var other_color_class = element.data("color_class");
+                if (other_color_class != color_class) {
+                    toggle_color_class(root, other_color_class,
+                                       element.attr("opacity") == 1.0);
+                }
+            });
+    } else {
+        toggle_color_class(root, color_class, this.attr("opacity") == 1.0);
+    }
+};
+
+
+return Gadfly;
+
+}));
+
+
+//@ sourceURL=gadfly.js
+
+(function (glob, factory) {
+    // AMD support
+      if (typeof require === "function" &amp;&amp; typeof define === "function" &amp;&amp; define.amd) {
+        require(["Snap.svg", "Gadfly"], function (Snap, Gadfly) {
+            factory(Snap, Gadfly);
+        });
+      } else {
+          factory(glob.Snap, glob.Gadfly);
+      }
+})(window, function (Snap, Gadfly) {
+    var fig = Snap("#img-de41e42d");
+fig.select("#img-de41e42d-6")
+   .init_gadfly();
+fig.select("#img-de41e42d-8")
+   .plotroot().data("unfocused_ygrid_color", "#D0D0E0")
+;
+fig.select("#img-de41e42d-8")
+   .plotroot().data("focused_ygrid_color", "#A0A0A0")
+;
+fig.select("#img-de41e42d-9")
+   .plotroot().data("unfocused_xgrid_color", "#D0D0E0")
+;
+fig.select("#img-de41e42d-9")
+   .plotroot().data("focused_xgrid_color", "#A0A0A0")
+;
+fig.select("#img-de41e42d-16")
+   .data("mouseover_color", "#CD5C5C")
+;
+fig.select("#img-de41e42d-16")
+   .data("mouseout_color", "#6A6A6A")
+;
+fig.select("#img-de41e42d-16")
+   .click(Gadfly.zoomslider_zoomin_click)
+.mouseenter(Gadfly.zoomslider_button_mouseover)
+.mouseleave(Gadfly.zoomslider_button_mouseout)
+;
+fig.select("#img-de41e42d-18")
+   .data("max_pos", 479)
+;
+fig.select("#img-de41e42d-18")
+   .data("min_pos", 462)
+;
+fig.select("#img-de41e42d-18")
+   .click(Gadfly.zoomslider_track_click);
+fig.select("#img-de41e42d-19")
+   .data("max_pos", 479)
+;
+fig.select("#img-de41e42d-19")
+   .data("min_pos", 462)
+;
+fig.select("#img-de41e42d-19")
+   .data("mouseover_color", "#CD5C5C")
+;
+fig.select("#img-de41e42d-19")
+   .data("mouseout_color", "#6A6A6A")
+;
+fig.select("#img-de41e42d-19")
+   .drag(Gadfly.zoomslider_thumb_dragmove,
+     Gadfly.zoomslider_thumb_dragstart,
+     Gadfly.zoomslider_thumb_dragend)
+;
+fig.select("#img-de41e42d-20")
+   .data("mouseover_color", "#CD5C5C")
+;
+fig.select("#img-de41e42d-20")
+   .data("mouseout_color", "#6A6A6A")
+;
+fig.select("#img-de41e42d-20")
+   .click(Gadfly.zoomslider_zoomout_click)
+.mouseenter(Gadfly.zoomslider_button_mouseover)
+.mouseleave(Gadfly.zoomslider_button_mouseout)
+;
+    });
+ </script><desc>Created with Snap</desc>
+</svg>

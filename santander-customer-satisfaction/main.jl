@@ -1,6 +1,4 @@
 using DataFrames
-using JLD
-
 include("../../krife.jl/src/krife.jl")
 using krife
 
@@ -11,14 +9,15 @@ using krife
 
 "===reading===" |> println
 @time begin
-    @load "processed.jld" trainX trainY testX
-end
-
-"===reformating===" |> println
-@time begin
-    trainX = df_all[1:length(trainY),:]      |> DataArray
-    testX  = df_all[length(trainY)+1:end, :] |> DataArray
-    df_all = nothing
+    trainX, trainY, testX = let
+        df_train = readtable("train.processed.csv")
+        df_test  = readtable("test.processed.csv")
+        trainY = df_train[:TARGET]
+        delete!(df_train, :TARGET)
+        trainX = df_train |> DataArray
+        testX  = df_test  |> DataArray
+        trainX, trainY, testX
+    end
 end
 
 "===xgboosting===" |> println

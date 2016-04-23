@@ -1,6 +1,5 @@
 using DataFrames
 using PyCall
-using JLD
 
 @pyimport sklearn.ensemble as skes
 @pyimport sklearn.feature_selection as skfs
@@ -60,7 +59,7 @@ end
     # ))
 end
 
-"===saving as csv===" |> println
+"===write out===" |> println
 @time let
     df_train = df_all[1:length(trainY),:]
     df_test  = df_all[length(trainY)+1:end,:]
@@ -68,11 +67,4 @@ end
 
     writetable("train.processed.csv", df_train)
     writetable("test.processed.csv", df_test)
-end
-
-"===saving as jld===" |> println
-@time let
-    save("processed.jld", "trainX", df_all[1:length(trainY),:] |> DataArray)
-    save("processed.jld", "testX", df_all[length(trainY)+1:end,:] |> DataArray)
-    save("processed.jld", "trainY", trainY)
 end

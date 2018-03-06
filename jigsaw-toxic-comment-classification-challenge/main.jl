@@ -23,14 +23,14 @@ function encode(Xs, V)
     return [[get(V, c, 1) for c in X] for X in Xs]
 end
 
-function get_batch(X, y, batch=32)
+function get_batch(X, y, batch=64)
     rs = isa(batch, Int) ? rand(1:nrow(X), batch) : batch
-    X_filled = Array{Int}(length(rs), 256)
+    X_filled = Array{Int}(length(rs), 1000)
     for (i, r) in enumerate(rs)
         l = length(X[r])
-        if l > 256
-            s = rand(1:l-255) # randomly crop 256 letters, which I think it's sufficient
-            X_filled[i, :] = X[r][s:s+255]
+        if l > 1000
+            s = rand(1:l-999) # randomly crop 1000 letters, which I think it's sufficient
+            X_filled[i, :] = X[r][s:s+999]
         else
             X_filled[i, 1:l] = X[r]
             X_filled[i, l+1:end] = 0 # fill with special token
@@ -45,11 +45,11 @@ function get_dict()
 end
 
 function drop_out!(X)
-    # TODO: mannually train a network to predict the meaning of unknown words
-    X[rand(1:length(X), rand(0:floor(Int, .01length(X))))] = 1
+    d = rand(1:length(X), rand(0:floor(Int, .01length(X))))
+    X[d] .= X[d] .!= 0 # set to 1 iff it's not 0
 end
 
-@main function train(modelname; epoch::Int=50, lr::Float64=0.1)
+@main function train(modelname; epoch::Int=80, lr::Float64=0.1)
     data = readdlm("D:/jigsaw-toxic-comment-classification-challenge/raw/train.csv", ','; skipstart=1)
     X, y = data[:, 2], map(Int, data[:, 3:end])
     X, V = encode(X)

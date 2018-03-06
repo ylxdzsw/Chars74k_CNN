@@ -3,14 +3,14 @@ import mxnet.ndarray as nd
 import mxnet.gluon.nn as nn
 import mxnet.gluon.rnn as rnn
 
-class BiLSTM(nn.Block):
+class BiGRU(nn.Block):
     def __init__(self, nhidden, downsample=False, **kwargs):
-        super(BiLSTM, self).__init__(**kwargs)
+        super(BiGRU, self).__init__(**kwargs)
 
         with self.name_scope():
             self.cell = rnn.BidirectionalCell(
-                rnn.LSTMCell(nhidden),
-                rnn.LSTMCell(nhidden),
+                rnn.GRUCell(nhidden),
+                rnn.GRUCell(nhidden),
             )
             self.projector = nn.Conv1D(nhidden, kernel_size=1, strides=1 + downsample, activation='relu')
 
@@ -26,9 +26,9 @@ class Model(object):
         with self.net.name_scope():
             self.net.add(
                 nn.Embedding(vsize, 256),
-                BiLSTM(1024),
+                BiGRU(1024),
                 nn.Dropout(0.5),
-                BiLSTM(512),
+                BiGRU(512),
                 nn.GlobalMaxPool1D(),
                 nn.Flatten(),
                 nn.Dense(6)

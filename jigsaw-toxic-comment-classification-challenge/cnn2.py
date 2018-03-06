@@ -1,6 +1,7 @@
 import mxnet as mx
 import mxnet.ndarray as nd
 import mxnet.gluon.nn as nn
+import mxnet.contrib.text as text
 
 class Residual(nn.HybridBlock):
     def __init__(self, nkernel, nbottleneck, **kwargs):
@@ -20,7 +21,21 @@ class Transpose(nn.HybridBlock):
         self.spec = spec
 
     def hybrid_forward(self, F, x):
-        return F.transpose(x, spec)
+        return F.transpose(x, self.spec)
+
+class Output(nn.HybridBlock):
+    def __init__(self, nlabel, **kwargs):
+        super(Output, self).__init__(**kwargs)
+        self.avgpool = nn.GlobalAvgPool1D()
+        self.maxpool = nn.GlobalMaxPool1D()
+        self.flat = nn.Flatten()
+        self.dense = nn.Dense(6)
+
+    def hybrid_forward(self, F, x):
+        avgpool = self.avgpool(x)
+        maxpool = self.maxpool(x)
+        flat = self.flat(F.concat(avgpool, maxpool, dim=1))
+        return self.dense(flat)
 
 class Model(object):
     def __init__(self, vsize, ctx='cpu', file=None):
@@ -29,33 +44,33 @@ class Model(object):
         self.net = nn.HybridSequential()
         with self.net.name_scope():
             self.net.add(
-                nn.Embedding(vsize, 256),
+                nn.Embedding(vsize, 1024),
                 Transpose((0, 2, 1)),
 
-                Residual(256, 16),
-                Residual(256, 16),
+                nn.Conv1D(256, kernel_size=5, padding=2, activation='relu'),
                 nn.MaxPool1D(pool_size=2, strides=2),
 
-                Residual(256, 16),
-                Residual(256, 16),
+                Residual(256, 64),
+                Residual(256, 64),
+                Residual(256, 64),
+                Residual(256, 64),
+                Residual(256, 64),
                 nn.MaxPool1D(pool_size=2, strides=2),
 
-                Residual(256, 16),
-                Residual(256, 16),
+                Residual(256, 64),
+                Residual(256, 64),
+                Residual(256, 64),
                 nn.MaxPool1D(pool_size=2, strides=2),
 
-                Residual(256, 16),
-                Residual(256, 16),
-                nn.GlobalMaxPool1D(),
-
-                nn.Flatten(),
-                nn.Dense(6)
+                Residual(256, 64),
+                Residual(256, 64),
+                Output(6)
             )
 
         if file != None:
             self.net.load_params(file, ctx=self.ctx)
         else:
-            self.net.initialize(ctx=self.ctx)
+            self.net.initialize(ctx=self.ctx, init=mx.init.Xavier())
 
         self.net.hybridize()
 

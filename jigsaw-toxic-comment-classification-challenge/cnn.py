@@ -2,6 +2,18 @@ import mxnet as mx
 import mxnet.ndarray as nd
 import mxnet.gluon.nn as nn
 
+class Residual(nn.HybridBlock):
+    def __init__(self, nkernel, nbottleneck, **kwargs):
+        super(Residual, self).__init__(**kwargs)
+        with self.name_scope():
+            self.downconv = nn.Conv1D(nbottleneck, kernel_size=3, padding=1, activation='relu')
+            self.upconv = nn.Conv1D(nkernel, kernel_size=1)
+            self.bn = nn.BatchNorm()
+
+    def hybrid_forward(self, F, x):
+        out = self.bn(self.upconv(self.downconv(x)))
+        return F.relu(out + x)
+
 class Transpose(nn.HybridBlock):
     def __init__(self, spec, **kwargs):
         super(Transpose, self).__init__(**kwargs)
@@ -10,6 +22,20 @@ class Transpose(nn.HybridBlock):
     def hybrid_forward(self, F, x):
         return F.transpose(x, self.spec)
 
+class Output(nn.HybridBlock):
+    def __init__(self, nlabel, **kwargs):
+        super(Output, self).__init__(**kwargs)
+        self.avgpool = nn.GlobalAvgPool1D()
+        self.maxpool = nn.GlobalMaxPool1D()
+        self.flat = nn.Flatten()
+        self.dense = nn.Dense(6)
+
+    def hybrid_forward(self, F, x):
+        avgpool = self.avgpool(x)
+        maxpool = self.maxpool(x)
+        flat = self.flat(F.concat(avgpool, maxpool, dim=1))
+        return self.dense(flat)
+
 class Model(object):
     def __init__(self, vsize, ctx='cpu', file=None):
         self.ctx = mx.cpu() if ctx != 'gpu' else mx.gpu()
@@ -17,32 +43,30 @@ class Model(object):
         self.net = nn.HybridSequential()
         with self.net.name_scope():
             self.net.add(
-                nn.Embedding(vsize, 256),
+                nn.Embedding(vsize, 1024),
                 Transpose((0, 2, 1)),
 
-                nn.Conv1D(256, kernel_size=5, padding=2, activation='relu'),
+                Residual(1024, 64),
+                Residual(1024, 64),
+                Residual(1024, 64),
+                Residual(1024, 64),
+                Residual(1024, 64),
                 nn.MaxPool1D(pool_size=2, strides=2),
 
-                nn.Conv1D(256, kernel_size=3, padding=1, activation='relu'),
-                nn.Conv1D(256, kernel_size=3, padding=1, activation='relu'),
+                Residual(1024, 64),
+                Residual(1024, 64),
+                Residual(1024, 64),
                 nn.MaxPool1D(pool_size=2, strides=2),
 
-                nn.Conv1D(256, kernel_size=3, padding=1, activation='relu'),
-                nn.Conv1D(256, kernel_size=3, padding=1, activation='relu'),
-                nn.MaxPool1D(pool_size=2, strides=2),
-
-                nn.Conv1D(256, kernel_size=3, padding=1, activation='relu'),
-                nn.Conv1D(256, kernel_size=3, padding=1, activation='relu'),
-                nn.GlobalMaxPool1D(),
-
-                nn.Flatten(),
-                nn.Dense(6)
+                Residual(1024, 64),
+                Residual(1024, 64),
+                Output(6)
             )
 
         if file != None:
             self.net.load_params(file, ctx=self.ctx)
         else:
-            self.net.initialize(ctx=self.ctx)
+            self.net.initialize(ctx=self.ctx, init=mx.init.Xavier())
 
         self.net.hybridize()
 

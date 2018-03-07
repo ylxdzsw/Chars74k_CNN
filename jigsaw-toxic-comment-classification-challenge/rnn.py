@@ -3,20 +3,41 @@ import mxnet.ndarray as nd
 import mxnet.gluon.nn as nn
 import mxnet.gluon.rnn as rnn
 
-class BiGRU(nn.Block):
-    def __init__(self, nhidden, downsample=False, **kwargs):
-        super(BiGRU, self).__init__(**kwargs)
+class Transpose(nn.HybridBlock):
+    def __init__(self, spec, **kwargs):
+        super(Transpose, self).__init__(**kwargs)
+        self.spec = spec
+
+    def hybrid_forward(self, F, x):
+        return F.transpose(x, self.spec)
+
+class Output(nn.HybridBlock):
+    def __init__(self, nlabel, **kwargs):
+        super(Output, self).__init__(**kwargs)
+        self.avgpool = nn.GlobalAvgPool1D()
+        self.maxpool = nn.GlobalMaxPool1D()
+        self.flat = nn.Flatten()
+        self.dense = nn.Dense(6)
+
+    def hybrid_forward(self, F, x):
+        avgpool = self.avgpool(x)
+        maxpool = self.maxpool(x)
+        flat = self.flat(F.concat(avgpool, maxpool, dim=1))
+        return self.dense(flat)
+
+class ResidualBiGRU(nn.Block):
+    def __init__(self, nhidden, **kwargs):
+        super(ResidualBiGRU, self).__init__(**kwargs)
 
         with self.name_scope():
             self.cell = rnn.BidirectionalCell(
                 rnn.GRUCell(nhidden),
                 rnn.GRUCell(nhidden),
             )
-            self.projector = nn.Conv1D(nhidden, kernel_size=1, strides=1 + downsample, activation='relu')
 
     def forward(self, x):
-        x = self.cell.unroll(x.shape[1], x, merge_outputs=True)[0]
-        return self.projector(nd.relu(x).transpose((0, 2, 1))).transpose((0, 2, 1))
+        h = self.cell.unroll(x.shape[1], x, merge_outputs=True)[0]
+        return nd.concat(x, h, dim=2)
 
 class Model(object):
     def __init__(self, vsize, ctx='cpu', file=None):
@@ -26,18 +47,16 @@ class Model(object):
         with self.net.name_scope():
             self.net.add(
                 nn.Embedding(vsize, 256),
-                BiGRU(1024),
-                nn.Dropout(0.5),
-                BiGRU(512),
-                nn.GlobalMaxPool1D(),
-                nn.Flatten(),
-                nn.Dense(6)
+                ResidualBiGRU(64),
+                Transpose((0, 2, 1)),
+                nn.Conv1D(256, kernel_size=1, activation='relu'),
+                Output(6)
             )
 
         if file != None:
             self.net.load_params(file, ctx=self.ctx)
         else:
-            self.net.initialize(ctx=self.ctx)
+            self.net.initialize(ctx=self.ctx, init=mx.init.Xavier())
 
     def train(self, x, y, lr):
         trainer = mx.gluon.Trainer(self.net.collect_params(), 'sgd', {'learning_rate': lr})

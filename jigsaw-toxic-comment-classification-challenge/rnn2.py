@@ -1,19 +1,7 @@
 import mxnet as mx
 import mxnet.ndarray as nd
 import mxnet.gluon.nn as nn
-import mxnet.contrib.text as text
-
-class Residual(nn.HybridBlock):
-    def __init__(self, nkernel, nbottleneck, **kwargs):
-        super(Residual, self).__init__(**kwargs)
-        with self.name_scope():
-            self.downconv = nn.Conv1D(nbottleneck, kernel_size=3, padding=1, activation='relu')
-            self.upconv = nn.Conv1D(nkernel, kernel_size=1)
-            self.bn = nn.BatchNorm()
-
-    def hybrid_forward(self, F, x):
-        out = self.bn(self.upconv(self.downconv(x)))
-        return F.relu(out + x)
+import mxnet.gluon.rnn as rnn
 
 class Transpose(nn.HybridBlock):
     def __init__(self, spec, **kwargs):
@@ -37,28 +25,35 @@ class Output(nn.HybridBlock):
         flat = self.flat(F.concat(avgpool, maxpool, dim=1))
         return self.dense(flat)
 
+class ResidualBiGRU(nn.Block):
+    def __init__(self, nhidden, **kwargs):
+        super(ResidualBiGRU, self).__init__(**kwargs)
+
+        with self.name_scope():
+            self.cell = rnn.BidirectionalCell(
+                rnn.GRUCell(nhidden),
+                rnn.GRUCell(nhidden),
+            )
+
+    def forward(self, x):
+        h = self.cell.unroll(x.shape[1], x, merge_outputs=True)[0]
+        return nd.concat(x, nd.relu(h), dim=2)
+
 class Model(object):
     def __init__(self, vsize, ctx='cpu', file=None):
         self.ctx = mx.cpu() if ctx != 'gpu' else mx.gpu()
 
-        self.net = nn.HybridSequential()
+        self.net = nn.Sequential()
         with self.net.name_scope():
             self.net.add(
-                nn.Embedding(vsize, 1024),
+                nn.Embedding(vsize, 512),
                 Transpose((0, 2, 1)),
-
                 nn.Conv1D(256, kernel_size=5, padding=2, activation='relu'),
                 nn.MaxPool1D(pool_size=2, strides=2),
-
-                Residual(256, 64),
-                Residual(256, 64),
-                Residual(256, 64),
-                Residual(256, 64),
-                Residual(256, 64),
-                nn.MaxPool1D(pool_size=2, strides=2),
-
-                Residual(256, 64),
-                Residual(256, 64),
+                Transpose((0, 2, 1)),
+                ResidualBiGRU(100),
+                Transpose((0, 2, 1)),
+                nn.Conv1D(256, kernel_size=1, activation='relu'),
                 Output(6)
             )
 
@@ -66,8 +61,6 @@ class Model(object):
             self.net.load_params(file, ctx=self.ctx)
         else:
             self.net.initialize(ctx=self.ctx, init=mx.init.Xavier())
-
-        self.net.hybridize()
 
     def train(self, x, y, lr):
         trainer = mx.gluon.Trainer(self.net.collect_params(), 'sgd', {'learning_rate': lr})

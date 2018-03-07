@@ -25,12 +25,12 @@ end
 
 function get_batch(X, y, batch=64)
     rs = isa(batch, Int) ? rand(1:nrow(X), batch) : batch
-    X_filled = Array{Int}(length(rs), 1000)
+    X_filled = Array{Int}(length(rs), 500)
     for (i, r) in enumerate(rs)
         l = length(X[r])
-        if l > 1000
-            s = rand(1:l-999) # randomly crop 1000 letters, which I think it's sufficient
-            X_filled[i, :] = X[r][s:s+999]
+        if l > 500
+            s = rand(1:l-499) # randomly crop 1000 letters, which I think it's sufficient
+            X_filled[i, :] = X[r][s:s+499]
         else
             X_filled[i, 1:l] = X[r]
             X_filled[i, l+1:end] = 0 # fill with special token
@@ -69,7 +69,7 @@ end
         lr *= .95
 
         println("=== epoch: $i, loss: $loss, time: $(toq()) ===")
-        i % 10 == 0 && model.save("D:/jigsaw-toxic-comment-classification-challenge/result/$modelname.model")
+        i % 5 == 0 && model.save("D:/jigsaw-toxic-comment-classification-challenge/result/$modelname.model")
     end
 end
 

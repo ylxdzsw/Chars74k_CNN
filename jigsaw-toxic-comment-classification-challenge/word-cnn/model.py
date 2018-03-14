@@ -28,38 +28,36 @@ class Output(nn.HybridBlock):
         self.avgpool = nn.GlobalAvgPool1D()
         self.maxpool = nn.GlobalMaxPool1D()
         self.flat = nn.Flatten()
+        self.compressor = nn.Dense(50, activation='relu')
         self.dense = nn.Dense(6)
 
     def hybrid_forward(self, F, x):
         avgpool = self.avgpool(x)
         maxpool = self.maxpool(x)
         flat = self.flat(F.concat(avgpool, maxpool, dim=1))
-        return self.dense(flat)
+        feat = self.compressor(flat)
+        return feat, self.dense(feat)
 
 class Model(object):
-    def __init__(self, vsize, ctx='cpu', file=None):
+    def __init__(self, embedding, ctx='cpu', file=None):
         self.ctx = mx.cpu() if ctx != 'gpu' else mx.gpu()
+
+        self.embedding = nd.array(embedding, self.ctx)
 
         self.net = nn.HybridSequential()
         with self.net.name_scope():
             self.net.add(
-                nn.Embedding(vsize, 1024),
                 Transpose((0, 2, 1)),
 
-                Residual(1024, 64),
-                Residual(1024, 64),
-                Residual(1024, 64),
-                Residual(1024, 64),
-                Residual(1024, 64),
+                Residual(300, 64),
+                Residual(300, 64),
+                Residual(300, 64),
+                Residual(300, 64),
+                Residual(300, 64),
                 nn.MaxPool1D(pool_size=2, strides=2),
 
-                Residual(1024, 64),
-                Residual(1024, 64),
-                Residual(1024, 64),
-                nn.MaxPool1D(pool_size=2, strides=2),
-
-                Residual(1024, 64),
-                Residual(1024, 64),
+                Residual(300, 64),
+                Residual(300, 64),
                 Output(6)
             )
 
@@ -68,21 +66,26 @@ class Model(object):
         else:
             self.net.initialize(ctx=self.ctx, init=mx.init.Xavier())
 
+        self.trainer = mx.gluon.Trainer(self.net.collect_params(), 'adam', {'wd': 0.0001})
         self.net.hybridize()
 
-    def train(self, x, y, lr):
-        trainer = mx.gluon.Trainer(self.net.collect_params(), 'sgd', {'learning_rate': lr})
+    def forward(self, x):
+        e = nd.Embedding(x, self.embedding, self.embedding.shape[0], self.embedding.shape[1])
+        return self.net(e)
+
+    def train(self, x, y):
         loss = mx.gluon.loss.SigmoidBinaryCrossEntropyLoss()
         x, y = nd.array(x, self.ctx), nd.array(y, self.ctx)
         with mx.autograd.record():
-            p = self.net(x)
+            f, p = self.forward(x)
             L = loss(p, y).mean()
         L.backward()
-        trainer.step(1)
+        self.trainer.step(1)
         return L.asscalar()
 
     def predict(self, x):
-        return self.net(nd.array(x, self.ctx)).asnumpy()
+        f, p = self.forward(nd.array(x, self.ctx))
+        return f.asnumpy(), p.asnumpy()
 
     def save(self, file):
         return self.net.save_params(file)

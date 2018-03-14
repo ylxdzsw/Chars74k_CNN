@@ -23,7 +23,7 @@ function encode(Xs, V)
     return [[get(V, c, 1) for c in X] for X in Xs]
 end
 
-function get_batch(X, y, batch=64)
+function get_batch(X, y, batch)
     rs = isa(batch, Int) ? rand(1:nrow(X), batch) : batch
     X_filled = Array{Int}(length(rs), 500)
     for (i, r) in enumerate(rs)
@@ -45,49 +45,67 @@ function get_dict()
 end
 
 function drop_out!(X)
-    d = rand(1:length(X), rand(0:floor(Int, .01length(X))))
+    d = rand(1:length(X), rand(0:floor(Int, .05length(X))))
     X[d] .= X[d] .!= 0 # set to 1 iff it's not 0
 end
 
-@main function train(modelname; epoch::Int=80, lr::Float64=0.1)
+@main function train(epoch::Int=100)
     data = readdlm("D:/jigsaw-toxic-comment-classification-challenge/raw/train.csv", ','; skipstart=1)
     X, y = data[:, 2], map(Int, data[:, 3:end])
     X, V = encode(X)
 
-    model = pywrap(pyimport(modelname)[:Model](length(V)+2, "gpu"))
+    model = pywrap(pyimport("model")[:Model](length(V)+2, "gpu"))
 
     for i in 1:epoch
         tic()
         loss = 0
 
-        for j in 1:100
-            batch = get_batch(X, y)
+        for j in 1:250
+            batch = get_batch(X, y, i <= 60 ? 64 : 256)
             drop_out!(car(batch))
-            loss += model.train(batch..., lr) / 100
+            loss += model.train(batch...) / 250
         end
 
-        lr *= .95
-
         println("=== epoch: $i, loss: $loss, time: $(toq()) ===")
-        i % 5 == 0 && model.save("D:/jigsaw-toxic-comment-classification-challenge/result/$modelname.model")
+        i % 20 == 0 && model.save("D:/jigsaw-toxic-comment-classification-challenge/result/char-cnn.model")
     end
 end
 
-@main function predict(modelname)
+@main function predict()
     data = readdlm("D:/jigsaw-toxic-comment-classification-challenge/raw/test.csv", ',', String; skipstart=1)
     ids, X, V = data[:, 1], data[:, 2], get_dict()
     X = encode(X, V)
 
-    model = pywrap(pyimport(modelname)[:Model](length(V)+2, "gpu", "D:/jigsaw-toxic-comment-classification-challenge/result/$modelname.model"))
+    model = pywrap(pyimport("model")[:Model](length(V)+2, "gpu", "D:/jigsaw-toxic-comment-classification-challenge/result/char-cnn.model"))
 
-    open("D:/jigsaw-toxic-comment-classification-challenge/result/$modelname.csv", "w") do fout
+    open("D:/jigsaw-toxic-comment-classification-challenge/result/char-cnn.submission.csv", "w") do fout
         fout << "id,toxic,severe_toxic,obscene,threat,insult,identity_hate\n"
         @showprogress for i in 1:64:length(ids)
             x, _ = get_batch(X, nothing, i:min(i+63, length(ids)))
-            p = model.predict(x)
+            _, p = model.predict(x)
 
             for j in 1:nrow(p)
                 println(fout, ids[i+j-1], ',', join(sigmoid.(p[j, :]), ','))
+            end
+        end
+    end
+end
+
+@main function feature()
+    data_train = readdlm("D:/jigsaw-toxic-comment-classification-challenge/raw/train.csv", ','; skipstart=1)
+    data_test = readdlm("D:/jigsaw-toxic-comment-classification-challenge/raw/test.csv", ',', String; skipstart=1)
+    X, V = data_train[:, 2] ++ data_test[:, 2], get_dict()
+    X = encode(X, V)
+
+    model = pywrap(pyimport("model")[:Model](length(V)+2, "gpu", "D:/jigsaw-toxic-comment-classification-challenge/result/char-cnn.model"))
+
+    open("D:/jigsaw-toxic-comment-classification-challenge/result/char-cnn.feature.csv", "w") do fout
+        @showprogress for i in 1:64:length(X)
+            x, _ = get_batch(X, nothing, i:min(i+63, length(X)))
+            f, _ = model.predict(x)
+
+            for j in 1:nrow(f)
+                println(fout, join(f[j, :], ','))
             end
         end
     end

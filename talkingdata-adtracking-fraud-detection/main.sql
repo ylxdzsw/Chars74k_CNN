@@ -1,13 +1,15 @@
 .open D:/talkingdata-adtracking-fraud-detection/clean/db.sqlite
 
 -- config: we only care about the speed --
-PRAGMA synchronous = OFF;
-PRAGMA journal_mode = MEMORY; -- OFF?
-PRAGMA locking_mode = EXCLUSIVE;
-PRAGMA threads = 8;
-PRAGMA mmap_size = 1073741824; -- 1GB
+pragma synchronous = off;
+pragma journal_mode = memory; -- OFF?
+pragma locking_mode = exclusive;
+pragma threads = 8;
+pragma mmap_size = 1073741824; -- 1GB
 
 .timer on
+.mode column
+.headers on
 
 -- import raw data --
 .mode csv
@@ -27,11 +29,15 @@ create table main(
     clickid integer
 );
 
+create index ip on main(ip);
 create index app on main(app);
 create index device on main(device);
 create index os on main(os);
 create index channel on main(channel);
 create index clicktime on main(clicktime);
+
+drop table raw_train;
+drop table raw_test;
 
 -- load training data --
 insert into main(ip, app, device, os, channel, clicktime, attrtime)
@@ -64,3 +70,23 @@ select id,
        strftime('%S', clicktime, 'unixepoch')
 from main;
 
+-- ip x app --
+create table ipxapp as
+select ip, app, count(*), count(attrtime)
+from main
+where clickid is null
+group by ip, app;
+
+create index ipxapp_ip on ipxapp(ip);
+create index ipxapp_app on ipxapp(app);
+
+-- ip info --
+create table ipinfo(
+    ip integer primary key not null,
+
+);
+
+
+
+-- note: the test data is trunctuated, so do training data, so when counting, we need to findout how close the center
+-- is with the trunctuating boundry, and add weight to them.

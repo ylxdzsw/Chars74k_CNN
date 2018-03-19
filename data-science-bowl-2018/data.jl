@@ -1,6 +1,6 @@
 using OhMyJulia
-using JLD2
 using Images
+using ProgressMeter
 
 const fixed_dir = "D:/data-science-bowl-2018/fixed/stage1_train"
 const test_dir = "D:/data-science-bowl-2018/raw/stage1_test"
@@ -20,8 +20,13 @@ function im2n(image)
     f32.(view)
 end
 
-function get_one()
-    id = rand(train_ids)
+function get_box(mask)
+    minx, maxx = extrema(map(car, mask))
+    miny, maxy = extrema(map(cadr, mask))
+    minx, maxx, miny, maxy
+end
+
+function get_one(id=rand(train_ids))
     image = readdir("$fixed_dir/$id/images")[]
     masks = readdir("$fixed_dir/$id/masks")
 
@@ -30,4 +35,14 @@ function get_one()
         mask = load("$fixed_dir/$id/masks/$mask") |> im2n
         map(x->ind2sub(size(mask), x), find(mask))
     end
+
+    image, masks
+end
+
+function fuck()
+    p =  []
+    @showprogress for i in train_ids, mask in cadr(get_one(i))
+        push!(p, get_box(mask))
+    end
+    p
 end

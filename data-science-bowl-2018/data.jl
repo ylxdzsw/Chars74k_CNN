@@ -39,6 +39,37 @@ function get_one(id=rand(train_ids))
     image, masks
 end
 
+function data_for_detection(image, masks)
+    si = size(image) |> cdr
+    levels = []
+    while all(x->x>=64, si)
+        mask_image = zeros(u8, (2, si...))
+        for mask in masks
+            box = get_box(mask)
+            maxsize = max(box[2] - box[1], box[4] - box[3])
+            maxsize > 16 && continue
+            v = maxsize > 8 ? 1 : 2
+            for (x, y) in mask
+                mask_image[v, x, y] = 1
+            end
+        end
+
+        push!(levels, mask_image)
+        si = (si .+ 1) .÷ 2
+        masks = map(x->unique(map(x->(x.+1).÷2, x)), masks)
+    end
+
+    levels
+end
+
+function show_mask(mask, size)
+    image = zeros(u8, size)
+    for (x, y) in mask
+        image[x, y] = 1
+    end
+    Gray.(image)
+end
+
 function fuck()
     p =  []
     @showprogress for i in train_ids, mask in cadr(get_one(i))

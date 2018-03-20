@@ -45,4 +45,9 @@ class Model(object):
     def __init__(self, vsize, ctx='cpu', file=None):
         self.ctx = mx.cpu() if ctx != 'gpu' else mx.gpu()
         self.deconv = nn.Conv2DTranspose(16, kernel_size=(2,2), strides=(2,2))
+        self.detector = Detector()
+        self.masker = Masker()
 
+    def learn_detect(self, image, mask_levels):
+        for mask in mask_levels:
+            pass

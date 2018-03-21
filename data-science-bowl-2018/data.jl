@@ -1,11 +1,17 @@
 using OhMyJulia
 using Images
+using PyCall
 using ProgressMeter
 
 const fixed_dir = "D:/data-science-bowl-2018/fixed/stage1_train"
 const test_dir = "D:/data-science-bowl-2018/raw/stage1_test"
 
 const train_ids = readdir(fixed_dir)
+
+unshift!(PyVector(pyimport("sys")["path"]), @__DIR__, "data-science-bowl-2018")
+const model = pywrap(pyimport("model")[:Model]("gpu"))
+
+sigmoid(x) = e^x / (e^x + 1)
 
 function im2n(image)
     if ndims(image) == 3
@@ -48,9 +54,14 @@ function data_for_detection(image, masks)
             box = get_box(mask)
             maxsize = max(box[2] - box[1], box[4] - box[3])
             maxsize > 16 && continue
-            v = maxsize > 8 ? 1 : 2
-            for (x, y) in mask
-                mask_image[v, x, y] = 1
+            if maxsize > 8
+                for (x, y) in mask @when max(x-box[1]+1, box[2]-x, y-box[3]+1, box[4]-y) <= 8
+                    mask_image[1, x, y] = 1
+                end
+            else
+                for (x, y) in mask
+                    mask_image[2, x, y] = 1
+                end
             end
         end
 
@@ -62,18 +73,46 @@ function data_for_detection(image, masks)
     levels
 end
 
-function show_mask(mask, size)
-    image = zeros(u8, size)
+function random_drop(image, masks)
+    keep = map(x->rand() < .8, masks)
+    cover = zeros(u8, cdr(size(image)))
+    for mask in masks[.!keep]
+        fuse_mask!(cover, mask)
+    end
+    cover, masks[keep]
+end
+
+function fuse_mask!(image, mask)
     for (x, y) in mask
         image[x, y] = 1
     end
+end
+
+function train_detector(N=5000)
+    loss = 0
+    @showprogress for i in 1:N
+        image, masks = get_one()
+        cover, masks = random_drop(image, masks)
+        levels = data_for_detection(image, masks)
+        loss += model.learn_detect(image, cover, levels)
+
+        if i % 100 == 0
+            println(' ', loss)
+            loss = 0
+        end
+    end
+end
+
+function train_masker()
+
+end
+
+function show_mask(mask, size)
+    image = zeros(u8, size)
+    fuse_mask!(image, mask)
     Gray.(image)
 end
 
-function fuck()
-    p =  []
-    @showprogress for i in train_ids, mask in cadr(get_one(i))
-        push!(p, get_box(mask))
-    end
-    p
+function save_model()
+    model.save("D:/data-science-bowl-2018/result/")
 end

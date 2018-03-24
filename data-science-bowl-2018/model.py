@@ -30,16 +30,6 @@ class DenseDilation(nn.HybridBlock):
     def hybrid_forward(self, F, x):
         return F.concat(x, self.net(x), dim=1)
 
-class Masker(nn.HybridBlock):
-    def __init__(self, **kwargs):
-        super(Masker, self).__init__(**kwargs)
-        with self.name_scope():
-            self.fc = nn.Conv2D(1, kernel_size=(1,1), activation='sigmoid')
-
-    def hybrid_forward(self, F, x, f):
-        x = F.concat(x, f, dim=2)
-        return self.fc(x)
-
 def ndinput(x, ctx):
     return nd.expand_dims(nd.array(x, ctx=ctx), 0)
 
@@ -52,14 +42,18 @@ def get_net(name, layers, ctx, path):
 
     params = net.collect_params()
 
-    if path != None:
+    try:
         params.load(path+name+'.model', ctx=ctx)
-    else:
+    except:
         net.initialize(ctx=ctx, init=mx.init.Xavier())
 
     net.hybridize()
 
     return net, mx.gluon.Trainer(params, 'adam'), lambda path: params.save(path+name+'.model')
+
+def position_mask(r):
+    r *= 2
+    return [[[(x, y)[i] / (r - 1) for x in range(r)] for y in range(r)] for i in range(2)]
 
 class Model(object):
     def __init__(self, ctx='cpu', path=None):
@@ -78,12 +72,9 @@ class Model(object):
             nn.Conv2D(2, kernel_size=(1,1))
         ], self.ctx, path)
 
-        self.suffuser, self.suffuser_trainer, self.suffuser_saver = get_net('suffuser', [
-            nn.Conv2DTranspose(16, kernel_size=(2,2), strides=(2,2))
-        ], self.ctx, path)
-
         self.masker, self.masker_trainer, self.masker_saver = get_net('masker', [
-            Masker()
+            nn.Conv2D(32, kernel_size=(3,3), padding=(1,1), activation='relu'),
+            nn.Conv2D(1, kernel_size=(1,1))
         ], self.ctx, path)
 
     def learn_detect(self, image, cover, mask_levels):
@@ -108,36 +99,59 @@ class Model(object):
 
         return L.asscalar()
 
-    def learn_mask(self, image, cover, mask, level):
+    def learn_mask(self, image, mask, cover, centers, r):
         loss = mx.gluon.loss.SigmoidBinaryCrossEntropyLoss()
 
         image = ndinput(image, self.ctx)
         mask  = nd.expand_dims(ndinput(mask, self.ctx), 0)
         cover = nd.expand_dims(ndinput(cover, self.ctx), 0)
+        feat  = self.feature(image) * (1 - cover)
 
-        for _ in range(level):
-            image, cover = half(image), half(cover)
+        image = image.pad(mode='constant', constant_value=0, pad_width=(0,0,0,0,r-1,r,r-1,r))
+        mask  = mask.pad(mode='constant',  constant_value=0, pad_width=(0,0,0,0,r-1,r,r-1,r))
+        cover = cover.pad(mode='constant', constant_value=1, pad_width=(0,0,0,0,r-1,r,r-1,r))
+        feat  = feat.pad(mode='constant',  constant_value=0, pad_width=(0,0,0,0,r-1,r,r-1,r))
+
+        position = ndinput(position_mask(r), self.ctx)
 
         L = 0
         with mx.autograd.record():
-            feat = self.feature(image)
-            feat = feat * (1 - cover)
-
+            for x, y in centers:
+                slice = lambda c: c[:,:,x-1:x+2*r-1,y-1:y+2*r-1]
+                f = nd.concat(slice(image), slice(feat), position, dim=1)
+                p = self.masker(f) * (1 - slice(cover))
+                L = L + loss(p, slice(mask)).sum() / len(centers)
 
         L.backward()
-        self.feature_trainer.step(1)
-        self.detector_trainer.step(1)
+        self.masker_trainer.step(1)
+
+        return L.asscalar()
 
     def detect(self, x, cover=None):
         x = ndinput(x, self.ctx)
         f = self.feature(x)
-        if cover:
-            f *= 1 - cover
-        p = self.detector(f)
-        return f, p
+        if cover != None:
+            f *= 1 - nd.expand_dims(ndinput(cover, self.ctx), 0)
+        return self.detector(f).asnumpy()[1,:,:,:]
+
+    def mask(self, image, x, y, r, cover):
+        image = ndinput(image, self.ctx)
+        cover = nd.expand_dims(ndinput(cover, self.ctx), 0)
+        feat  = self.feature(image) * (1 - cover)
+
+        image = image.pad(mode='constant', constant_value=0, pad_width=(0,0,0,0,r-1,r,r-1,r))
+        cover = cover.pad(mode='constant', constant_value=1, pad_width=(0,0,0,0,r-1,r,r-1,r))
+        feat  = feat.pad(mode='constant',  constant_value=0, pad_width=(0,0,0,0,r-1,r,r-1,r))
+
+        position = ndinput(position_mask(r), self.ctx)
+
+        slice = lambda c: c[:,:,x-1:x+2*r-1,y-1:y+2*r-1]
+        f = nd.concat(slice(image), slice(feat), position, dim=1)
+        p = self.masker(f) * (1 - slice(cover))
+
+        return p.asnumpy()[0,0,:,:]
 
     def save(self, path):
         self.feature_saver(path)
         self.detector_saver(path)
-        self.suffuser_saver(path)
         self.masker_saver(path)

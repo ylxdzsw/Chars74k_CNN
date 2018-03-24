@@ -9,7 +9,7 @@ const test_dir = "D:/data-science-bowl-2018/raw/stage1_test"
 const train_ids = readdir(fixed_dir)
 
 unshift!(PyVector(pyimport("sys")["path"]), @__DIR__, "data-science-bowl-2018")
-const model = pywrap(pyimport("model")[:Model]("gpu"))
+const model = pywrap(pyimport("model")[:Model]("gpu", "D:/data-science-bowl-2018/result/"))
 
 sigmoid(x) = e^x / (e^x + 1)
 
@@ -73,8 +73,24 @@ function data_for_detection(image, masks)
     levels
 end
 
+function data_for_masking(image, mask)
+    box = get_box(mask)
+
+    centers, r = [], 4
+    while isempty(centers)
+        r *= 2
+
+        for (x, y) in mask @when max(x-box[1]+1, box[2]-x, y-box[3]+1, box[4]-y) <= r
+            push!(centers, (x, y))
+        end
+    end
+
+    centers, r
+end
+
 function random_drop(image, masks)
-    keep = map(x->rand() < .8, masks)
+    keep = fill(true, length(masks))
+    keep[rand(1:length(masks), rand(0:length(masks)-1))] = false
     cover = zeros(u8, cdr(size(image)))
     for mask in masks[.!keep]
         fuse_mask!(cover, mask)
@@ -86,6 +102,8 @@ function fuse_mask!(image, mask)
     for (x, y) in mask
         image[x, y] = 1
     end
+
+    image
 end
 
 function train_detector(N=5000)
@@ -103,16 +121,31 @@ function train_detector(N=5000)
     end
 end
 
-function train_masker()
+function train_masker(N=5000)
+    loss = 0
+    @showprogress for i in 1:N
+        image, masks = get_one()
+        for j in 1:min(10, length(masks) ÷ 2 + 1)
+            cover, ms = random_drop(image, masks)
+            mask = rand(ms)
+            centers, r = data_for_masking(image, mask)
+            centers = length(centers) > 256 ? unique(rand(centers, 256)) : centers
+            mask = fuse_mask!(zeros(u8, cdr(size(image))), mask)
+            loss += model.learn_mask(image, mask, cover, centers, r)
+        end
 
-end
-
-function show_mask(mask, size)
-    image = zeros(u8, size)
-    fuse_mask!(image, mask)
-    Gray.(image)
+        if i % 20 == 0
+            println(' ', loss)
+            loss = 0
+        end
+    end
 end
 
 function save_model()
     model.save("D:/data-science-bowl-2018/result/")
 end
+
+# TODO:
+# 1. assign more weights to small nucleis
+# 2. adjust learning rate (in trainer.step) by nuclei size when learning mask
+# 3. try capsules

@@ -30,11 +30,14 @@ class DenseDilation(nn.HybridBlock):
     def hybrid_forward(self, F, x):
         return F.concat(x, self.net(x), dim=1)
 
-def ndinput(x, ctx):
-    return nd.expand_dims(nd.array(x, ctx=ctx), 0)
+def ndinput4(x, ctx):
+    x = nd.array(x, ctx=ctx)
+    while x.ndim < 4:
+        x = nd.expand_dims(x, 0)
+    return x
 
-def half(x):
-    return nd.Pooling(x, pool_type='avg', kernel=(2,2), stride=(2,2), pooling_convention='full')
+def half(x, t='avg'):
+    return nd.Pooling(x, pool_type=t, kernel=(2,2), stride=(2,2), pooling_convention='full')
 
 def get_net(name, layers, ctx, path):
     net = nn.HybridSequential()
@@ -69,7 +72,7 @@ class Model(object):
 
         self.detector, self.detector_trainer, self.detector_saver = get_net('detector', [
             nn.Conv2D(32, kernel_size=(3,3), padding=(1,1), activation='relu'),
-            nn.Conv2D(2, kernel_size=(1,1))
+            nn.Conv2D(1, kernel_size=(1,1))
         ], self.ctx, path)
 
         self.masker, self.masker_trainer, self.masker_saver = get_net('masker', [
@@ -80,9 +83,9 @@ class Model(object):
     def learn_detect(self, image, cover, mask_levels):
         loss = mx.gluon.loss.SigmoidBinaryCrossEntropyLoss()
 
-        mask_levels = [ndinput(level, self.ctx) for level in mask_levels]
-        image = ndinput(image, self.ctx)
-        cover = nd.expand_dims(ndinput(cover, self.ctx), 0)
+        mask_levels = [ndinput4(level, self.ctx) for level in mask_levels]
+        image = ndinput4(image, self.ctx)
+        cover = ndinput4(cover, self.ctx)
 
         L = 0
         with mx.autograd.record():
@@ -94,60 +97,67 @@ class Model(object):
                 image, cover = half(image), half(cover)
 
         L.backward()
-        self.feature_trainer.step(1)
+        self.feature_trainer.step(2)
         self.detector_trainer.step(1)
 
         return L.asscalar()
 
     def learn_mask(self, image, mask, cover, centers, r):
-        loss = mx.gluon.loss.SigmoidBinaryCrossEntropyLoss()
+        loss = mx.gluon.loss.SigmoidBinaryCrossEntropyLoss(from_sigmoid=True)
 
-        image = ndinput(image, self.ctx)
-        mask  = nd.expand_dims(ndinput(mask, self.ctx), 0)
-        cover = nd.expand_dims(ndinput(cover, self.ctx), 0)
-        feat  = self.feature(image) * (1 - cover)
+        image = ndinput4(image, self.ctx)
+        mask  = ndinput4(mask, self.ctx)
+        cover = ndinput4(cover, self.ctx)
 
-        image = image.pad(mode='constant', constant_value=0, pad_width=(0,0,0,0,r-1,r,r-1,r))
-        mask  = mask.pad(mode='constant',  constant_value=0, pad_width=(0,0,0,0,r-1,r,r-1,r))
-        cover = cover.pad(mode='constant', constant_value=1, pad_width=(0,0,0,0,r-1,r,r-1,r))
-        feat  = feat.pad(mode='constant',  constant_value=0, pad_width=(0,0,0,0,r-1,r,r-1,r))
-
-        position = ndinput(position_mask(r), self.ctx)
+        position = ndinput4(position_mask(r), self.ctx)
 
         L = 0
         with mx.autograd.record():
+            feat = self.feature(image) * (1 - cover)
+
+            mask  = mask.pad(mode='constant',  constant_value=0, pad_width=(0,0,0,0,r-1,r,r-1,r))
+            cover = cover.pad(mode='constant', constant_value=1, pad_width=(0,0,0,0,r-1,r,r-1,r))
+            feat  = feat.pad(mode='constant',  constant_value=0, pad_width=(0,0,0,0,r-1,r,r-1,r))
+
             for x, y in centers:
                 slice = lambda c: c[:,:,x-1:x+2*r-1,y-1:y+2*r-1]
-                f = nd.concat(slice(image), slice(feat), position, dim=1)
-                p = self.masker(f) * (1 - slice(cover))
+                f = nd.concat(slice(feat), position, dim=1)
+                p = self.masker(f).sigmoid() * (1 - slice(cover))
                 L = L + loss(p, slice(mask)).sum() / len(centers)
 
         L.backward()
+        self.feature_trainer.step(4)
         self.masker_trainer.step(1)
 
         return L.asscalar()
 
-    def detect(self, x, cover=None):
-        x = ndinput(x, self.ctx)
-        f = self.feature(x)
-        if cover != None:
-            f *= 1 - nd.expand_dims(ndinput(cover, self.ctx), 0)
-        return self.detector(f).asnumpy()[1,:,:,:]
+    def get_feature(self, x):
+        x = ndinput4(x, self.ctx)
+        return self.feature(x)
 
-    def mask(self, image, x, y, r, cover):
-        image = ndinput(image, self.ctx)
-        cover = nd.expand_dims(ndinput(cover, self.ctx), 0)
-        feat  = self.feature(image) * (1 - cover)
+    def half(self, x):
+        return half(ndinput4(x, self.ctx))
 
-        image = image.pad(mode='constant', constant_value=0, pad_width=(0,0,0,0,r-1,r,r-1,r))
+    def detect(self, f, cover=None):
+        if cover is not None:
+            c = ndinput4(cover, self.ctx)
+            while c.shape[2:] != f.shape[2:]:
+                c = half(c, 'max')
+            f = f * (1 - c)
+        return self.detector(f).asnumpy()[0,0,:,:]
+
+    def mask(self, feat, x, y, r, cover):
+        cover = ndinput4(cover, self.ctx)
+        feat  = feat * (1 - cover)
+
         cover = cover.pad(mode='constant', constant_value=1, pad_width=(0,0,0,0,r-1,r,r-1,r))
         feat  = feat.pad(mode='constant',  constant_value=0, pad_width=(0,0,0,0,r-1,r,r-1,r))
 
-        position = ndinput(position_mask(r), self.ctx)
+        position = ndinput4(position_mask(r), self.ctx)
 
         slice = lambda c: c[:,:,x-1:x+2*r-1,y-1:y+2*r-1]
-        f = nd.concat(slice(image), slice(feat), position, dim=1)
-        p = self.masker(f) * (1 - slice(cover))
+        f = nd.concat(slice(feat), position, dim=1)
+        p = self.masker(f).sigmoid() * (1 - slice(cover))
 
         return p.asnumpy()[0,0,:,:]
 

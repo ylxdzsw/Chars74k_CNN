@@ -108,13 +108,13 @@ function train_alter(N=5000)
         levels = data_for_detection(image, masks)
         loss += model.learn_detect(image, cover, levels)
 
-        for j in 1:min(10, length(masks) ÷ 2 + 1)
-            mask = rand(masks)
-            centers, r = data_for_masking(image, mask)
-            centers = length(centers) > 64 ? unique(rand(centers, 64)) : centers
-            mask = fuse_mask!(zeros(u8, cdr(size(image))), mask)
-            loss += model.learn_mask(image, mask, cover, centers, r)
-        end
+        # for j in 1:min(10, length(masks) ÷ 2 + 1)
+        #     mask = rand(masks)
+        #     centers, r = data_for_masking(image, mask)
+        #     centers = unique(rand(centers, 32))
+        #     mask = fuse_mask!(zeros(u8, cdr(size(image))), mask)
+        #     loss += model.learn_mask(image, mask, cover, centers, r)
+        # end
 
         if i % 50 == 0
             println(' ', loss)
@@ -123,7 +123,7 @@ function train_alter(N=5000)
     end
 end
 
-function predict_one(image, th1=.3, th2=.5)
+function predict_one(image, th1=.1, th2=.2)
     si = size(image) |> cdr
     cover = zeros(u8, si)
     rawfeat = model.get_feature(image)
@@ -162,20 +162,36 @@ function transback_offset(mask, x, y, r)
     end
 end
 
-function running_encoding(mask)
+function running_encoding(image, mask)
+    mask = map(x->sub2ind(cdr(size(image)), x...), mask) |> sort
+    last, result = -1, []
+    for x in mask
+        if x == last + 1
+            result[end] += 1
+        else
+            push!(result, x, 1)
+        end
 
+        last = x
+    end
+    result
 end
 
 function submit()
-    fout = open("D:/data-science-bowl-2018/result/submission.csv")
+    fout = open("D:/data-science-bowl-2018/result/submission.csv", "w")
     fout << "ImageId,EncodedPixels\n"
 
-    for id in readdir(test_dir)
+    @showprogress for id in readdir(test_dir)
         image = readdir("$test_dir/$id/images")[]
         image = load("$test_dir/$id/images/$image") |> im2n
-
-
+        preds = predict_one(image)
+        for p in preds
+            code = running_encoding(image, p)
+            fout << id << ',' << join(code, ' ') << '\n'
+        end
     end
+
+    fout << close
 end
 
 function check_one(id=rand(train_ids))
@@ -208,5 +224,4 @@ end
 # 1. assign more weights to small nucleis
 # 2. adjust learning rate (in trainer.step) by nuclei size when learning mask
 # 3. try capsules
-# 4. sigmoid(0) = 0.5
-# 5. search a threashold for mask
+# 4. search a threashold for mask
